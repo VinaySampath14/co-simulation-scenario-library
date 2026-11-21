@@ -1,0 +1,4 @@
+scenario_id: SCN-0001
+review_status: not_yet_investigated
+# No interaction claims are entered until exact data connections are verified.
+interactions: []

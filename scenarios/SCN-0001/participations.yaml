@@ -1,0 +1,39 @@
+scenario_id: SCN-0001
+# Provisional records based on documentation. These identify *reported components*.
+# Do NOT assign stable model_id values until underlying model identities are reviewed.
+participations:
+  - id: PART-0001
+    reported_component: mosaik-pypower
+    model_id: null
+    software_id: SW-0001
+    role: grid_calculation
+    evidence_ids: [EVD-0001]
+    identification_status: unresolved_model_identity
+  - id: PART-0002
+    reported_component: mosaik-csv
+    model_id: null
+    software_id: SW-0002
+    role: PV_time_series_input
+    evidence_ids: [EVD-0001]
+    identification_status: unresolved_model_identity
+  - id: PART-0003
+    reported_component: mosaik-householdsim
+    model_id: null
+    software_id: SW-0003
+    role: household_demand
+    evidence_ids: [EVD-0001]
+    identification_status: unresolved_model_identity
+  - id: PART-0004
+    reported_component: mosaik-web
+    model_id: null
+    software_id: SW-0004
+    role: visualization
+    evidence_ids: [EVD-0001]
+    identification_status: unresolved_model_identity
+  - id: PART-0005
+    reported_component: mosaik-hdf5
+    model_id: null
+    software_id: SW-0005
+    role: results_storage
+    evidence_ids: [EVD-0001]
+    identification_status: unresolved_model_identity

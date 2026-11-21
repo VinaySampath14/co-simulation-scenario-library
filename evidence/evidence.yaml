@@ -1,0 +1,25 @@
+sources:
+  - id: SRC-0001
+    type: source_repository
+    url: https://gitlab.com/mosaik/examples/mosaik-demo
+    title: mosaik-demo (official repository)
+    version_or_commit: null
+    note: Pin a commit when reviewing the code to make claims reproducible.
+  - id: SRC-0002
+    type: official_website
+    url: https://mosaik.offis.de/live-demo/
+    title: mosaik live-demo
+assertions:
+  - id: EVD-0001
+    scenario_id: SCN-0001
+    subject: reported_software_components
+    source_id: SRC-0001
+    locator: README.md, component overview
+    evidence_status: explicitly_reported
+    note: Lists mosaik-csv, mosaik-householdsim, mosaik-pypower, mosaik-web and mosaik-hdf5.
+  - id: EVD-0002
+    scenario_id: SCN-0001
+    subject: grid_household_PV_demo_description
+    source_id: SRC-0002
+    locator: Live-demo introduction
+    evidence_status: explicitly_reported

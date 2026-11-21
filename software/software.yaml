@@ -1,0 +1,6 @@
+software:
+  - {id: SW-0001, name: mosaik-pypower}
+  - {id: SW-0002, name: mosaik-csv}
+  - {id: SW-0003, name: mosaik-householdsim}
+  - {id: SW-0004, name: mosaik-web}
+  - {id: SW-0005, name: mosaik-hdf5}

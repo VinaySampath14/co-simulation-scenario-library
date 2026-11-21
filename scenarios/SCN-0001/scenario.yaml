@@ -1,0 +1,17 @@
+id: SCN-0001
+title: mosaik Smart Grid Demo
+record_type: software_demo
+framework: mosaik
+domain:
+  - smart_grid
+  - electrical_distribution
+source_ids:
+  - SRC-0001
+  - SRC-0002
+scientific_publication_id: null
+research_objective: null
+technical_purpose: Demonstrate coupling of electricity grid, household demand and PV generation components using mosaik.
+code_url: https://gitlab.com/mosaik/examples/mosaik-demo
+collection_status: initial_description
+verification_status: source_code_not_reviewed
+notes: This is a practice entry, not a scientific paper extraction.
