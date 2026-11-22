@@ -2,24 +2,180 @@ sources:
   - id: SRC-0001
     type: source_repository
     url: https://gitlab.com/mosaik/examples/mosaik-demo
-    title: mosaik-demo (official repository)
-    version_or_commit: null
-    note: Pin a commit when reviewing the code to make claims reproducible.
+    title: "mosaik-demo (official repository)"
+    version_or_commit: "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8"
   - id: SRC-0002
     type: official_website
     url: https://mosaik.offis.de/live-demo/
-    title: mosaik live-demo
+    title: "mosaik Live-demo"
+    version_or_commit: null
+  - id: SRC-0003
+    type: package_release
+    url: https://pypi.org/project/mosaik/3.6.0/#files
+    title: "mosaik"
+    version_or_commit: "3.6.0"
+  - id: SRC-0004
+    type: package_release
+    url: https://pypi.org/project/mosaik-csv/2.0.1/#files
+    title: "mosaik-csv"
+    version_or_commit: "2.0.1"
+  - id: SRC-0005
+    type: package_release
+    url: https://pypi.org/project/mosaik-householdsim/2.2.0/#files
+    title: "mosaik-householdsim"
+    version_or_commit: "2.2.0"
+  - id: SRC-0006
+    type: package_release
+    url: https://pypi.org/project/mosaik-pypower/0.9.0/#files
+    title: "mosaik-pypower"
+    version_or_commit: "0.9.0"
+  - id: SRC-0007
+    type: package_release
+    url: https://pypi.org/project/mosaik-web/0.5.0/#files
+    title: "mosaik-web"
+    version_or_commit: "0.5.0"
+  - id: SRC-0008
+    type: package_release
+    url: https://pypi.org/project/mosaik-hdf5/0.5.2/#files
+    title: "mosaik-hdf5"
+    version_or_commit: "0.5.2"
+  - id: SRC-0009
+    type: masters_thesis
+    url: https://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf
+    title: "Adaptive State Estimation in Odysseus"
+    version_or_commit: null
+  - id: SRC-0010
+    type: official_documentation
+    url: https://mosaik.readthedocs.io/en/3.6.0/scheduler.html
+    title: "mosaik scheduling and simulation execution"
+    version_or_commit: "3.6.0"
 assertions:
   - id: EVD-0001
     scenario_id: SCN-0001
-    subject: reported_software_components
+    subject: reported_software_components_and_demo_purpose
     source_id: SRC-0001
-    locator: README.md, component overview
+    locator: "README.md:3–18"
     evidence_status: explicitly_reported
-    note: Lists mosaik-csv, mosaik-householdsim, mosaik-pypower, mosaik-web and mosaik-hdf5.
+    note: "Introduces the demonstration, lists five components and gives the Python entry point."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/README.md#L3-18
   - id: EVD-0002
     scenario_id: SCN-0001
-    subject: grid_household_PV_demo_description
+    subject: hosted_live_demo
     source_id: SRC-0002
-    locator: Live-demo introduction
+    locator: "Live-demo heading"
     evidence_status: explicitly_reported
+    note: "Describes interactive visualization and looping April, August and December 2014 cases with medium, high and low PV active power, respectively. The web search index supplied the page text because direct fetch returned HTTP 401."
+  - id: EVD-0003
+    scenario_id: SCN-0001
+    subject: entry_point_and_run_configuration
+    source_id: SRC-0001
+    locator: "demo.py:9–44, 145–146; pyproject.toml:1–14"
+    evidence_status: verified_from_code
+    note: "Defines simulator launch configuration, January 2014 start and 31-day unpaced run with seed 23. The manifest requires Python >=3.12."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/demo.py#L9-44
+  - id: EVD-0004
+    scenario_id: SCN-0001
+    subject: locked_versions
+    source_id: SRC-0001
+    locator: "uv.lock:104–232, 337–344"
+    evidence_status: verified_from_code
+    note: "The lock records dependency versions. Six inspected wheels matched hashes in this file."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/uv.lock#L104-232
+  - id: EVD-0005
+    scenario_id: SCN-0001
+    subject: physical_component_initialization_and_pv_coupling
+    source_id: SRC-0001
+    locator: "demo.py:47–62"
+    evidence_status: verified_from_code
+    note: "Starts PyPower, HouseholdSim and CSV, instantiates their entities and uses seeded random placement to connect PV power."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/demo.py#L47-62
+  - id: EVD-0006
+    scenario_id: SCN-0001
+    subject: household_placement_and_profile_input
+    source_id: SRC-0001
+    locator: "demo.py:134–142; data/profiles.data.gz (decompressed lines 1–10)"
+    evidence_status: verified_from_code
+    note: "The grid node list has 37 IDs. The file metadata declares 60 profiles in W at 15-minute resolution. House node_id is read during setup."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/demo.py#L134-142
+  - id: EVD-0007
+    scenario_id: SCN-0001
+    subject: output_configuration_and_connections
+    source_id: SRC-0001
+    locator: "demo.py:64–131"
+    evidence_status: verified_from_code
+    note: "Records configured output paths, periods, attribute maps and display scales. Branch logging repeats P_from and does not request Q_to."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/demo.py#L64-131
+  - id: EVD-0008
+    scenario_id: SCN-0001
+    subject: defined_distribution_network
+    source_id: SRC-0001
+    locator: "data/demo_lv_grid.json:1–86"
+    evidence_status: verified_from_code
+    note: "10 MVA base and 39 buses (one REF and 38 PQ), one transformer and 37 lines."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/data/demo_lv_grid.json#L1-86
+  - id: EVD-0009
+    scenario_id: SCN-0001
+    subject: csv_defined_pv_model
+    source_id: SRC-0004
+    locator: "mosaik_csv.py:28–74, 90–134; demo repository data/pv_10kw.csv:1–5 and data/pv_30kw.csv:1–5"
+    evidence_status: verified_from_code
+    note: "The first line defines PV, the column defines P in W and timestamps are minute-spaced. All CSV entities read from the same current row. The second bundled profile is unused by the entry point."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/data/pv_10kw.csv#L1-5
+  - id: EVD-0010
+    scenario_id: SCN-0001
+    subject: grid_interface_and_power_flow
+    source_id: SRC-0006
+    locator: "mosaik_components/mosaik_pypower/mosaik.py:25–97, 140–245; mosaik_components/mosaik_pypower/model.py:70–96, 177–236"
+    evidence_status: verified_from_code
+    note: "Grid case conversion, bus and branch attributes, active-power input aggregation and the call to PYPOWER runpf."
+  - id: EVD-0011
+    scenario_id: SCN-0001
+    subject: house_model_definition
+    source_id: SRC-0005
+    locator: "mosaik_components/household/model.py:11–59, 65–100; mosaik_components/household/mosaik.py:11–34, 53–122"
+    evidence_status: verified_from_code
+    note: "Creates one House per grid node-list entry, reads time-series active power and advances according to the file resolution."
+  - id: EVD-0012
+    scenario_id: SCN-0001
+    subject: demo_input_selection
+    source_id: SRC-0001
+    locator: "demo.py:29–36, 47–58; data/pv_10kw.csv:1–5; data/pv_30kw.csv:1–5"
+    evidence_status: verified_from_code
+    note: "The script selects the 10 kW-named series. The 30 kW-named series is bundled but not selected."
+    locator_url: https://gitlab.com/mosaik/examples/mosaik-demo/-/blob/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8/demo.py#L29-36
+  - id: EVD-0013
+    scenario_id: SCN-0001
+    subject: historical_reuse_of_demo
+    source_id: SRC-0009
+    locator: "Section 5.1.1, printed pp. 71–72, Listing 5.1"
+    evidence_status: explicitly_reported
+    note: "The thesis reports two evaluation scenarios derived from an earlier demo. This does not establish evaluation of the reviewed revision."
+    locator_url: https://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf#page=77
+  - id: EVD-0014
+    scenario_id: SCN-0001
+    subject: framework_defaults_and_random_placement
+    source_id: SRC-0003
+    locator: "mosaik/scenario.py:105–126, 279–305; mosaik/util.py:64–125, 153–171"
+    evidence_status: verified_from_code
+    note: "The one-second clock and exclusive run end apply to the demo invocation. Random placement uses the helper's default distribution."
+  - id: EVD-0015
+    scenario_id: SCN-0001
+    subject: web_consumer_interface
+    source_id: SRC-0007
+    locator: "mosaik_components/web/mosaik.py:10–32, 63–119, 138–158"
+    evidence_status: verified_from_code
+    note: "Topology is a visualization consumer that obtains the graph of related entities and receives connected attributes."
+  - id: EVD-0016
+    scenario_id: SCN-0001
+    subject: hdf5_consumer_interface
+    source_id: SRC-0008
+    locator: "mosaik_components/hdf5/__init__.py:12–25, 54–118"
+    evidence_status: verified_from_code
+    note: "Database accepts connected attributes and writes datasets organized by source entity and attribute."
+  - id: EVD-0017
+    scenario_id: SCN-0001
+    subject: scheduler_coordinates_simulators
+    source_id: SRC-0010
+    locator: "Scheduling and simulation execution"
+    evidence_status: explicitly_reported
+    note: "Describes time units, dependency-based stepping, synchronization and routing of connected attributes."

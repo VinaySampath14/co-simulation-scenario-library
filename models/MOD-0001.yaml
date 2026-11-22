@@ -1,0 +1,8 @@
+id: MOD-0001
+name: demo_lv_grid distribution network
+model_type: electrical_network_case
+definition:
+  source_id: SRC-0001
+  path: data/demo_lv_grid.json
+representation: Bus, transformer and line parameters for steady-state electrical power-flow calculation.
+evidence_ids: [EVD-0008, EVD-0010]

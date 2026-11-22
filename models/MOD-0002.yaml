@@ -1,0 +1,9 @@
+id: MOD-0002
+name: PV profile defined by pv_10kw.csv
+model_type: prescribed_time_series
+definition:
+  source_id: SRC-0001
+  path: data/pv_10kw.csv
+representation: Prescribed active power P in watts indexed by timestamp.
+scope: The CSV adapter replays supplied power values. Identifying a physical or mathematical PV generation model would require evidence about how those values were produced.
+evidence_ids: [EVD-0009, EVD-0012]

@@ -1,0 +1,8 @@
+id: MOD-0003
+name: mosaik-householdsim HouseModel
+model_type: profile_based_load
+definition:
+  source_id: SRC-0005
+  path: mosaik_components/household/model.py
+representation: Maps supplied active-power profiles to houses using a grid node list and exposes their load over time.
+evidence_ids: [EVD-0011]

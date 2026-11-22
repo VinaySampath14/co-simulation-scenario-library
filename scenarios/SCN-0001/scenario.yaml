@@ -2,16 +2,46 @@ id: SCN-0001
 title: mosaik Smart Grid Demo
 record_type: software_demo
 framework: mosaik
-domain:
-  - smart_grid
-  - electrical_distribution
-source_ids:
-  - SRC-0001
-  - SRC-0002
+framework_software_id: SW-0006
+domain: [smart_grid, electrical_distribution]
+source_ids: [SRC-0001, SRC-0002, SRC-0003, SRC-0004, SRC-0005, SRC-0006, SRC-0007, SRC-0008, SRC-0009, SRC-0010]
 scientific_publication_id: null
+related_publication_ids: [PUB-0001]
 research_objective: null
-technical_purpose: Demonstrate coupling of electricity grid, household demand and PV generation components using mosaik.
+technical_purpose: Demonstrate mosaik coordination of a distribution-grid calculation, household load profiles, PV profiles and output consumers.
 code_url: https://gitlab.com/mosaik/examples/mosaik-demo
-collection_status: initial_description
-verification_status: source_code_not_reviewed
-notes: This is a practice entry, not a scientific paper extraction.
+code_revision: 74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8
+entry_point: demo.py
+collection_status: catalogued
+verification_status: static_source_review
+runtime_verification_status: not_run
+configuration:
+  input_start: "2014-01-01 00:00:00"
+  input_timezone: null
+  time_resolution_seconds: 1
+  end_time_seconds_exclusive: 2678400
+  random_seed: 23
+  wall_clock_pacing: unpaced
+  python_requires: ">=3.12"
+  dependency_manifest: pyproject.toml
+  dependency_lock: uv.lock
+outputs:
+  - {participation_id: PART-0004, type: browser_visualization, port: 8000}
+  - {participation_id: PART-0005, type: hdf5, filename: demo.hdf5}
+live_demo:
+  deployment_revision: null
+  profile_mapping: null
+  variants:
+    - {month: "2014-04", reported_pv_active_power: medium}
+    - {month: "2014-08", reported_pv_active_power: high}
+    - {month: "2014-12", reported_pv_active_power: low}
+  evidence_ids: [EVD-0002]
+evidence_ids: [EVD-0001, EVD-0002, EVD-0003, EVD-0004, EVD-0013, EVD-0014, EVD-0017]
+locked_software:
+  - {software_id: SW-0001, version: "0.9.0"}
+  - {software_id: SW-0002, version: "2.0.1"}
+  - {software_id: SW-0003, version: "2.2.0"}
+  - {software_id: SW-0004, version: "0.5.0"}
+  - {software_id: SW-0005, version: "0.5.2"}
+  - {software_id: SW-0006, version: "3.6.0"}
+  - {software_id: SW-0007, version: "5.1.19"}

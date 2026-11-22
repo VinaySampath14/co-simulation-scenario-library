@@ -1,6 +1,29 @@
 software:
-  - {id: SW-0001, name: mosaik-pypower}
-  - {id: SW-0002, name: mosaik-csv}
-  - {id: SW-0003, name: mosaik-householdsim}
-  - {id: SW-0004, name: mosaik-web}
-  - {id: SW-0005, name: mosaik-hdf5}
+  - id: SW-0001
+    name: mosaik-pypower
+    type: power_flow_adapter
+    url: https://pypi.org/project/mosaik-pypower/
+  - id: SW-0002
+    name: mosaik-csv
+    type: time_series_adapter
+    url: https://pypi.org/project/mosaik-csv/
+  - id: SW-0003
+    name: mosaik-householdsim
+    type: household_profile_simulator
+    url: https://pypi.org/project/mosaik-householdsim/
+  - id: SW-0004
+    name: mosaik-web
+    type: visualization
+    url: https://pypi.org/project/mosaik-web/
+  - id: SW-0005
+    name: mosaik-hdf5
+    type: data_recorder
+    url: https://pypi.org/project/mosaik-hdf5/
+  - id: SW-0006
+    name: mosaik
+    type: co_simulation_framework
+    url: https://pypi.org/project/mosaik/
+  - id: SW-0007
+    name: PYPOWER
+    type: power_flow_solver
+    url: https://pypi.org/project/pypower/
