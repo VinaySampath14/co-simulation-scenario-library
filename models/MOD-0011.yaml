@@ -1,0 +1,9 @@
+id: MOD-0011
+name: Menzel two-subgrid adaptation of the mosaik demo grid
+model_type: electrical_network_case
+definition:
+  source_id: SRC-0016
+  locator: Section 4.2.2 and Figs. 4.3–4.4
+representation: A demo-derived network with two distinguished neighbouring monitoring regions within a larger electrical grid.
+scope: Published topology variant. The exact machine-readable case and electrical parameters are unresolved.
+evidence_ids: [EVD-0042]

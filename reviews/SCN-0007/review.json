@@ -1,0 +1,46 @@
+{
+  "scenario_id": "SCN-0007",
+  "title": "Electrification of industrial prosumers",
+  "publication": {
+    "title": "Co-simulation of Socio-Technical Energy Systems: An Interdisciplinary Design Process",
+    "url": "https://doi.org/10.1007/978-3-031-34920-1_38"
+  },
+  "sources": [
+    {
+      "id": "SRC-0019",
+      "type": "conference_publication",
+      "url": "https://doi.org/10.1007/978-3-031-34920-1_38",
+      "title": "Adelt et al. (2023), Co-simulation of Socio-Technical Energy Systems",
+      "version_or_commit": "version_of_record"
+    }
+  ],
+  "artifacts": [],
+  "links": {
+    "scenarios/SCN-0007/interactions.yaml": "../../scenarios/SCN-0007/interactions.yaml",
+    "scenarios/SCN-0007/participations.yaml": "../../scenarios/SCN-0007/participations.yaml",
+    "scenarios/SCN-0007/scenario.yaml": "../../scenarios/SCN-0007/scenario.yaml",
+    "scenarios/SCN-0007/description.md": "../../scenarios/SCN-0007/description.md",
+    "models/MOD-0015.yaml": "../../models/MOD-0015.yaml",
+    "models/MOD-0016.yaml": "../../models/MOD-0016.yaml",
+    "models/MOD-0017.yaml": "../../models/MOD-0017.yaml",
+    "publications/PUB-0006.yaml": "../../publications/PUB-0006.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "ecdb6edc0a61952fe850fc058ad88de8cc23f85f0773142703031c66410338de",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 46,
+    "unique_ids": 203
+  },
+  "review_status": "structurally_validated",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "not_run",
+    "limitations": [
+      "Independent source review is pending."
+    ],
+    "findings": []
+  }
+}

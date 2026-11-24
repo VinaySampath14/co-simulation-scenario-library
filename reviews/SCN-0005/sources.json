@@ -1,0 +1,45 @@
+{
+  "scenario_id": "SCN-0005",
+  "artifacts": [
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/README.md"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/eval_mosaik_demo/demo_eval.py"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/diss_process.py"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/dfg_process.py"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/xmind/xmind_im_export_dfg.config"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/eval_mosaik_demo/data/demo_lv_grid.json"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/pyproject.toml"
+    },
+    {
+      "kind": "archive",
+      "source_id": "SRC-0018",
+      "path": "mosaik-scenario-planning-master/uv.lock"
+    }
+  ]
+}

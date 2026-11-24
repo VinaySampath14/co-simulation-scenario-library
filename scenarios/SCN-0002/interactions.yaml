@@ -1,0 +1,32 @@
+scenario_id: SCN-0002
+review_status: explicitly_reported
+note: Quantities are described in the paper. Exact attribute names, units and alignment of the mixed time resolutions are unresolved.
+interactions:
+  - id: INT-0010
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0006
+    target_participation_id: PART-0007
+    reported_quantities: [temperature, solar_irradiance, humidity]
+    attributes: null
+    evidence_ids: [EVD-0018, EVD-0019, EVD-0020]
+  - id: INT-0011
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0006
+    target_participation_id: PART-0008
+    reported_quantities: [temperature, solar_irradiance, humidity]
+    attributes: null
+    evidence_ids: [EVD-0018, EVD-0019, EVD-0021]
+  - id: INT-0012
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0007
+    target_participation_id: PART-0009
+    reported_quantities: [PV_generated_power]
+    attributes: null
+    evidence_ids: [EVD-0018, EVD-0020, EVD-0022]
+  - id: INT-0013
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0008
+    target_participation_id: PART-0009
+    reported_quantities: [heat_pump_electrical_power_demand]
+    attributes: null
+    evidence_ids: [EVD-0018, EVD-0021, EVD-0022]

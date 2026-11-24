@@ -1,0 +1,9 @@
+id: MOD-0009
+name: Hacker et al. forecast-based battery self-consumption control
+model_type: battery_dispatch_control
+definition:
+  source_id: SRC-0015
+  locator: Section 4.2
+representation: Uses load and generation forecasts to plan battery dispatch over one day for household self-consumption.
+scope: Published design. Executable implementation unresolved.
+evidence_ids: [EVD-0036]

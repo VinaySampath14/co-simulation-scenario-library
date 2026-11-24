@@ -1,0 +1,23 @@
+scenario_id: SCN-0007
+participations:
+  - id: PART-0033
+    reported_component: ALIEN
+    model_id: MOD-0015
+    software_id: null
+    role: industrial_energy_management_and_storage_adoption
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0060]
+  - id: PART-0034
+    reported_component: SKIQ
+    model_id: MOD-0016
+    software_id: null
+    role: storage_technology_development_and_supply
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0060]
+  - id: PART-0035
+    reported_component: SimCo governance module
+    model_id: MOD-0017
+    software_id: null
+    role: policy_interventions
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0060]

@@ -1,0 +1,56 @@
+scenario_id: SCN-0005
+review_status: verified_from_code
+interactions:
+  - id: INT-0030
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0027
+    target_participation_id: PART-0025
+    attributes:
+      - {source: P_out, target: P}
+    evidence_ids: [EVD-0049]
+    note: House node_id is matched to the PQBus identifier.
+  - id: INT-0031
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0026
+    target_participation_id: PART-0025
+    attributes:
+      - {source: P, target: P}
+    evidence_ids: [EVD-0049]
+    note: PV entities are connected with connect_randomly to grid children whose IDs contain node.
+  - id: INT-0032
+    interaction_type: result_recording
+    source_participation_id: PART-0027
+    target_participation_id: PART-0028
+    attributes:
+      - {source: P_out, target: P_out}
+    evidence_ids: [EVD-0050]
+  - id: INT-0033
+    interaction_type: result_recording
+    source_participation_id: PART-0026
+    target_participation_id: PART-0028
+    attributes:
+      - {source: P, target: P}
+    evidence_ids: [EVD-0050]
+  - id: INT-0034
+    interaction_type: result_recording
+    source_participation_id: PART-0025
+    target_participation_id: PART-0028
+    attributes:
+      - {source: P, target: P}
+      - {source: Q, target: Q}
+      - {source: Vl, target: Vl}
+      - {source: Vm, target: Vm}
+      - {source: Va, target: Va}
+    evidence_ids: [EVD-0050]
+    note: The source tests membership in the string RefBus, PQBus before making this call.
+  - id: INT-0035
+    interaction_type: result_recording
+    source_participation_id: PART-0025
+    target_participation_id: PART-0028
+    attributes:
+      - {source: P_from, target: P_from}
+      - {source: Q_from, target: Q_from}
+      - {source: P_to, target: P_to}
+      - {source: Q_to, target: Q_to}
+    evidence_ids: [EVD-0050]
+    note: Applies to transformer and branch children.

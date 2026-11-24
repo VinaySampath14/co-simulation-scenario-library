@@ -1,0 +1,53 @@
+scenario_id: SCN-0003
+review_status: explicitly_reported
+note: Exchanges are recorded at the functional level. The paper does not specify exact port names, mappings or units. Battery control is logic inside the household VED.
+interactions:
+  - id: INT-0014
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0010
+    target_participation_id: PART-0011
+    applies_to: pure_simulation
+    reported_quantities: [domestic_load, PV_generation]
+    attributes: null
+    evidence_ids: [EVD-0032]
+  - id: INT-0015
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0011
+    target_participation_id: PART-0013
+    applies_to: pure_simulation
+    reported_quantities: [household_active_power, household_reactive_power]
+    attributes: null
+    evidence_ids: [EVD-0032]
+  - id: INT-0016
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0011
+    target_participation_id: PART-0012
+    applies_to: laboratory_validation
+    reported_quantities: [device_setpoints]
+    attributes: null
+    evidence_ids: [EVD-0033, EVD-0035]
+  - id: INT-0017
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0012
+    target_participation_id: PART-0011
+    applies_to: laboratory_validation
+    reported_quantities: [household_coupling_point_measurements]
+    note: Supported input. The paper does not identify the exact controller measurement bindings.
+    attributes: null
+    evidence_ids: [EVD-0035]
+  - id: INT-0018
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0012
+    target_participation_id: PART-0016
+    applies_to: transformer_congestion_control
+    reported_quantities: [transformer_loading_measurement]
+    attributes: null
+    evidence_ids: [EVD-0036, EVD-0038]
+  - id: INT-0019
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0016
+    target_participation_id: PART-0011
+    applies_to: transformer_congestion_control
+    reported_quantities: [restricted_consumption_mode_command]
+    attributes: null
+    evidence_ids: [EVD-0036, EVD-0038]

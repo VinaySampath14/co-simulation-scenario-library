@@ -1,0 +1,48 @@
+{
+  "scenario_id": "SCN-0003",
+  "title": "Distribution-grid flexibility control in a cyber-physical laboratory",
+  "publication": {
+    "title": "A framework to evaluate multi-use flexibility concepts simultaneously in a co-simulation environment and a cyber-physical laboratory",
+    "url": "https://doi.org/10.1049/icp.2021.1777"
+  },
+  "sources": [
+    {
+      "id": "SRC-0015",
+      "type": "conference_publication",
+      "url": "https://doi.org/10.1049/icp.2021.1777",
+      "title": "Hacker et al. (2021), multi-use flexibility co-simulation and laboratory framework",
+      "version_or_commit": "version_of_record",
+      "note": "Scenario extracted from the supplied paper text. The DOI was verified via the authors' institutional publication references."
+    }
+  ],
+  "artifacts": [],
+  "links": {
+    "scenarios/SCN-0003/interactions.yaml": "../../scenarios/SCN-0003/interactions.yaml",
+    "scenarios/SCN-0003/participations.yaml": "../../scenarios/SCN-0003/participations.yaml",
+    "scenarios/SCN-0003/scenario.yaml": "../../scenarios/SCN-0003/scenario.yaml",
+    "scenarios/SCN-0003/description.md": "../../scenarios/SCN-0003/description.md",
+    "models/MOD-0007.yaml": "../../models/MOD-0007.yaml",
+    "models/MOD-0008.yaml": "../../models/MOD-0008.yaml",
+    "models/MOD-0009.yaml": "../../models/MOD-0009.yaml",
+    "models/MOD-0010.yaml": "../../models/MOD-0010.yaml",
+    "publications/PUB-0003.yaml": "../../publications/PUB-0003.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "e96cabf62e906c42156e75d515448ad674c5b707fdc39be98500fbf9799c2c7c",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 46,
+    "unique_ids": 203
+  },
+  "review_status": "structurally_validated",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "not_run",
+    "limitations": [
+      "Independent source review is pending."
+    ],
+    "findings": []
+  }
+}

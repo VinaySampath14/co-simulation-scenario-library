@@ -49,6 +49,53 @@ sources:
     url: https://mosaik.readthedocs.io/en/3.6.0/scheduler.html
     title: "mosaik scheduling and simulation execution"
     version_or_commit: "3.6.0"
+  - id: SRC-0011
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1186/s42162-022-00231-6
+    title: "Barbierato et al. (2022), multi-energy scalability benchmark"
+    version_or_commit: version_of_record
+  - id: SRC-0012
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1109/JSYST.2017.2726350
+    title: "Bottaccioli et al., GIS-based PV generation model"
+    version_or_commit: null
+  - id: SRC-0013
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1109/EEEIC/ICPSEurope51590.2021.9584738
+    title: "Rando Mazzarino et al., building thermal flexibility"
+    version_or_commit: null
+  - id: SRC-0014
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1109/TIA.2021.3121651
+    title: "Estebsari et al., demand response and distribution grid"
+    version_or_commit: null
+  - id: SRC-0015
+    type: conference_publication
+    url: https://doi.org/10.1049/icp.2021.1777
+    title: Hacker et al. (2021), multi-use flexibility co-simulation and laboratory framework
+    version_or_commit: version_of_record
+    note: Scenario extracted from the supplied paper text. The DOI was verified via the authors' institutional publication references.
+  - id: SRC-0016
+    type: masters_thesis
+    url: https://www.uni-muenster.de/imperia/md/content/informatik/agremke/masterthesis_menzel_16032021.pdf
+    title: Menzel (2021), A hierarchical approach to monitoring SCADA networks
+    version_or_commit: null
+  - id: SRC-0017
+    type: conference_publication
+    url: https://doi.org/10.1109/SmartGridComm51999.2021.9632283
+    title: Menzel et al. (2021), Securing SCADA networks for smart grids
+    version_or_commit: version_of_record
+  - id: SRC-0018
+    type: source_archive
+    url: urn:sha256:e3749b8800868abfd761cffe77515dc7d2193109caec3ce071ed30a4ea3f405f
+    title: User-supplied mosaik-scenario-planning.zip
+    version_or_commit: null
+    note: The source identifier records the ZIP SHA-256. Upstream repository and commit are unresolved.
+  - id: SRC-0019
+    type: conference_publication
+    url: https://doi.org/10.1007/978-3-031-34920-1_38
+    title: Adelt et al. (2023), Co-simulation of Socio-Technical Energy Systems
+    version_or_commit: version_of_record
 assertions:
   - id: EVD-0001
     scenario_id: SCN-0001
@@ -179,3 +226,328 @@ assertions:
     locator: "Scheduling and simulation execution"
     evidence_status: explicitly_reported
     note: "Describes time units, dependency-based stepping, synchronization and routing of connected attributes."
+  - id: EVD-0018
+    scenario_id: SCN-0002
+    subject: benchmark_scope_and_topology
+    source_id: SRC-0011
+    locator: "pp. 13–14, Setup of co-simulation scenario, Fig. 6"
+    evidence_status: explicitly_reported
+    note: "One shared simplified urban energy workload with weather, PV, building and power-flow components."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=13
+  - id: EVD-0019
+    scenario_id: SCN-0002
+    subject: weather_input
+    source_id: SRC-0011
+    locator: "p. 15, The meteo simulator"
+    evidence_status: explicitly_reported
+    note: "A stateless EPW reader supplies temperature, solar irradiance and humidity to the PV and building simulators."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=15
+  - id: EVD-0020
+    scenario_id: SCN-0002
+    subject: benchmark_pv_model
+    source_id: SRC-0011
+    locator: "p. 15, The PV simulator"
+    evidence_status: explicitly_reported
+    note: "The benchmark uses the cited PV energy-estimation service with weather and panel area. The paper describes NOCT without wind input and Mattei with wind input, and identifies generated power as the grid-facing signal."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=15
+  - id: EVD-0021
+    scenario_id: SCN-0002
+    subject: benchmark_building_model
+    source_id: SRC-0011
+    locator: "p. 15, The building simulator"
+    evidence_status: explicitly_reported
+    note: "The cited building model uses a resistance-capacitance envelope and tracks indoor temperature. The benchmark sends the current heat-pump power demand to the grid."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=15
+  - id: EVD-0022
+    scenario_id: SCN-0002
+    subject: benchmark_grid_model
+    source_id: SRC-0011
+    locator: "pp. 15–16, The power grid simulator"
+    evidence_status: explicitly_reported
+    note: "A grid based on Estebsari et al. uses pandapower for power flow and is described as event-triggered on receipt of both building and PV data."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=15
+  - id: EVD-0023
+    scenario_id: SCN-0002
+    subject: framework_variants_and_scale
+    source_id: SRC-0011
+    locator: "pp. 16–17, Benchmark configuration, Fig. 7 and Table 1"
+    evidence_status: explicitly_reported
+    note: "Seven variants use four deployment patterns. PV and building instances scale together. The tested mosaik variants reach 10,000 per scaled component."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=16
+  - id: EVD-0024
+    scenario_id: SCN-0002
+    subject: run_period_resolution_and_environment
+    source_id: SRC-0011
+    locator: "p. 17, Experimental results and Table 2"
+    evidence_status: explicitly_reported
+    note: "Seven winter days on OpenStack VMs. Weather and PV use 15-minute resolution, while building and grid use one hour."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=17
+  - id: EVD-0025
+    scenario_id: SCN-0002
+    subject: performance_metrics
+    source_id: SRC-0011
+    locator: "pp. 12–13, Benchmark key performance index, Fig. 5 and Eq. 1"
+    evidence_status: explicitly_reported
+    note: "Measures setup time, the maximum across simulators of mean step durations, and end-to-end execution time."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=12
+  - id: EVD-0026
+    scenario_id: SCN-0002
+    subject: reported_results_and_scope
+    source_id: SRC-0011
+    locator: "pp. 17–21 and 23–24, Figs. 8–11 and Conclusion"
+    evidence_status: explicitly_reported
+    note: "Multiprocess HELICS performs best at the largest tested scale. HELICS and AIOMAS reach one million in the study. Timings depend on the workload."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=23
+  - id: EVD-0027
+    scenario_id: SCN-0002
+    subject: artifact_availability_statement
+    source_id: SRC-0011
+    locator: "p. 24, Availability of data and materials"
+    evidence_status: explicitly_reported
+    note: "The publication marks its availability statement as inapplicable and supplies no benchmark artifact link there."
+    locator_url: https://link.springer.com/content/pdf/10.1186/s42162-022-00231-6.pdf#page=24
+  - id: EVD-0028
+    scenario_id: SCN-0002
+    subject: pv_estimation_definition
+    source_id: SRC-0012
+    locator: "Section III, distributed software infrastructure to estimate PV energy production"
+    evidence_status: explicitly_reported
+    note: "Describes the PV energy-estimation service cited by the benchmark."
+  - id: EVD-0029
+    scenario_id: SCN-0002
+    subject: building_thermal_definition
+    source_id: SRC-0013
+    locator: "Section II, framework description and Building Agent"
+    evidence_status: explicitly_reported
+    note: "Describes the thermal-demand component underlying the cited building model."
+  - id: EVD-0030
+    scenario_id: SCN-0002
+    subject: distribution_grid_model_basis
+    source_id: SRC-0014
+    locator: "Case-study network and power-flow description"
+    evidence_status: explicitly_reported
+    note: "Documents the distribution-network modeling basis cited by the benchmark. The exact benchmark feeder configuration remains unresolved."
+  - id: EVD-0031
+    scenario_id: SCN-0003
+    subject: research_objective_and_publication
+    source_id: SRC-0015
+    locator: "Abstract and §1, p. 1"
+    evidence_status: explicitly_reported
+    note: "Describes the shared simulation and laboratory testbed and three validation use cases."
+  - id: EVD-0032
+    scenario_id: SCN-0003
+    subject: pure_mosaik_coupling
+    source_id: SRC-0015
+    locator: "§2.1 and Fig. 1, p. 2"
+    evidence_status: explicitly_reported
+    note: "Central time-stepped coordination. Household VEDs send active and reactive power to pandapower. The laboratory can substitute for the power-flow simulation."
+  - id: EVD-0033
+    scenario_id: SCN-0003
+    subject: virtual_edge_device_definition
+    source_id: SRC-0015
+    locator: "§2.2 and Fig. 1, p. 2"
+    evidence_status: explicitly_reported
+    note: "Interfaces update the shared key-value store before logic runs and then deliver setpoints. A battery interface example considers efficiency and state of charge."
+  - id: EVD-0034
+    scenario_id: SCN-0003
+    subject: deployment_and_network_emulation
+    source_id: SRC-0015
+    locator: "§§3.2–3.3 and Table 1, p. 3"
+    evidence_status: explicitly_reported
+    note: "Reports Containernet as an available component and describes four deployment stages, including Docker as stage 2."
+  - id: EVD-0035
+    scenario_id: SCN-0003
+    subject: laboratory_topology_profiles_and_equipment
+    source_id: SRC-0015
+    locator: "§4.1, p. 4 and Fig. 3, p. 3"
+    evidence_status: explicitly_reported
+    note: "Describes two feeders, a 630 kVA transformer, four household emulations, the optional household 2 battery and 15-minute profiles."
+  - id: EVD-0036
+    scenario_id: SCN-0003
+    subject: baseline_and_controller_variants
+    source_id: SRC-0015
+    locator: "§4.2, p. 4"
+    evidence_status: explicitly_reported
+    note: "Describes baseline, direct and forecast battery dispatch, and a transformer controller that signals households 1 and 2 to enter restricted mode."
+  - id: EVD-0037
+    scenario_id: SCN-0003
+    subject: laboratory_timing_and_battery_outcomes
+    source_id: SRC-0015
+    locator: "§5 and Fig. 4, p. 4"
+    evidence_status: explicitly_reported
+    note: "Reports four setpoints per minute, 60× acceleration and reduced grid exchange under both battery strategies."
+  - id: EVD-0038
+    scenario_id: SCN-0003
+    subject: congestion_threshold_and_outcomes
+    source_id: SRC-0015
+    locator: "§5, p. 4 and Fig. 5, p. 5"
+    evidence_status: explicitly_reported
+    note: "Reports a 35 kW threshold and a 58 kW baseline peak. Curtailment reduced transformer peaks but did not always meet the threshold."
+  - id: EVD-0039
+    scenario_id: SCN-0004
+    subject: monitoring_purpose_and_model
+    source_id: SRC-0016
+    locator: "Abstract and Chapter 3"
+    evidence_status: explicitly_reported
+    note: "Introduces local and neighbourhood evaluation of grid consistency and safety."
+  - id: EVD-0040
+    scenario_id: SCN-0004
+    subject: evaluation_types
+    source_id: SRC-0016
+    locator: "§4.1.3, pp. 44–46"
+    evidence_status: explicitly_reported
+    note: "Groups tests by normal operation and the local and neighbourhood evaluation scopes."
+  - id: EVD-0041
+    scenario_id: SCN-0004
+    subject: simulation_components_versions_and_outputs
+    source_id: SRC-0016
+    locator: "§4.2.2, pp. 47–49, Fig. 4.1 and Table 4.1"
+    evidence_status: explicitly_reported
+    note: "Identifies the six co-simulation components, reported versions, and 15-minute PV and household inputs."
+  - id: EVD-0042
+    scenario_id: SCN-0004
+    subject: adapted_demo_topology
+    source_id: SRC-0016
+    locator: "§4.2.2, pp. 48–51, Figs. 4.3–4.4"
+    evidence_status: explicitly_reported
+    note: "Reports a demo-derived grid adapted to distinguish two neighbouring subgrids."
+  - id: EVD-0043
+    scenario_id: SCN-0004
+    subject: measurement_export
+    source_id: SRC-0016
+    locator: "§4.2.2, p. 49"
+    evidence_status: explicitly_reported
+    note: "Describes CSV export of simulated observations for subsequent monitoring evaluation."
+  - id: EVD-0044
+    scenario_id: SCN-0004
+    subject: monitoring_prototype_architecture
+    source_id: SRC-0016
+    locator: "§§5.2.1–5.2.3, pp. 55–62"
+    evidence_status: explicitly_reported
+    note: "Describes the monitoring scopes, virtual grid representation and testbed input."
+  - id: EVD-0045
+    scenario_id: SCN-0004
+    subject: reported_evaluation_and_limits
+    source_id: SRC-0016
+    locator: "§6.1, pp. 63–68"
+    evidence_status: explicitly_reported
+    note: "Reports the added coverage from neighbourhood checks and timing limitations of the simulated readings."
+  - id: EVD-0046
+    scenario_id: SCN-0004
+    subject: related_conference_paper
+    source_id: SRC-0017
+    locator: "Abstract and publication metadata"
+    evidence_status: explicitly_reported
+    note: "Describes a related prototype evaluation with two subgrids."
+  - id: EVD-0047
+    scenario_id: SCN-0005
+    subject: archive_scope
+    source_id: SRC-0018
+    locator: "README.md, What it does, Diss process and DFG process"
+    evidence_status: verified_from_code
+    note: "The archive contains a demo configuration and two distinct planning workflows."
+  - id: EVD-0048
+    scenario_id: SCN-0005
+    subject: evaluation_demo_setup
+    source_id: SRC-0018
+    locator: "eval_mosaik_demo/demo_eval.py:49–118"
+    evidence_status: verified_from_code
+    note: "The script configures one day of simulated time, seed 23, and 20 PV entities; 900 seconds is the configured grid step."
+  - id: EVD-0049
+    scenario_id: SCN-0005
+    subject: household_and_PV_grid_wiring
+    source_id: SRC-0018
+    locator: "eval_mosaik_demo/demo_eval.py:114–122 and 205–211"
+    evidence_status: verified_from_code
+    note: "Households map P_out to P using their node IDs. PV P goes to selected grid nodes."
+  - id: EVD-0050
+    scenario_id: SCN-0005
+    subject: recorder_and_inactive_examples
+    source_id: SRC-0018
+    locator: "eval_mosaik_demo/demo_eval.py:124–202"
+    evidence_status: verified_from_code
+    note: "The active HDF5 declaration accepts household, PV, bus and branch signals including Q_to. Visualization wiring and SQL examples are commented out."
+  - id: EVD-0051
+    scenario_id: SCN-0005
+    subject: ontology_export_and_validation
+    source_id: SRC-0018
+    locator: "eval_mosaik_demo/demo_eval.py:66–87; diss_process.py:87–95"
+    evidence_status: verified_from_code
+    note: "Demo exports RDF/XML, N-Triples and JSON-LD. The dissertation path passes run=False before ontology checks."
+  - id: EVD-0052
+    scenario_id: SCN-0005
+    subject: bundled_input_identity
+    source_id: SRC-0018
+    locator: "eval_mosaik_demo/data/demo_lv_grid.json; eval_mosaik_demo/data/pv_10kw.csv; eval_mosaik_demo/data/profiles.data.gz"
+    evidence_status: verified_from_code
+    note: "Grid and PV bytes match pinned SCN-0001 data after normalizing CRLF to LF. Household profile archive bytes match. The earlier source revision remains identified by SRC-0001."
+  - id: EVD-0053
+    scenario_id: SCN-0005
+    subject: dependency_declarations
+    source_id: SRC-0018
+    locator: "pyproject.toml:1–25 and uv.lock, package version entries"
+    evidence_status: verified_from_code
+    note: "Records the declared Python version and locked software versions. Lock entries do not establish successful runtime."
+  - id: EVD-0054
+    scenario_id: SCN-0005
+    subject: dfg_scenario_boundary
+    source_id: SRC-0018
+    locator: "xmind/xmind_im_export_dfg.config:6–9; dfg_process.py:105–155; ZIP member listing"
+    evidence_status: verified_from_code
+    note: "DFG aims and hypotheses workbooks are present. The configured integrated XMind workbook is absent and no second instantiated mosaik scenario was established."
+  - id: EVD-0055
+    scenario_id: SCN-0005
+    subject: household_compatibility_alias
+    source_id: SRC-0005
+    locator: "householdsim/mosaik.py:1–4 in the mosaik-householdsim 2.2.0 wheel; demo_eval.py:26–29"
+    evidence_status: verified_from_code
+    note: "The legacy HouseholdSim import aliases the simulator implementation used for MOD-0003."
+  - id: EVD-0056
+    scenario_id: SCN-0005
+    subject: DFG_workflow_publication_link
+    source_id: SRC-0018
+    locator: "Archive README.md, DFG process; chapter title page and §4"
+    evidence_status: explicitly_reported
+    note: "The archive cites the chapter for the DFG process. The chapter examples are distinct from the one-day evaluation demo."
+  - id: EVD-0057
+    scenario_id: SCN-0006
+    subject: residential_scope_and_hypotheses
+    source_id: SRC-0019
+    locator: "§4.1, p. 483"
+    evidence_status: explicitly_reported
+    note: "Introduces residential electrification, flexibility and three hypotheses."
+  - id: EVD-0058
+    scenario_id: SCN-0006
+    subject: residential_behaviour_and_demand_models
+    source_id: SRC-0019
+    locator: "§4.1, pp. 483–484"
+    evidence_status: explicitly_reported
+    note: "Describes SimCo-Energy adoption and demod activity-based electricity demand."
+  - id: EVD-0059
+    scenario_id: SCN-0006
+    subject: residential_grid_and_aggregation
+    source_id: SRC-0019
+    locator: "§4.1, p. 484"
+    evidence_status: explicitly_reported
+    note: "Describes SIMONA and aggregation of demod profiles to 30-minute consumption and monthly energy per device."
+  - id: EVD-0060
+    scenario_id: SCN-0007
+    subject: industrial_scope_hypotheses_and_models
+    source_id: SRC-0019
+    locator: "§4.2, pp. 484–485"
+    evidence_status: explicitly_reported
+    note: "Describes ALIEN, SKIQ and the SimCo governance module and two hypotheses about technology development and uptake."
+  - id: EVD-0061
+    scenario_id: SCN-0007
+    subject: industrial_coupling
+    source_id: SRC-0019
+    locator: "§4.2, pp. 485–486"
+    evidence_status: explicitly_reported
+    note: "Describes mosaik initialization and exchanges of offers and purchase or requirement information. The coupled SKIQ decisions use actual purchases."
+  - id: EVD-0062
+    scenario_id: SCN-0007
+    subject: reported_industrial_outcome
+    source_id: SRC-0019
+    locator: "§4.2, p. 486"
+    evidence_status: explicitly_reported
+    note: "Qualitatively reports market tipping in parts of the parameter space and a need for intervention in some cases."

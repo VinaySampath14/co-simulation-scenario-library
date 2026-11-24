@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 *.h5
 *.hdf5
+.env

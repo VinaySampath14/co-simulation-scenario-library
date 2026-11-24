@@ -1,0 +1,67 @@
+{
+  "scenario_id": "SCN-0002",
+  "title": "Urban multi-energy co-simulation scalability benchmark",
+  "publication": {
+    "title": "A comparison study of co-simulation frameworks for multi-energy systems: the scalability problem",
+    "url": "https://doi.org/10.1186/s42162-022-00231-6"
+  },
+  "sources": [
+    {
+      "id": "SRC-0011",
+      "type": "journal_or_conference_publication",
+      "url": "https://doi.org/10.1186/s42162-022-00231-6",
+      "title": "Barbierato et al. (2022), multi-energy scalability benchmark",
+      "version_or_commit": "version_of_record"
+    },
+    {
+      "id": "SRC-0012",
+      "type": "journal_or_conference_publication",
+      "url": "https://doi.org/10.1109/JSYST.2017.2726350",
+      "title": "Bottaccioli et al., GIS-based PV generation model",
+      "version_or_commit": null
+    },
+    {
+      "id": "SRC-0013",
+      "type": "journal_or_conference_publication",
+      "url": "https://doi.org/10.1109/EEEIC/ICPSEurope51590.2021.9584738",
+      "title": "Rando Mazzarino et al., building thermal flexibility",
+      "version_or_commit": null
+    },
+    {
+      "id": "SRC-0014",
+      "type": "journal_or_conference_publication",
+      "url": "https://doi.org/10.1109/TIA.2021.3121651",
+      "title": "Estebsari et al., demand response and distribution grid",
+      "version_or_commit": null
+    }
+  ],
+  "artifacts": [],
+  "links": {
+    "scenarios/SCN-0002/interactions.yaml": "../../scenarios/SCN-0002/interactions.yaml",
+    "scenarios/SCN-0002/participations.yaml": "../../scenarios/SCN-0002/participations.yaml",
+    "scenarios/SCN-0002/scenario.yaml": "../../scenarios/SCN-0002/scenario.yaml",
+    "scenarios/SCN-0002/description.md": "../../scenarios/SCN-0002/description.md",
+    "models/MOD-0004.yaml": "../../models/MOD-0004.yaml",
+    "models/MOD-0005.yaml": "../../models/MOD-0005.yaml",
+    "models/MOD-0006.yaml": "../../models/MOD-0006.yaml",
+    "publications/PUB-0002.yaml": "../../publications/PUB-0002.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "c536dbf1ca09a5690b54f75bb592ce18860d5ca1f7f020df198748bdf336b3dd",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 46,
+    "unique_ids": 203
+  },
+  "review_status": "structurally_validated",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "not_run",
+    "limitations": [
+      "Independent source review is pending."
+    ],
+    "findings": []
+  }
+}

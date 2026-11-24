@@ -1,0 +1,22 @@
+id: SCN-0006
+title: Electrification of residential end-users
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [socio_technical_energy_systems, electrification]
+source_ids: [SRC-0019]
+scientific_publication_id: PUB-0006
+research_objective: Study how household electrification and demand-side flexibility interact with distribution grid operation.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+configuration:
+  demod_activity_resolution_seconds: 600
+  demod_load_resolution_seconds: 60
+  household_consumption_aggregation_seconds: 1800
+  device_energy_aggregation_period: monthly
+  hypotheses:
+    HP1.1: More investment in electrical technologies increases grid volatility.
+    HP1.2: Demand-side management benefits encourage adoption of low-carbon technologies.
+    HP1.3: Demand-side management participation reduces congestion risk from low-carbon adoption.
+evidence_ids: [EVD-0057, EVD-0058, EVD-0059]

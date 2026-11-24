@@ -1,0 +1,30 @@
+scenario_id: SCN-0006
+participations:
+  - id: PART-0029
+    reported_component: SimCo-Energy
+    model_id: MOD-0013
+    software_id: null
+    role: household_technology_adoption
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0058]
+  - id: PART-0030
+    reported_component: demod
+    model_id: MOD-0014
+    software_id: SW-0014
+    role: activity_based_household_demand
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0058]
+  - id: PART-0031
+    reported_component: mosaik-aggregator
+    model_id: null
+    software_id: SW-0015
+    role: temporal_aggregation
+    identification_status: unresolved_model_identity
+    evidence_ids: [EVD-0059]
+  - id: PART-0032
+    reported_component: SIMONA
+    model_id: null
+    software_id: SW-0016
+    role: distribution_power_flow
+    identification_status: unresolved_model_identity
+    evidence_ids: [EVD-0059]

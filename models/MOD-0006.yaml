@@ -1,0 +1,8 @@
+id: MOD-0006
+name: Estebsari et al. distribution-network model basis
+model_type: distribution_network_power_flow
+definition:
+  source_id: SRC-0014
+  locator: Case study network model
+representation: Represents buses, lines, transformers and their nominal parameters for electrical network analysis.
+evidence_ids: [EVD-0022, EVD-0030]

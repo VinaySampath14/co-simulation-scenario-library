@@ -1,0 +1,9 @@
+id: MOD-0007
+name: Hacker et al. Virtual Edge Device design
+model_type: energy_management_controller_architecture
+definition:
+  source_id: SRC-0015
+  locator: Section 2.2 and Fig. 1
+representation: An interface layer updates a shared state store before control logic executes. Interfaces then deliver the resulting setpoints to simulated or physical devices.
+scope: Published design. Executable implementation unresolved.
+evidence_ids: [EVD-0033]

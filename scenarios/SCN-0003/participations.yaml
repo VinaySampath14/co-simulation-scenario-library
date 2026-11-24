@@ -1,0 +1,52 @@
+scenario_id: SCN-0003
+participations:
+  - id: PART-0010
+    reported_component: Household time-series simulator
+    model_id: null
+    software_id: null
+    role: supply_domestic_load_PV_and_EV_profiles
+    identification_status: unresolved_profile_identity
+    evidence_ids: [EVD-0032, EVD-0035]
+  - id: PART-0011
+    reported_component: Household Virtual Edge Devices
+    model_id: MOD-0007
+    software_id: null
+    role: household_energy_management_and_device_gateway
+    identification_status: identified_definition
+    evidence_ids: [EVD-0032, EVD-0033, EVD-0035]
+  - id: PART-0012
+    reported_component: Laboratory low-voltage grid and household equipment
+    model_id: null
+    software_id: null
+    role: physical_grid_assets_and_measurements
+    identification_status: physical_hardware
+    evidence_ids: [EVD-0035]
+  - id: PART-0013
+    reported_component: Power flow simulator
+    model_id: null
+    software_id: SW-0010
+    role: balanced_power_flow_in_pure_simulation
+    identification_status: unresolved_network_definition
+    configuration: {deployment: pure_simulation, calculation: single_phase_symmetric, schedule: every_step}
+    evidence_ids: [EVD-0032]
+  - id: PART-0014
+    reported_component: Direct battery self-consumption control
+    model_id: MOD-0008
+    software_id: null
+    role: household_2_battery_dispatch
+    identification_status: identified_published_design
+    evidence_ids: [EVD-0036, EVD-0037]
+  - id: PART-0015
+    reported_component: Forecast-based battery self-consumption control
+    model_id: MOD-0009
+    software_id: null
+    role: household_2_battery_dispatch
+    identification_status: identified_published_design
+    evidence_ids: [EVD-0036, EVD-0037]
+  - id: PART-0016
+    reported_component: Transformer congestion controller VED
+    model_id: MOD-0010
+    software_id: null
+    role: local_congestion_management
+    identification_status: identified_published_design
+    evidence_ids: [EVD-0036, EVD-0038]

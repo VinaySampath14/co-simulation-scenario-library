@@ -27,3 +27,37 @@ software:
     name: PYPOWER
     type: power_flow_solver
     url: https://pypi.org/project/pypower/
+  - id: SW-0008
+    name: HELICS
+    type: co_simulation_framework
+    url: https://pypi.org/project/helics/
+  - id: SW-0009
+    name: AIOMAS
+    type: multi_agent_system_library
+    url: https://pypi.org/project/aiomas/
+  - id: SW-0010
+    name: pandapower
+    type: power_system_analysis
+    url: https://pypi.org/project/pandapower/
+  - id: SW-0011
+    name: Docker
+    type: container_platform
+    url: https://www.docker.com/
+  - id: SW-0012
+    name: Containernet
+    type: network_emulator
+    url: https://containernet.github.io/
+  - id: SW-0013
+    name: mosaik-rtu
+    type: remote_terminal_unit_simulator
+  - id: SW-0014
+    name: demod
+    type: demand_modeling_library
+    url: https://demod.readthedocs.io/en/latest/
+  - id: SW-0015
+    name: mosaik-aggregator
+    type: temporal_aggregation
+  - id: SW-0016
+    name: SIMONA
+    type: power_system_analysis
+    url: https://simona.ie3.e-technik.tu-dortmund.de

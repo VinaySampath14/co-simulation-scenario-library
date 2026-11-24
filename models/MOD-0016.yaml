@@ -1,0 +1,9 @@
+id: MOD-0016
+name: SKIQ storage technology innovation
+model_type: agent_based_technology_innovation
+definition:
+  source_id: SRC-0019
+  locator: §4.2, pp. 485–486
+representation: Represents firms developing and selling storage technologies with learning in performance and price.
+scope: Published model design. Exact executable implementation and version for this scenario are unresolved.
+evidence_ids: [EVD-0060]

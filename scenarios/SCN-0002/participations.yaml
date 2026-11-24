@@ -1,0 +1,38 @@
+scenario_id: SCN-0002
+participations:
+  - id: PART-0006
+    reported_component: Meteo Simulator
+    model_id: null
+    software_id: null
+    role: weather_input
+    identification_status: unresolved_input_identity
+    configuration: {instance_count: 1, reported_resolution_seconds: 900, input_format: EPW, input_file: null, stateful: false}
+    evidence_ids: [EVD-0019, EVD-0023, EVD-0024]
+  - id: PART-0007
+    reported_component: PV Simulator
+    model_id: MOD-0004
+    software_id: null
+    role: photovoltaic_generation
+    identification_status: identified_definition
+    configuration: {instance_count: benchmark_sweep, reported_resolution_seconds: 900, stateful: false}
+    evidence_ids: [EVD-0020, EVD-0023, EVD-0024, EVD-0028]
+  - id: PART-0008
+    reported_component: Building Simulator
+    model_id: MOD-0005
+    software_id: null
+    role: building_heat_pump_electricity_demand
+    identification_status: identified_definition
+    configuration: {instance_count: benchmark_sweep, reported_resolution_seconds: 3600, stateful: true}
+    evidence_ids: [EVD-0021, EVD-0023, EVD-0024, EVD-0029]
+  - id: PART-0009
+    reported_component: Power Grid Simulator
+    model_id: MOD-0006
+    software_id: SW-0010
+    role: grid_calculation
+    identification_status: identified_model_basis
+    configuration:
+      instance_count: 1
+      reported_resolution_seconds: 3600
+      stateful: false
+      scheduling: discrete_event_on_receipt_of_both_building_and_PV_data
+    evidence_ids: [EVD-0022, EVD-0023, EVD-0024, EVD-0030]

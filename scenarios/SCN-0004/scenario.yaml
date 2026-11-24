@@ -1,0 +1,30 @@
+id: SCN-0004
+title: Two-subgrid mosaik testbed for distributed SCADA monitoring
+record_type: research_testbed
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electrical_distribution, smart_grid, SCADA_monitoring]
+source_ids: [SRC-0016, SRC-0017]
+scientific_publication_id: PUB-0004
+related_publication_ids: [PUB-0005]
+related_scenario_ids: [SCN-0001]
+research_objective: Assess whether neighbouring subgrid data improves process-aware monitoring compared with local checks alone.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+code_url: null
+code_revision: null
+configuration:
+  monitored_subgrid_count: 2
+  household_and_PV_input_resolution_seconds: 900
+  simulation_step_seconds: null
+  evaluation_types: [normal_operation, local_only, local_and_neighbourhood, neighbourhood_only]
+  reported_software_versions:
+    - {software_id: SW-0006, version: "2.6.0"}
+    - {software_id: SW-0002, version: "1.0.4"}
+    - {software_id: SW-0005, version: "0.3"}
+    - {software_id: SW-0003, version: "2.0.3"}
+    - {software_id: SW-0001, version: "0.7.2"}
+    - {software_id: SW-0013, version: "0.1"}
+    - {software_id: SW-0004, version: "0.2.2"}
+evidence_ids: [EVD-0039, EVD-0040, EVD-0041, EVD-0042, EVD-0045, EVD-0046]

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "SCN-0004",
+  "title": "Two-subgrid mosaik testbed for distributed SCADA monitoring",
+  "publication": {
+    "title": "A hierarchical approach to monitoring SCADA networks",
+    "url": "https://www.uni-muenster.de/imperia/md/content/informatik/agremke/masterthesis_menzel_16032021.pdf"
+  },
+  "sources": [
+    {
+      "id": "SRC-0016",
+      "type": "masters_thesis",
+      "url": "https://www.uni-muenster.de/imperia/md/content/informatik/agremke/masterthesis_menzel_16032021.pdf",
+      "title": "Menzel (2021), A hierarchical approach to monitoring SCADA networks",
+      "version_or_commit": null
+    },
+    {
+      "id": "SRC-0017",
+      "type": "conference_publication",
+      "url": "https://doi.org/10.1109/SmartGridComm51999.2021.9632283",
+      "title": "Menzel et al. (2021), Securing SCADA networks for smart grids",
+      "version_or_commit": "version_of_record"
+    }
+  ],
+  "artifacts": [],
+  "links": {
+    "scenarios/SCN-0004/interactions.yaml": "../../scenarios/SCN-0004/interactions.yaml",
+    "scenarios/SCN-0004/participations.yaml": "../../scenarios/SCN-0004/participations.yaml",
+    "scenarios/SCN-0004/scenario.yaml": "../../scenarios/SCN-0004/scenario.yaml",
+    "scenarios/SCN-0004/description.md": "../../scenarios/SCN-0004/description.md",
+    "models/MOD-0011.yaml": "../../models/MOD-0011.yaml",
+    "models/MOD-0012.yaml": "../../models/MOD-0012.yaml",
+    "publications/PUB-0001.yaml": "../../publications/PUB-0001.yaml",
+    "publications/PUB-0004.yaml": "../../publications/PUB-0004.yaml",
+    "publications/PUB-0005.yaml": "../../publications/PUB-0005.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "40357148cdc03702775be4735369c98dbf5d0f34369345267a92110dbc248bcd",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 46,
+    "unique_ids": 203
+  },
+  "review_status": "structurally_validated",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "not_run",
+    "limitations": [
+      "Independent source review is pending."
+    ],
+    "findings": []
+  }
+}

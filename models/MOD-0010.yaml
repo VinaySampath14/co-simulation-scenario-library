@@ -1,0 +1,9 @@
+id: MOD-0010
+name: Hacker et al. transformer-based congestion control
+model_type: threshold_based_load_control
+definition:
+  source_id: SRC-0015
+  locator: Section 4.2
+representation: Measures transformer loading and requests restricted consumption from participating households when a configured threshold is reached.
+scope: Published design. Executable implementation unresolved.
+evidence_ids: [EVD-0036]

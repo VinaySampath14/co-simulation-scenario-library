@@ -1,0 +1,9 @@
+id: MOD-0008
+name: Hacker et al. direct battery self-consumption control
+model_type: battery_dispatch_control
+definition:
+  source_id: SRC-0015
+  locator: Section 4.2
+representation: Uses the household's instantaneous power condition to choose battery dispatch for self-consumption.
+scope: Published design. Executable implementation unresolved.
+evidence_ids: [EVD-0036]

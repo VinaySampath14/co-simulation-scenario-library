@@ -1,0 +1,16 @@
+{
+  "scenario_id": "SCN-0001",
+  "artifacts": [
+    {"kind": "git", "source_id": "SRC-0001", "path": "README.md"},
+    {"kind": "git", "source_id": "SRC-0001", "path": "demo.py"},
+    {"kind": "git", "source_id": "SRC-0001", "path": "pyproject.toml"},
+    {"kind": "git", "source_id": "SRC-0001", "path": "uv.lock", "line_start": 104, "line_end": 232},
+    {"kind": "git", "source_id": "SRC-0001", "path": "uv.lock", "line_start": 337, "line_end": 344},
+    {"kind": "git", "source_id": "SRC-0001", "path": "data/demo_lv_grid.json"},
+    {"kind": "git", "source_id": "SRC-0001", "path": "data/pv_10kw.csv", "line_start": 1, "line_end": 5},
+    {"kind": "git", "source_id": "SRC-0001", "path": "data/pv_30kw.csv", "line_start": 1, "line_end": 5},
+    {"kind": "git", "source_id": "SRC-0001", "path": "data/profiles.data.gz", "line_start": 1, "line_end": 10},
+    {"kind": "public_document", "source_id": "SRC-0002"},
+    {"kind": "public_document", "source_id": "SRC-0010"}
+  ]
+}
