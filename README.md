@@ -1,36 +1,42 @@
 # Co-Simulation Scenario Library
 
-An evidence-backed, progressively enrichable catalogue of co-simulation scenarios, initially focusing on mosaik.
+This library documents co-simulation scenarios from scientific publications and source code, with an initial focus on mosaik. Each entry describes what was coupled, how the components exchanged data, and where to check those claims.
 
-## Principles
-- Preserve scientific explanations and original sources.
-- Separate scenarios from participating models and software packages.
-- Document scenario-specific model usage and interactions.
-- Never infer missing information as fact; mark it as unknown or unreviewed.
-- Keep records traceable and suitable for later enrichment.
+## Start with a scenario
 
-## Layout
-- `publications/`: publications and source records (one record per source)
-- `scenarios/`: scenario descriptions, metadata, participations, interactions
-- `models/`: independent model descriptions, once identities are established
-- `software/`: software package references
-- `evidence/`: supporting claims and locators
-- `catalogue/`: overview (can later be generated automatically)
+Open the [scenario catalogue](catalogue/scenarios.csv) to scan the titles, frameworks, and original sources. If you're new to co-simulation, start with the official mosaik demo.
 
-## First record
-[`SCN-0001`](scenarios/SCN-0001/description.md) catalogues the official mosaik smart-grid software demonstration. The linked records document model definitions, configured entities, and attribute exchanges from a pinned source revision. The [evidence register](evidence/evidence.yaml) gives the source for each material claim.
+| Scenario | Description | Review |
+| --- | --- | --- |
+| `SCN-0001` | [Official mosaik smart-grid demo](scenarios/SCN-0001/description.md) | [Report](reviews/SCN-0001/review.md) |
+| `SCN-0002` | [Urban multi-energy scalability benchmark](scenarios/SCN-0002/description.md) | [Report](reviews/SCN-0002/review.md) |
+| `SCN-0003` | [Distribution-grid flexibility control laboratory](scenarios/SCN-0003/description.md) | [Report](reviews/SCN-0003/review.md) |
+| `SCN-0004` | [Two-subgrid SCADA monitoring testbed](scenarios/SCN-0004/description.md) | [Report](reviews/SCN-0004/review.md) |
+| `SCN-0005` | [mosaik smart-grid demo with ontology export](scenarios/SCN-0005/description.md) | [Report](reviews/SCN-0005/review.md) |
+| `SCN-0006` | [Electrification of residential end-users](scenarios/SCN-0006/description.md) | [Report](reviews/SCN-0006/review.md) |
+| `SCN-0007` | [Electrification of industrial prosumers](scenarios/SCN-0007/description.md) | [Report](reviews/SCN-0007/review.md) |
 
-Source: https://gitlab.com/mosaik/examples/mosaik-demo
+## Follow the records
 
-## Workflow
-[Scenario collection protocol](docs/SCENARIO_COLLECTION_PROTOCOL.md) defines the minimum metadata and evidence required for publication-based scenarios.
+Each scenario has four files. Here is the route through `SCN-0001`. The same layout applies to the other entries.
 
-1. Find a publication or source and record its stable URL/DOI.
-2. Determine whether it describes one or more distinct scenarios.
-3. Create `SCN-xxxx/description.md`, `scenario.yaml`, `participations.yaml`, `interactions.yaml`.
-4. Add citations/evidence for all material extracted claims.
-5. Create reusable model records **only** if identities can be established; otherwise retain provisional participations.
-6. Review and commit the changes.
+1. **Read the description** to understand the purpose, setup, and limitations. [description.md](scenarios/SCN-0001/description.md)
+2. **Open the scenario metadata** for the framework, settings, source IDs, and any primary or related publication. [scenario.yaml](scenarios/SCN-0001/scenario.yaml)
+3. **Find the components and their roles.** The participation records show which models and software the scenario uses and what each component does in this setup. [participations.yaml](scenarios/SCN-0001/participations.yaml)
+4. **Trace the data flows.** The interaction records identify the sender, receiver, exchange purpose, and attributes or quantities where known. [interactions.yaml](scenarios/SCN-0001/interactions.yaml)
+5. **Check the evidence and review status.** Look up an `EVD-xxxx` ID for the original source and the relevant page, section, or code lines. The review report shows which checks ran and which questions are still open. [Evidence register](evidence/evidence.yaml) · [SCN-0001 review](reviews/SCN-0001/review.md)
 
-## IDs
-Use `SCN-0001`, `PUB-0001`, `MOD-0001`, `SW-0001`, `PART-0001`, `INT-0001` etc. Do not reuse IDs for different entities.
+## Look up a model, package, or publication
+
+| ID | Where to look | What it identifies |
+| --- | --- | --- |
+| `MOD-xxxx` | [Model registry](models/) | A reusable definition, such as a grid case, prescribed time series, or controller design. |
+| `SW-xxxx` | [Software registry](software/software.yaml) | A software package or framework. Scenario records hold the versions used where known. |
+| `PUB-xxxx` | [Publication registry](publications/) | A paper, thesis, or other publication. Follow the scenario's explicit publication link, since one publication can describe several scenarios. |
+| `EVD-xxxx`, `SRC-xxxx` | [Evidence register](evidence/evidence.yaml) | A claim and its locator, or the original source it refers to. |
+
+For example, [PUB-0006](publications/PUB-0006.yaml) is the primary publication for both `SCN-0006` and `SCN-0007`. A `null` field marks an unresolved or inapplicable value. Check the surrounding notes and evidence for the reason.
+
+## Contribute or review
+
+Use the [collection protocol](docs/SCENARIO_COLLECTION_PROTOCOL.md) to extract a new scenario. The [review workflow](docs/SCENARIO_REVIEW_WORKFLOW.md) explains how to validate the files in VS Code, request independent source review, and open a GitHub pull request. Structural checks verify that the records fit together. Source review checks whether the evidence supports the claims. Runtime reproduction has its own status.
