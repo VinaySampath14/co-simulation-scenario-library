@@ -1,0 +1,76 @@
+scenario_id: SCN-0004
+review_status: publication_review
+note: Functional flows from the thesis. Endpoints for input profiles and output consumers summarize component roles. Exact simulator port names, mappings and units are unresolved. Monitoring consumes exported simulation data.
+interactions:
+  - id: INT-0020
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0018
+    target_participation_id: PART-0017
+    reported_quantities: [PV_generation]
+    attributes: null
+    evidence_ids: [EVD-0041]
+  - id: INT-0021
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0019
+    target_participation_id: PART-0017
+    reported_quantities: [household_residual_load]
+    attributes: null
+    evidence_ids: [EVD-0041]
+  - id: INT-0022
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0017
+    target_participation_id: PART-0020
+    reported_quantities: [simulated_grid_measurements]
+    attributes: null
+    evidence_ids: [EVD-0041, EVD-0042]
+  - id: INT-0023
+    interaction_type: result_recording
+    source_participation_id: PART-0020
+    target_participation_id: PART-0023
+    reported_quantities: [simulated_subgrid_measurements]
+    attributes: null
+    evidence_ids: [EVD-0043]
+  - id: INT-0024
+    interaction_type: null
+    source_participation_id: PART-0023
+    target_participation_id: PART-0024
+    reported_quantities: [CSV_measurement_history]
+    attributes: null
+    note: Downstream monitoring input outside the three existing interaction categories.
+    evidence_ids: [EVD-0043, EVD-0044]
+  - id: INT-0025
+    interaction_type: null
+    source_participation_id: PART-0024
+    target_participation_id: PART-0024
+    reported_quantities: [neighbouring_subgrid_information]
+    attributes: null
+    note: Between monitors for different subgrids within the monitoring participation.
+    evidence_ids: [EVD-0039, EVD-0044]
+  - id: INT-0026
+    interaction_type: result_recording
+    source_participation_id: PART-0017
+    target_participation_id: PART-0021
+    reported_quantities: [simulation_data]
+    attributes: null
+    evidence_ids: [EVD-0041]
+  - id: INT-0027
+    interaction_type: visualization
+    source_participation_id: PART-0017
+    target_participation_id: PART-0022
+    reported_quantities: [grid_topology]
+    attributes: null
+    evidence_ids: [EVD-0041]
+  - id: INT-0028
+    interaction_type: visualization
+    source_participation_id: PART-0018
+    target_participation_id: PART-0022
+    reported_quantities: [PV_generation]
+    attributes: null
+    evidence_ids: [EVD-0041]
+  - id: INT-0029
+    interaction_type: visualization
+    source_participation_id: PART-0019
+    target_participation_id: PART-0022
+    reported_quantities: [household_residual_load]
+    attributes: null
+    evidence_ids: [EVD-0041]

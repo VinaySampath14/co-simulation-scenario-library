@@ -1,0 +1,9 @@
+id: MOD-0017
+name: SimCo governance module for industrial electrification
+model_type: policy_intervention
+definition:
+  source_id: SRC-0019
+  locator: §4.2, p. 485
+representation: Represents policy interventions triggered by system conditions such as emissions or market penetration.
+scope: Published model design. Exact executable implementation and version for this scenario are unresolved.
+evidence_ids: [EVD-0060]

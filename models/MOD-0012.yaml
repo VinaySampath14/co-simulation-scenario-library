@@ -1,0 +1,9 @@
+id: MOD-0012
+name: Menzel hierarchical process-aware grid monitoring model
+model_type: grid_monitoring_model
+definition:
+  source_id: SRC-0016
+  locator: Chapter 3 and Section 5.2
+representation: Checks the physical consistency and safety of a virtual grid representation using local and neighbouring subgrid observations.
+scope: Published monitoring model and proof-of-concept design.
+evidence_ids: [EVD-0039, EVD-0044]

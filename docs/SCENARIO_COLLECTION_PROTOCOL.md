@@ -55,3 +55,22 @@ Detailed metadata is optional when the publication and supporting artifacts do n
 ## 6. Check the record
 
 Validate YAML and catalogue syntax, uniqueness and resolution of IDs, participation endpoints and their entity types when known, claim-to-evidence links, and agreement among the prose, structured records and catalogue. Check that a reported scientific result can be traced to its publication and that a code configuration is attributed to the reviewed revision. Record the review level and leave runtime verification unresolved when only static inspection was performed.
+
+### Run the validator
+
+From the repository root, install the validation dependency and run the local checks.
+
+```powershell
+python -m pip install -r requirements-validation.txt
+python tools/validate.py
+```
+
+For a source review, set `OPENAI_API_KEY` in the ignored root `.env` file or in your environment. The default reviewer is `gpt-5-mini`. Set `VALIDATION_MODEL` to choose a different model, or `VALIDATION_API_BASE_URL` for an endpoint that supports the Responses API and PDF inputs.
+
+```powershell
+python tools/validate.py SCN-0004 --source "C:\path\to\thesis.pdf" > SCN-0004-review.md
+```
+
+This sends the selected PDF to the reviewer API twice. The first request extracts claims from the source alone. The second receives the PDF, that extraction and the scenario records with their evidence references. Check the page and section locators in the resulting report before accepting corrections. An API review can incur charges. The script prints findings for review and leaves the catalogue files untouched.
+
+See the [scenario review workflow](SCENARIO_REVIEW_WORKFLOW.md) for review artifacts, additional source types, and the GitHub PR process.

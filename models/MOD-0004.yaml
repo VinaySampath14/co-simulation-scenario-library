@@ -1,0 +1,8 @@
+id: MOD-0004
+name: Bottaccioli et al. PV energy-estimation model
+model_type: weather_driven_pv_generation
+definition:
+  source_id: SRC-0012
+  locator: Section III, PV simulation method
+representation: Estimates PV energy production using weather conditions and panel area.
+evidence_ids: [EVD-0020, EVD-0028]

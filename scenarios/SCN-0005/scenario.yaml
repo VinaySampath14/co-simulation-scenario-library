@@ -1,0 +1,41 @@
+id: SCN-0005
+title: mosaik smart-grid demo with ontology export
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain: [smart_grid, electrical_distribution, scenario_planning]
+source_ids: [SRC-0018, SRC-0001, SRC-0005, SRC-0019]
+scientific_publication_id: null
+related_publication_ids: [PUB-0006]
+related_scenario_ids: [SCN-0001]
+research_objective: null
+technical_purpose: Export a configured smart-grid scenario to RDF for ontology-based planning and validation.
+collection_status: catalogued
+verification_status: static_source_review
+runtime_verification_status: not_run
+code_url: null
+code_revision: null
+entry_point: eval_mosaik_demo/demo_eval.py
+configuration:
+  input_start: "2014-01-01 00:00:00"
+  input_timezone: null
+  end_time_seconds_exclusive: 86400
+  random_seed: 23
+  python_requires: ">=3.12"
+  dependency_manifest: pyproject.toml
+  dependency_lock: uv.lock
+  planning_entry_point: diss_process.py
+  planning_run_simulation: false
+  ontology_export_formats: [rdfxml, ntriples, json-ld]
+  inactive_examples: [WebVis, database, FMI]
+outputs:
+  - {participation_id: PART-0028, type: hdf5, filename: demo.hdf5}
+locked_software:
+  - {software_id: SW-0006, version: "3.7.1"}
+  - {software_id: SW-0002, version: "2.0.1"}
+  - {software_id: SW-0005, version: "0.5.3"}
+  - {software_id: SW-0003, version: "2.2.0"}
+  - {software_id: SW-0001, version: "0.9.0"}
+  - {software_id: SW-0004, version: "0.4.0"}
+  - {software_id: SW-0007, version: "5.1.21"}
+evidence_ids: [EVD-0047, EVD-0048, EVD-0051, EVD-0052, EVD-0053, EVD-0054, EVD-0055, EVD-0056]

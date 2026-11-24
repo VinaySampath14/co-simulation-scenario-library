@@ -1,0 +1,8 @@
+id: MOD-0005
+name: Rando Mazzarino et al. building and heat-pump model
+model_type: building_thermal_and_heat_pump
+definition:
+  source_id: SRC-0013
+  locator: Section describing the Building Agent
+representation: Represents the building envelope with a resistance-capacitance model and computes heat-pump demand using thermal loads and internal gains.
+evidence_ids: [EVD-0021, EVD-0029]

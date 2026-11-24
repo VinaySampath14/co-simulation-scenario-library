@@ -1,0 +1,18 @@
+id: SCN-0007
+title: Electrification of industrial prosumers
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [socio_technical_energy_systems, electrification]
+source_ids: [SRC-0019]
+scientific_publication_id: PUB-0006
+research_objective: Study how industrial adoption and development of energy storage co-evolve and how policies can influence market outcomes.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+configuration:
+  hypotheses:
+    HP2.1: Supporting industrial green-technology research and development drives adoption.
+    HP2.2: Industrial adoption increases scale and reduces unit costs, reinforcing development.
+  component_time_resolutions: null
+evidence_ids: [EVD-0060, EVD-0061, EVD-0062]

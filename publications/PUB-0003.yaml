@@ -1,0 +1,11 @@
+id: PUB-0003
+title: A framework to evaluate multi-use flexibility concepts simultaneously in a co-simulation environment and a cyber-physical laboratory
+authors: [Immanuel Hacker, Florian Schmidtke, Dennis van der Velde, Sasha Toni Czyrnik]
+year: 2021
+type: conference_paper
+conference: 26th International Conference and Exhibition on Electricity Distribution (CIRED 2021)
+paper_number: 1013
+pages: 1692–1696
+doi: 10.1049/icp.2021.1777
+source_id: SRC-0015
+evidence_ids: [EVD-0031]

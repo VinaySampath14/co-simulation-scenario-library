@@ -1,0 +1,34 @@
+scenario_id: SCN-0005
+participations:
+  - id: PART-0025
+    reported_component: PyPower
+    model_id: MOD-0001
+    software_id: SW-0001
+    role: grid_calculation
+    identification_status: identified
+    configuration: {gridfile: eval_mosaik_demo/data/demo_lv_grid.json, step_seconds: 900}
+    evidence_ids: [EVD-0048, EVD-0049, EVD-0052]
+  - id: PART-0026
+    reported_component: CSV
+    model_id: MOD-0002
+    software_id: SW-0002
+    role: PV_time_series_input
+    identification_status: identified
+    configuration: {datafile: eval_mosaik_demo/data/pv_10kw.csv, instance_count: 20}
+    evidence_ids: [EVD-0048, EVD-0049, EVD-0052]
+  - id: PART-0027
+    reported_component: HouseholdSim
+    model_id: MOD-0003
+    software_id: SW-0003
+    role: household_demand
+    identification_status: identified
+    configuration: {profile_file: eval_mosaik_demo/data/profiles.data.gz, grid_name: demo_lv_grid}
+    evidence_ids: [EVD-0048, EVD-0049, EVD-0052, EVD-0055]
+  - id: PART-0028
+    reported_component: DB
+    model_id: null
+    software_id: SW-0005
+    role: results_storage
+    identification_status: output_component
+    configuration: {step_seconds: 60, filename: demo.hdf5}
+    evidence_ids: [EVD-0050]

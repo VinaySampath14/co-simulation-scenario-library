@@ -1,0 +1,32 @@
+id: SCN-0003
+title: Distribution-grid flexibility control in a cyber-physical laboratory
+record_type: laboratory_validation
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electrical_distribution, household_energy_management, demand_flexibility]
+source_ids: [SRC-0015]
+scientific_publication_id: PUB-0003
+research_objective: Demonstrate that a shared testbed can evaluate household battery dispatch and local congestion control with laboratory devices.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+code_url: null
+code_revision: null
+configuration:
+  reported_validation_stage: 2
+  deployment_software_ids: [SW-0011]
+  available_network_emulation_software_id: SW-0012
+  electrical_plant: physical_low_voltage_laboratory
+  feeder_count: 2
+  transformer_rating_kva: 630
+  household_count: 4
+  household_profile_resolution_seconds: 900
+  laboratory_setpoints_per_minute: 4
+  reported_acceleration_factor: 60
+  battery_at_household_2: {power_kw: 15, energy_kwh: 15}
+  variants:
+    - {name: baseline, controller_participation_id: null}
+    - {name: direct_battery_dispatch, controller_participation_id: PART-0014}
+    - {name: forecast_battery_dispatch, controller_participation_id: PART-0015, optimization_horizon_hours: 24}
+    - {name: transformer_congestion_control, controller_participation_id: PART-0016, transformer_threshold_kw: 35, restricted_household_limit_kw: 5, controlled_households: [1, 2]}
+evidence_ids: [EVD-0031, EVD-0032, EVD-0034, EVD-0035, EVD-0036, EVD-0037, EVD-0038]

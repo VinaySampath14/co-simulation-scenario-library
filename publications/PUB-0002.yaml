@@ -1,0 +1,12 @@
+id: PUB-0002
+title: "A comparison study of co-simulation frameworks for multi-energy systems: the scalability problem"
+authors: [Luca Barbierato, Pietro Rando Mazzarino, Marco Montarolo, Alberto Macii, Edoardo Patti, Lorenzo Bottaccioli]
+year: 2022
+type: journal_article
+journal: Energy Informatics
+volume: 5
+issue: Supplement 4
+article_number: 53
+doi: 10.1186/s42162-022-00231-6
+source_id: SRC-0011
+evidence_ids: [EVD-0018]

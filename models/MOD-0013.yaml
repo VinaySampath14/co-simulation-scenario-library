@@ -1,0 +1,9 @@
+id: MOD-0013
+name: SimCo-Energy residential technology adoption
+model_type: agent_based_adoption
+definition:
+  source_id: SRC-0019
+  locator: §4.1, p. 483
+representation: Models long-term household adoption with Consumat-based decisions and social influences.
+scope: Published model design. Exact executable implementation and version for this scenario are unresolved.
+evidence_ids: [EVD-0058]

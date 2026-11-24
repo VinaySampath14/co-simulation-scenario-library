@@ -1,0 +1,10 @@
+id: PUB-0005
+title: Securing SCADA networks for smart grids via a distributed evaluation of local sensor data
+authors: [Verena Menzel, Johann L. Hurink, Anne Remke]
+year: 2021
+type: conference_paper
+conference: IEEE SmartGridComm 2021
+pages: 405–411
+doi: 10.1109/SmartGridComm51999.2021.9632283
+source_id: SRC-0017
+evidence_ids: [EVD-0046]

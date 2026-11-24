@@ -1,0 +1,58 @@
+scenario_id: SCN-0004
+participations:
+  - id: PART-0017
+    reported_component: Mosaik-PyPower
+    model_id: MOD-0011
+    software_id: SW-0001
+    role: calculate_grid_power_flow
+    identification_status: identified_published_grid_variant
+    evidence_ids: [EVD-0041, EVD-0042]
+  - id: PART-0018
+    reported_component: Mosaik-CSV
+    model_id: null
+    software_id: SW-0002
+    role: replay_PV_generation_profiles
+    identification_status: unresolved_profile_identity
+    evidence_ids: [EVD-0041]
+  - id: PART-0019
+    reported_component: Mosaik-HouseholdSim
+    model_id: null
+    software_id: SW-0003
+    role: generate_residual_household_load
+    identification_status: unresolved_version_specific_model_and_profile_identity
+    evidence_ids: [EVD-0041]
+  - id: PART-0020
+    reported_component: Mosaik-RTU
+    model_id: null
+    software_id: SW-0013
+    role: represent_subgrid_measurement_interfaces
+    identification_status: unresolved_adapted_implementation
+    evidence_ids: [EVD-0041, EVD-0042]
+  - id: PART-0021
+    reported_component: Mosaik-HDF5
+    model_id: null
+    software_id: SW-0005
+    role: store_simulation_data
+    identification_status: output_component
+    evidence_ids: [EVD-0041]
+  - id: PART-0022
+    reported_component: Mosaik-Web
+    model_id: null
+    software_id: SW-0004
+    role: visualize_grid_and_time_series
+    identification_status: output_component
+    evidence_ids: [EVD-0041]
+  - id: PART-0023
+    reported_component: Measurement export helper
+    model_id: null
+    software_id: null
+    role: export_simulated_measurements_to_CSV
+    identification_status: unresolved_implementation
+    evidence_ids: [EVD-0043]
+  - id: PART-0024
+    reported_component: Distributed process-aware monitoring prototype
+    model_id: MOD-0012
+    software_id: null
+    role: evaluate_local_and_neighbourhood_consistency
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0039, EVD-0044, EVD-0045]

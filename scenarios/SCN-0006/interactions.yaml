@@ -1,0 +1,25 @@
+scenario_id: SCN-0006
+review_status: explicitly_reported
+note: The chapter describes these exchanges at the functional level. Exact interface mappings are unresolved.
+interactions:
+  - id: INT-0036
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0030
+    target_participation_id: PART-0031
+    reported_quantities: [one_minute_appliance_and_household_electricity_profiles]
+    attributes: null
+    evidence_ids: [EVD-0059]
+  - id: INT-0037
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0031
+    target_participation_id: PART-0032
+    reported_quantities: [average_household_consumption_30_minutes]
+    attributes: null
+    evidence_ids: [EVD-0059]
+  - id: INT-0038
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0031
+    target_participation_id: PART-0029
+    reported_quantities: [monthly_energy_consumption_per_device]
+    attributes: null
+    evidence_ids: [EVD-0059]

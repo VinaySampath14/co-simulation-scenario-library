@@ -1,2 +1,8 @@
 id,title,record_type,framework,collection_status,source_url
 SCN-0001,mosaik Smart Grid Demo,software_demo,mosaik,catalogued,https://gitlab.com/mosaik/examples/mosaik-demo
+SCN-0002,Urban multi-energy co-simulation scalability benchmark,research_benchmark,mosaik; HELICS; AIOMAS,catalogued,https://doi.org/10.1186/s42162-022-00231-6
+SCN-0003,Distribution-grid flexibility control in a cyber-physical laboratory,laboratory_validation,mosaik,catalogued,https://doi.org/10.1049/icp.2021.1777
+SCN-0004,Two-subgrid mosaik testbed for distributed SCADA monitoring,research_testbed,mosaik,catalogued,https://www.uni-muenster.de/imperia/md/content/informatik/agremke/masterthesis_menzel_16032021.pdf
+SCN-0005,mosaik smart-grid demo with ontology export,software_demo,mosaik,catalogued,urn:sha256:e3749b8800868abfd761cffe77515dc7d2193109caec3ce071ed30a4ea3f405f
+SCN-0006,Electrification of residential end-users,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-34920-1_38
+SCN-0007,Electrification of industrial prosumers,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-34920-1_38

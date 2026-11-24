@@ -1,0 +1,349 @@
+{
+  "scenario_id": "SCN-0001",
+  "title": "mosaik Smart Grid Demo",
+  "publication": null,
+  "sources": [
+    {
+      "id": "SRC-0001",
+      "type": "source_repository",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "title": "mosaik-demo (official repository)",
+      "version_or_commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8"
+    },
+    {
+      "id": "SRC-0002",
+      "type": "official_website",
+      "url": "https://mosaik.offis.de/live-demo/",
+      "title": "mosaik Live-demo",
+      "version_or_commit": null
+    },
+    {
+      "id": "SRC-0003",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik/3.6.0/#files",
+      "title": "mosaik",
+      "version_or_commit": "3.6.0"
+    },
+    {
+      "id": "SRC-0004",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-csv/2.0.1/#files",
+      "title": "mosaik-csv",
+      "version_or_commit": "2.0.1"
+    },
+    {
+      "id": "SRC-0005",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-householdsim/2.2.0/#files",
+      "title": "mosaik-householdsim",
+      "version_or_commit": "2.2.0"
+    },
+    {
+      "id": "SRC-0006",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-pypower/0.9.0/#files",
+      "title": "mosaik-pypower",
+      "version_or_commit": "0.9.0"
+    },
+    {
+      "id": "SRC-0007",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-web/0.5.0/#files",
+      "title": "mosaik-web",
+      "version_or_commit": "0.5.0"
+    },
+    {
+      "id": "SRC-0008",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-hdf5/0.5.2/#files",
+      "title": "mosaik-hdf5",
+      "version_or_commit": "0.5.2"
+    },
+    {
+      "id": "SRC-0009",
+      "type": "masters_thesis",
+      "url": "https://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf",
+      "title": "Adaptive State Estimation in Odysseus",
+      "version_or_commit": null
+    },
+    {
+      "id": "SRC-0010",
+      "type": "official_documentation",
+      "url": "https://mosaik.readthedocs.io/en/3.6.0/scheduler.html",
+      "title": "mosaik scheduling and simulation execution",
+      "version_or_commit": "3.6.0"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "A1",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "README.md",
+      "sha256": "9bff828749307a41257162e85b040d3be0ec2ef7f05f7c3ecc99d33ec8a62728",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A2",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "demo.py",
+      "sha256": "c4cd5da5bcb6d5aa80d61116d5c6c6afc90e1f746d067db7104ec35021908ac6",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A3",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "pyproject.toml",
+      "sha256": "4b47d8fdeb6a703de056de2aedffae80a20aeb4b73d365e2e9daf2a3d32bb8c9",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A4",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "uv.lock",
+      "line_start": 104,
+      "line_end": 232,
+      "sha256": "75a33b9f616308144b31bacf46c59e45db441d8e8fa38d59385e8f5ad1dc03fe",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A5",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "uv.lock",
+      "line_start": 337,
+      "line_end": 344,
+      "sha256": "75a33b9f616308144b31bacf46c59e45db441d8e8fa38d59385e8f5ad1dc03fe",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A6",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "data/demo_lv_grid.json",
+      "sha256": "e00d453729d58d3b19a8522697aae62386a62539d64b57b1b4f323fff2e686f4",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A7",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "data/pv_10kw.csv",
+      "line_start": 1,
+      "line_end": 5,
+      "sha256": "ef22daed525e519b2eb0f7b6a4a2434519be41ff934aa2d718e997c01f84c510",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A8",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "data/pv_30kw.csv",
+      "line_start": 1,
+      "line_end": 5,
+      "sha256": "4f93e6d4aa15eb5aa8baf2d6fbc85aff34a6db29260632ea4fdfad83eef260e8",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A9",
+      "source_id": "SRC-0001",
+      "url": "https://gitlab.com/mosaik/examples/mosaik-demo",
+      "kind": "git",
+      "commit": "74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8",
+      "path": "data/profiles.data.gz",
+      "line_start": 1,
+      "line_end": 10,
+      "line_basis": "decompressed",
+      "sha256": "7763f589a4ede25cd6f2b57da890b05fa244835b42a74f9e2f42d1f6e94db7f2",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A10",
+      "source_id": "SRC-0002",
+      "url": "https://mosaik.offis.de/live-demo/",
+      "kind": "public_document",
+      "status": "unavailable",
+      "limitation": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "artifact_id": "A11",
+      "source_id": "SRC-0010",
+      "url": "https://mosaik.readthedocs.io/en/3.6.0/scheduler.html",
+      "kind": "public_document",
+      "retrieved_url": "https://mosaik.readthedocs.io/en/3.6.0/scheduler.html",
+      "sha256": "1791bb534e54075861d0e0e19cdae605311eb7c329b952f184b9fe9fcbede9d8",
+      "status": "supplied"
+    }
+  ],
+  "links": {
+    "scenarios/SCN-0001/interactions.yaml": "../../scenarios/SCN-0001/interactions.yaml",
+    "scenarios/SCN-0001/participations.yaml": "../../scenarios/SCN-0001/participations.yaml",
+    "scenarios/SCN-0001/scenario.yaml": "../../scenarios/SCN-0001/scenario.yaml",
+    "scenarios/SCN-0001/description.md": "../../scenarios/SCN-0001/description.md",
+    "models/MOD-0001.yaml": "../../models/MOD-0001.yaml",
+    "models/MOD-0002.yaml": "../../models/MOD-0002.yaml",
+    "models/MOD-0003.yaml": "../../models/MOD-0003.yaml",
+    "publications/PUB-0001.yaml": "../../publications/PUB-0001.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "05691b2db4f67badb79357427b6f6e2affac944387345e79a136c770d0dd9429",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 46,
+    "unique_ids": 203
+  },
+  "review_status": "evidence_checked",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "completed",
+    "model": "gpt-5-mini",
+    "source_assessment": "consistent",
+    "limitations": [
+      "Time-series files and profiles shown only as excerpts; full PV and profile data are not provided so actual generation/load time series over 31 days cannot be verified (A7 lines 1–5; A9 lines 1–10).",
+      "No runtime execution traces, logs or produced output files (demo.hdf5, web snapshots) are provided, so actual runtime behavior, convergence and data timestamps are unverified.",
+      "Simulator internal implementations are external dependencies (mosaik_components.* and mosaik-* packages). The repository shows how they are invoked but not their internal numerical or control behaviour (demo.py lines 49–51; pyproject.toml lines 7–13).",
+      "uv.lock provides pinned upstream package versions and upload timestamps, but those locked artifacts are external and the lock does not prove identical binaries will be used in another environment (uv.lock lines 104–232, 337–344).",
+      "Entity runtime identifiers (full eids) and resulting mapping counts are only inferred from code; the exact runtime eids are not enumerated in the supplied artifacts (demo.py lines 134–142)."
+    ],
+    "findings": [
+      {
+        "category": "supported",
+        "catalogue_field": "scenario.yaml:configuration.input_start",
+        "claim": "Simulation start is 2014-01-01 00:00:00",
+        "artifact_id": "A2",
+        "locator": "demo.py line 29",
+        "explanation": "demo.py defines START = '2014-01-01 00:00:00'.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "scenario.yaml:configuration.end_time_seconds_exclusive",
+        "claim": "Simulation end is 31 days (END = 31 * 24 * 3600)",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 30–31",
+        "explanation": "END is set to 31 * 24 * 3600 in demo.py.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "participations/ PART-0001",
+        "claim": "PyPower (mosaik-pypower) used for grid, started with step_size=15*60 seconds",
+        "artifact_id": "A2",
+        "locator": "demo.py line 49 (start call) and lines 20–23 (sim_config)",
+        "explanation": "demo.py starts 'PyPower' with step_size=15*60; sim_config contains PyPower launch info.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "participations/ PART-0002",
+        "claim": "CSV adapter provides PV time series; demo selects data/pv_10kw.csv and creates 20 PV entities",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 51, 58; data/pv_10kw.csv excerpt A7 lines 1–5",
+        "explanation": "demo.py starts CSV with datafile PV_DATA and calls pvsim.PV.create(20); pv_10kw.csv header and sample shown.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "participations/ PART-0003",
+        "claim": "HouseholdSim instantiates ResidentialLoads and houses are connected to grid nodes by node_id",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 54–57 and 139–142 (connect_buildings_to_grid)",
+        "explanation": "ResidentialLoads children used as houses; world.get_data retrieves 'node_id' and world.connect links house P_out to bus P.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "data/demo_lv_grid.json",
+        "claim": "Grid definition includes a REF bus, 38 PQ buses, one transformer and 37 branches on a 10 MVA base",
+        "artifact_id": "A6",
+        "locator": "data/demo_lv_grid.json lines 1–46 (buses, trafo) and 47–85 (branches)",
+        "explanation": "JSON shows 'base_mva':10, listed buses including 'REF' and many 'PQ', one 'trafo' and 37 branch entries.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "demo.py:random_seed",
+        "claim": "PV placement is randomized but deterministic due to random.seed(23)",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 40 and 62",
+        "explanation": "random.seed(23) is set before connect_randomly is used to assign PVs to nodes, making placement repeatable for the seed.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "participations/ PART-0002.configuration.original_profile_source",
+        "claim": "Source/origin of the PV time series in pv_10kw.csv (how values were produced) is unknown",
+        "artifact_id": "A7",
+        "locator": "data/pv_10kw.csv lines 1–5 (excerpt)",
+        "explanation": "CSV file shows timestamps and P values but contains no provenance metadata describing how the series was generated.",
+        "recommended_correction": "Add provenance metadata (source, generation method, units & timezone) to the CSV header or repository documentation."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "profiles.data.gz:timezone",
+        "claim": "Time zone for profiles and CSV timestamps is unspecified",
+        "artifact_id": "A9",
+        "locator": "profiles.data.gz decompressed lines 1–6",
+        "explanation": "profiles.data.gz metadata includes start_date and resolution but no timezone; demo.py does not set an explicit timezone.",
+        "recommended_correction": "Document the intended timezone for all input time series (profiles and CSV) or include timezone-aware timestamps."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "demo.py:branch_hdf5_connection",
+        "claim": "Branch HDF5 connection repeats 'P_from' and omits 'Q_to' that adapter exposes",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 73–75",
+        "explanation": "connect_many_to_one call lists 'P_from', 'Q_from', 'P_to', 'P_from' (P_from repeated). The adapter (per catalogue) exposes Q_to which is not requested here.",
+        "recommended_correction": "Fix the attribute list to include intended attributes and remove duplicates (e.g., replace duplicate 'P_from' with 'Q_to' if appropriate)."
+      },
+      {
+        "category": "model_identity_concern",
+        "catalogue_field": "participations/ PART-0001.dependency_software_ids",
+        "claim": "PYPOWER underlying solver is an external dependency and its exact runtime behaviour depends on that package version",
+        "artifact_id": "A4",
+        "locator": "uv.lock lines 201–214; uv.lock lines 337–344 (pypower entry)",
+        "explanation": "uv.lock pins pypower 5.1.19 and mosaik-pypower 0.9.0; numerical behaviour and convergence criteria are determined by those external packages, not by files in this repo.",
+        "recommended_correction": "If precise numerical reproducibility is required, include or reference the exact solver configuration and any solver options used at runtime."
+      },
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "scenario.yaml:live_demo.variants",
+        "claim": "Hosted live demo reports specific monthly PV power levels (April/medium, August/high, December/low); mapping to repo configuration is unknown",
+        "artifact_id": "EVD-0002",
+        "locator": "",
+        "explanation": "The reviewer did not supply a usable artifact locator. The catalogue references a hosted live-demo page (EVD-0002) that describes variants, but the repository does not include configuration mapping these variants to specific data files or revisions.",
+        "recommended_correction": "Do not assume the hosted variant mappings reflect this commit. Add explicit variant mapping metadata if the repository supports those variants."
+      },
+      {
+        "category": "human_question",
+        "catalogue_field": "",
+        "claim": "Are HDF5 datasets organized with clear entity/attribute naming and checksum/metadata to detect corruption?",
+        "artifact_id": "A2",
+        "locator": "demo.py lines 65–74",
+        "explanation": "demo.py configures HDF5 writing but the exact dataset naming schema and integrity checks depend on mosaik-hdf5 implementation; the repo does not include produced HDF5 or explicit integrity checks.",
+        "recommended_correction": "Add a short note or example HDF5 structure and enable checksums or metadata writing via mosaik-hdf5 configuration if supported."
+      }
+    ]
+  }
+}

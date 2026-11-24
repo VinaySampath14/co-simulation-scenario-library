@@ -1,0 +1,25 @@
+scenario_id: SCN-0007
+review_status: explicitly_reported
+note: The chapter describes these exchanges at the functional level. Exact interface mappings are unresolved.
+interactions:
+  - id: INT-0039
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0034
+    target_participation_id: PART-0033
+    reported_quantities: [sets_of_storage_technologies_offered]
+    attributes: null
+    evidence_ids: [EVD-0061]
+  - id: INT-0040
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0033
+    target_participation_id: PART-0034
+    reported_quantities: [purchase_and_requirement_information]
+    attributes: null
+    evidence_ids: [EVD-0061]
+  - id: INT-0041
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0033
+    target_participation_id: PART-0035
+    reported_quantities: [purchase_and_requirement_information]
+    attributes: null
+    evidence_ids: [EVD-0061]

@@ -1,0 +1,37 @@
+id: SCN-0002
+title: Urban multi-energy co-simulation scalability benchmark
+record_type: research_benchmark
+framework: mosaik; HELICS; AIOMAS
+framework_software_ids: [SW-0006, SW-0008, SW-0009]
+domain: [multi_energy_systems, building_thermal, photovoltaics, electrical_distribution]
+source_ids: [SRC-0011, SRC-0012, SRC-0013, SRC-0014]
+scientific_publication_id: PUB-0002
+research_objective: Compare how orchestration configurations scale as PV and building instance counts increase.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+code_url: null
+code_revision: null
+configuration:
+  duration_days: 7
+  season: winter
+  start_date: null
+  benchmark:
+    scaled_participation_ids: [PART-0007, PART-0008]
+    count_per_scaled_participant: [1, 100, 10000, 100000, 1000000]
+    count_per_scaled_participant_with_mosaik: [1, 100, 10000]
+    deployment: OpenStack virtual machines
+    worker_nodes: 4
+    master_nodes_when_needed: 1
+    os: Ubuntu Server 20.04.2 LTS
+    configurations:
+      - {name: Mosaik, pattern: classic, software_ids: [SW-0006]}
+      - {name: HELICS, pattern: classic, software_ids: [SW-0008]}
+      - {name: AIOMAS, pattern: multi_agent_orchestration, software_ids: [SW-0009]}
+      - {name: Mosaik multi-process, pattern: multi_process, software_ids: [SW-0006]}
+      - {name: HELICS multi-process, pattern: multi_process, software_ids: [SW-0008]}
+      - {name: Mosaik-AIOMAS, pattern: encapsulated_multi_agent_simulators, software_ids: [SW-0006, SW-0009]}
+      - {name: HELICS-AIOMAS, pattern: encapsulated_multi_agent_simulators, software_ids: [SW-0008, SW-0009]}
+    metrics: [setup_execution_time, average_time_step_duration, total_execution_time]
+    reported_best_at_largest_scale: HELICS multi-process
+evidence_ids: [EVD-0018, EVD-0023, EVD-0024, EVD-0025, EVD-0026, EVD-0027]
