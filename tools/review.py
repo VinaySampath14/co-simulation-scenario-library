@@ -228,7 +228,9 @@ def review_findings(parts, artifacts, packet, config):
     extraction = request_review(
         config, parts,
         "Read the evidence independently. Extract scenario scope, model identities, roles, "
-        "directional exchanges, settings, outcomes and gaps. Give artifact IDs and precise "
+        "directional exchanges, settings, outcomes and gaps. Look beyond standard metadata "
+        "for details that affect interpretation, reuse or reproduction, including assumptions, "
+        "initialization, artifact availability and terms of reuse. Give artifact IDs and precise "
         "locators. Distinguish code, explicit statements and inference. Artifacts: " + manifest,
     )
     print("Reviewer API 2/2: comparing the catalogue with the sources.", file=sys.stderr, flush=True)
@@ -238,7 +240,9 @@ def review_findings(parts, artifacts, packet, config):
         "Check that the primary evidence matches the scenario. If it does not, report mismatch "
         "and withhold findings. Judge actual claims by record ID and field. Check whether its "
         "citation supports each claim as worded. Include missing or reversed data paths, "
-        "uncertain model identity, unsupported conclusions and important omissions when present. "
+        "uncertain model identity, unsupported conclusions and important omissions when present, "
+        "including relevant details with no dedicated catalogue field. Check license claims "
+        "separately for each paper, model implementation, FMU and dataset. "
         "Give an artifact ID and exact locator for evidential judgments. For code cite the "
         "supplied line numbers. Use an empty artifact_id or locator for an unresolved question "
         "without evidence. Explicit unknowns are only omissions when the evidence supplies the "
@@ -382,7 +386,7 @@ def run_reviews(args, documents, records):
             "structural_validation": {"status": "passed", "yaml_files": len(documents), "unique_ids": len(records)},
             "review_status": "evidence_checked" if evidence_checked else "structurally_validated",
             "declared_review_status": scenario.get("review_status", "draft"),
-            "runtime_status": scenario["runtime_verification_status"],
+            "runtime_status": scenario.get("runtime_verification_status", "not_run"),
             "ai_review": ai,
         }
         output.mkdir(parents=True, exist_ok=True)

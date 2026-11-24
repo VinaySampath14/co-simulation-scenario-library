@@ -1,0 +1,30 @@
+scenario_id: SCN-0010
+participations:
+  - id: PART-0051
+    reported_component: Physical Raspberry Pi node and INA219 sensor
+    role: measure physical node electricity demand
+    evidence_ids: [EVD-0085]
+  - id: PART-0052
+    reported_component: Google Cloud virtual machine and CPU-based power model
+    role: estimate virtual node electricity demand
+    evidence_ids: [EVD-0085]
+  - id: PART-0053
+    reported_component: Solar production trace replay
+    role: supply simulated on-site generation
+    evidence_ids: [EVD-0084]
+  - id: PART-0054
+    reported_component: Grid carbon-intensity forecast replay
+    role: supply carbon-intensity information
+    evidence_ids: [EVD-0084]
+  - id: PART-0055
+    reported_component: Battery simulator
+    role: represent energy storage
+    evidence_ids: [EVD-0084]
+  - id: PART-0056
+    reported_component: Vessim microgrid
+    role: balance supply and demand and account for upstream grid exchange
+    evidence_ids: [EVD-0086]
+  - id: PART-0057
+    reported_component: Carbon-aware applications and REST interface
+    role: connect real applications to the simulated energy system
+    evidence_ids: [EVD-0085]

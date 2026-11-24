@@ -1,6 +1,6 @@
 # SCN-0005 — mosaik smart-grid demo with ontology export
 
-The supplied `mosaik-scenario-planning.zip` contains a runnable code path based on the smart-grid demo. The scenario configures grid power flow, household demand, and PV replay, then exports the instantiated configuration for ontology-based planning checks. The ZIP is identified by SHA-256 `e3749b8800868abfd761cffe77515dc7d2193109caec3ce071ed30a4ea3f405f`. Its upstream repository URL and commit could not be established. [Evidence register](../../evidence/evidence.yaml)
+The supplied `mosaik-scenario-planning.zip` contains a code-defined scenario based on the smart-grid demo. The scenario configures grid power flow, household demand, and PV replay, then exports the instantiated configuration for ontology-based planning checks. The ZIP is identified by SHA-256 `e3749b8800868abfd761cffe77515dc7d2193109caec3ce071ed30a4ea3f405f`. Its upstream repository URL and commit could not be established. [Evidence register](../../evidence/evidence.yaml)
 
 ## What the code configures
 
@@ -16,3 +16,15 @@ The supplied `mosaik-scenario-planning.zip` contains a runnable code path based 
 ## Benchmark use
 
 This scenario and SCN-0001 make a useful comparison for extraction. Check that the reviewer distinguishes the one-day horizon from SCN-0001's 31 days, keeps each script's HDF5 branch attributes intact, and excludes inactive visualization wiring. These checks exercise fidelity to the source. Numerical reproducibility would require a separate run and output comparison. [Source locators and claims](../../evidence/evidence.yaml)
+
+## Reuse terms and evidence gaps
+
+| Artifact | What the sources establish |
+| --- | --- |
+| Demo directory in the supplied ZIP | `eval_mosaik_demo/LICENSE.txt` contains the **GNU LGPL version 2.1** text. The archive-level terms and the exact coverage of this file across the demo and bundled data remain unresolved. `EVD-0070` |
+| Bundled grid JSON, PV CSV files and compressed household profiles | The inspected archive contains no separate data license statement. Terms specific to these files remain unresolved. `EVD-0071` |
+| Household model implementation in `mosaik-householdsim` 2.2.0 | The lock-matched package wheel declares **MIT**. This evidence applies to the implementation artifact. `EVD-0072` |
+| Grid solver adapter in `mosaik-pypower` 0.9.0 | The lock-matched wheel declares **MIT**. This evidence applies to the adapter package. `EVD-0073` |
+| PV profile reader in `mosaik-csv` 2.0.1 | The lock-matched wheel ships the **GNU LGPL version 2.1** text. Its free-text license metadata says `UNKNOWN`, and its classifier says LGPLv2. This evidence applies to the reader package. `EVD-0074` |
+
+See the [evidence register](../../evidence/evidence.yaml) for the archive paths and package locations. Package terms do not establish rights for separate input data.

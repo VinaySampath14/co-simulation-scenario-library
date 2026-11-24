@@ -1,0 +1,13 @@
+id: SCN-0012
+title: Industrial hybrid power system sizing and voltage assessment
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, industrial energy systems, power quality]
+source_ids: [SRC-0029, SRC-0030]
+scientific_publication_id: PUB-0011
+research_objective: The study uses mosaik to simulate an industrial hybrid power system sized for lower cost and CO2 emissions. It then uses the resulting demand profile to assess bus voltages in a medium-voltage benchmark grid.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids: [EVD-0093, EVD-0094, EVD-0095, EVD-0096]

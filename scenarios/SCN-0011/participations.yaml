@@ -1,0 +1,30 @@
+scenario_id: SCN-0011
+participations:
+  - id: PART-0058
+    reported_component: Low-voltage electricity network
+    role: represent local electricity supply, demand and grid voltage
+    evidence_ids: [EVD-0089]
+  - id: PART-0059
+    reported_component: Local photovoltaic generation
+    role: provide local electricity that can be used by the heat pump
+    evidence_ids: [EVD-0089]
+  - id: PART-0060
+    reported_component: District heating network and heat demand
+    role: represent heat delivery and demand
+    evidence_ids: [EVD-0089]
+  - id: PART-0061
+    reported_component: Heat pump
+    role: convert electricity into heat and couple the two networks
+    evidence_ids: [EVD-0089]
+  - id: PART-0062
+    reported_component: Thermal storage tank
+    role: store heat and provide a temperature input to the flexible heat controller
+    evidence_ids: [EVD-0090]
+  - id: PART-0063
+    reported_component: Voltage controller
+    role: adjust heat pump demand in response to grid voltage
+    evidence_ids: [EVD-0090]
+  - id: PART-0064
+    reported_component: Flexible heat controller
+    role: select the heat supply mode using tank temperature and heat pump power
+    evidence_ids: [EVD-0090]

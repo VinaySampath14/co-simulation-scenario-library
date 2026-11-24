@@ -1,0 +1,14 @@
+id: SCN-0010
+title: Vessim prototype for software-in-the-loop carbon-aware computing
+collection_level: 1
+record_type: research_testbed
+framework: mosaik (Vessim)
+framework_software_id: SW-0006
+domain: [electricity, microgrids, carbon-aware computing]
+source_ids: [SRC-0023, SRC-0024, SRC-0025]
+scientific_publication_id: PUB-0009
+research_objective: The Vessim prototype demonstrates how real applications on physical and virtual computing nodes can interact with a simulated microgrid that replays solar and grid carbon-intensity data.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://github.com/dos-group/vessim
+evidence_ids: [EVD-0084, EVD-0085, EVD-0086, EVD-0087, EVD-0088]

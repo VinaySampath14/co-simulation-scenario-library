@@ -96,6 +96,77 @@ sources:
     url: https://doi.org/10.1007/978-3-031-34920-1_38
     title: Adelt et al. (2023), Co-simulation of Socio-Technical Energy Systems
     version_or_commit: version_of_record
+  - id: SRC-0020
+    type: journal_publication
+    url: https://doi.org/10.1109/TSUSC.2024.3449977
+    title: Mazzarino et al. (2025), district heating flexibility co-simulation
+    version_or_commit: version_of_record
+  - id: SRC-0021
+    type: conference_publication
+    url: https://doi.org/10.1109/SmartGridComm65349.2025.11204608
+    title: Steinhagen et al. (2025), smart low-voltage grid simulation environment
+    version_or_commit: version_of_record
+  - id: SRC-0022
+    type: source_repository
+    url: https://github.com/Carruthion/grid-sim-builder
+    title: Grid-Sim-Builder source repository
+    version_or_commit: 1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea
+    note: The inspected Git tag is v0.1. The paper cites the Zenodo release in reference 17.
+  - id: SRC-0023
+    type: technical_report
+    url: https://arxiv.org/abs/2306.09774v2
+    title: Wiesner et al. (2023), Vessim preprint
+    version_or_commit: arXiv:2306.09774v2
+  - id: SRC-0024
+    type: source_repository
+    url: https://github.com/dos-group/vessim
+    title: Vessim source repository
+    version_or_commit: null
+    note: The exact prototype commit for the supplied preprint was not established at Level 1.
+  - id: SRC-0025
+    type: official_documentation
+    url: https://vessim.readthedocs.io/en/latest/publications/
+    title: Vessim publication index
+    version_or_commit: null
+  - id: SRC-0026
+    type: conference_publication
+    url: https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf
+    title: A Toolbox for Design of Experiments for Energy Systems in Co-Simulation and Hardware Tests
+    version_or_commit: null
+    note: Published IEEE paper, DOI 10.1109/OSMSES62085.2024.10668967.
+  - id: SRC-0027
+    type: source_repository
+    url: https://github.com/ERIGrid2/benchmark-model-multi-energy-networks
+    title: ERIGrid 2.0 Multi-Energy Networks benchmark
+    version_or_commit: null
+    note: The exact revision used for the published analysis remains unverified.
+  - id: SRC-0028
+    type: source_repository
+    url: https://github.com/ERIGrid2/toolbox_doe_sa
+    title: ERIGrid 2.0 design-of-experiments and sensitivity-analysis toolbox
+    version_or_commit: null
+    note: The repository documents the benchmark_2_example. The exact revision used in the paper remains unverified.
+  - id: SRC-0029
+    type: masters_thesis
+    url: https://resolver.tudelft.nl/uuid:67428726-21d0-4ef7-83bf-fc26bde07ff7
+    title: Max Deutman's thesis on industrial hybrid power system sizing
+    version_or_commit: null
+    note: TU Delft lists the thesis PDF without license information.
+  - id: SRC-0030
+    type: conference_publication
+    url: https://repository.tudelft.nl/file/File_90e2976c-c66e-467a-a029-7effce866051
+    title: Addressing Voltage Sag Contributions from an Optimally Sized Industrial Hybrid Power System in the Netherlands
+    version_or_commit: null
+  - id: SRC-0031
+    type: conference_publication
+    url: https://doi.org/10.1109/CSR61664.2024.10679448
+    title: AI-Based Attacker Models for Enhancing Multi-Stage Cyberattack Simulations in Smart Grids Using Co-Simulation Environments
+    version_or_commit: null
+  - id: SRC-0032
+    type: technical_report
+    url: https://arxiv.org/html/2412.03979v1
+    title: Open preprint of the smart-grid digital twin study
+    version_or_commit: arXiv:2412.03979v1
 assertions:
   - id: EVD-0001
     scenario_id: SCN-0001
@@ -551,3 +622,300 @@ assertions:
     locator: "§4.2, p. 486"
     evidence_status: explicitly_reported
     note: "Qualitatively reports market tipping in parts of the parameter space and a need for intervention in some cases."
+  - id: EVD-0063
+    scenario_id: SCN-0008
+    subject: study_scope_and_bibliography
+    source_id: SRC-0020
+    locator: "Abstract and Introduction, pp. 408–409"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Introduces the co-simulation of district heating components and the comparison of storage and demand-side flexibility at lower temperatures."
+  - id: EVD-0064
+    scenario_id: SCN-0008
+    subject: framework_and_physical_models
+    source_id: SRC-0020
+    locator: "§II-B, pp. 410–412, equations 1–3"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Describes mosaik orchestration and the thermal plant, grid, building and weather representations."
+  - id: EVD-0065
+    scenario_id: SCN-0008
+    subject: storage_interface_and_strategies
+    source_id: SRC-0020
+    locator: "§II-B, pp. 411–412, Fig. 3"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Describes the AixLib-derived storage FMU and the two alternative control behaviors."
+  - id: EVD-0066
+    scenario_id: SCN-0008
+    subject: functional_coupling
+    source_id: SRC-0020
+    locator: "§II-C, pp. 412–413, Fig. 4"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Describes the functional flow of demand, mass flow, temperatures and strategy signals among components."
+  - id: EVD-0067
+    scenario_id: SCN-0008
+    subject: experiment_matrix_network_and_profiles
+    source_id: SRC-0020
+    locator: "§III, pp. 413–414, Table I"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Documents topology, 47 buildings, storage capacity, winter-day inputs, strategies, supply temperatures and schedule."
+  - id: EVD-0068
+    scenario_id: SCN-0008
+    subject: reported_peak_reduction
+    source_id: SRC-0020
+    locator: "§IV, pp. 414–415, Table II and Fig. 6"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "DSM reduction is roughly 33–34 percent. Storage reduction is 18.04 percent at 120 °C and 14.95 percent at 90 °C."
+  - id: EVD-0069
+    scenario_id: SCN-0008
+    subject: reported_execution_steps_and_storage
+    source_id: SRC-0020
+    locator: "§IV-B, p. 416, Fig. 8"
+    locator_url: https://iris.polito.it/handle/11583/2992054
+    evidence_status: explicitly_reported
+    note: "Shows 60-second steps, 10-second storage steps, instantaneous and time-shifted exchanges, and HDF5 result recording."
+  - id: EVD-0070
+    scenario_id: SCN-0005
+    subject: archived_demo_license_text
+    source_id: SRC-0018
+    locator: eval_mosaik_demo/LICENSE.txt, lines 1–2
+    file_path: eval_mosaik_demo/LICENSE.txt
+    line_start: 1
+    line_end: 2
+    evidence_status: explicitly_reported
+    note: The demo directory includes GNU LGPL version 2.1 text. The supplied archive does not establish the exact coverage across the archive or bundled datasets.
+  - id: EVD-0071
+    scenario_id: SCN-0005
+    subject: bundled_input_data_license
+    source_id: SRC-0018
+    locator: ZIP member listing; README.md; eval_mosaik_demo/data/ JSON, CSV and decompressed household profile
+    evidence_status: not_reported
+    note: No separate data license statement was found in the inspected archive. This is a gap in the inspected source.
+  - id: EVD-0072
+    scenario_id: SCN-0005
+    subject: household_model_package_license
+    source_id: SRC-0005
+    locator: mosaik_householdsim-2.2.0.dist-info/METADATA, lines 3–7 of lock-matched wheel
+    evidence_status: explicitly_reported
+    note: The package metadata lists MIT. The scope is the implementation package.
+  - id: EVD-0073
+    scenario_id: SCN-0005
+    subject: grid_adapter_package_license
+    source_id: SRC-0006
+    locator: mosaik_pypower-0.9.0.dist-info/METADATA, lines 3–9 of lock-matched wheel
+    evidence_status: explicitly_reported
+    note: The package metadata lists MIT. The scope is the adapter package.
+  - id: EVD-0074
+    scenario_id: SCN-0005
+    subject: PV_profile_reader_package_license
+    source_id: SRC-0004
+    locator: mosaik_csv-2.0.1.dist-info/LICENSE.txt lines 1–2 and METADATA lines 8, 13 and 24 of lock-matched wheel
+    evidence_status: explicitly_reported
+    note: The wheel includes GNU LGPL version 2.1 text and lists an LGPLv2 classifier, while the free-text license field is UNKNOWN. The scope is the reader package.
+  - id: EVD-0075
+    scenario_id: SCN-0009
+    subject: publication_and_system_scope
+    source_id: SRC-0021
+    locator: "Title, abstract and §§I and VI"
+    evidence_status: explicitly_reported
+    note: "Introduces the modular low-voltage simulator and positions mosaik as related work."
+  - id: EVD-0076
+    scenario_id: SCN-0009
+    subject: platform_components_profiles_and_data_flow
+    source_id: SRC-0021
+    locator: "§§III–IV and Figs. 1–3"
+    evidence_status: explicitly_reported
+    note: "Describes ALPG preparation, irradiation inputs, pandapower, MQTT broker, InfluxDB, Grafana and Node-RED."
+  - id: EVD-0077
+    scenario_id: SCN-0009
+    subject: evaluation_design_and_transformer_loading
+    source_id: SRC-0021
+    locator: "§V, Figs. 4–6"
+    evidence_status: explicitly_reported
+    note: "Uses one 24-household grid and compares three EV charging variants on Bielefeld irradiation from 3 August 2019."
+  - id: EVD-0078
+    scenario_id: SCN-0009
+    subject: amiro_network_definition
+    source_id: SRC-0022
+    locator: "config/grids/amiro_net/amiro_net.py, lines 5–100"
+    evidence_status: verified_from_code
+    note: "Static inspection identifies 24 household loads and 24 PV generators grouped over four household buses and five EV loads."
+    file_path: config/grids/amiro_net/amiro_net.py
+    line_start: 5
+    line_end: 100
+    locator_url: https://github.com/Carruthion/grid-sim-builder/blob/1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea/config/grids/amiro_net/amiro_net.py#L5-L100
+  - id: EVD-0079
+    scenario_id: SCN-0009
+    subject: gridserver_model_selection_and_power_flow
+    source_id: SRC-0022
+    locator: "services/gridserver/src/main.py, lines 41 and 102–112, 600–603; README.md, InfluxDB Measurements"
+    evidence_status: verified_from_code
+    note: "The code defaults to AMiRo, runs power flow with pp.runpp and exports the resulting state."
+    file_path: services/gridserver/src/main.py
+    line_start: 600
+    line_end: 603
+    locator_url: https://github.com/Carruthion/grid-sim-builder/blob/1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea/services/gridserver/src/main.py#L600-L603
+  - id: EVD-0080
+    scenario_id: SCN-0009
+    subject: deployment_services_and_default_step
+    source_id: SRC-0022
+    locator: "docker-compose.yml, service definitions; README.md, Key Features and Operating Modes"
+    evidence_status: verified_from_code
+    note: "The release defines Mosquitto, InfluxDB, Grafana, GridServer and Node-RED. The README describes a default 15-minute step and other modes."
+  - id: EVD-0081
+    scenario_id: SCN-0009
+    subject: repository_license_and_demo_data
+    source_id: SRC-0022
+    locator: "LICENSE, lines 1–8; config/hh_data/demo_load_profiles.tar.gz; services/gridserver/requirements.txt"
+    evidence_status: verified_from_code
+    note: "Root license says MIT. The repository bundles demo profiles and requirements do not pin every package. Separate terms for the original irradiance and generated datasets remain unresolved."
+    file_path: LICENSE
+    line_start: 1
+    line_end: 8
+    locator_url: https://github.com/Carruthion/grid-sim-builder/blob/1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea/LICENSE#L1-L8
+  - id: EVD-0082
+    scenario_id: SCN-0009
+    subject: study_linked_software_and_data_artifacts
+    source_id: SRC-0021
+    locator: "§IV-A–B and references [17]–[19]"
+    evidence_status: explicitly_reported
+    note: "Cites Zenodo releases for Grid-Sim-Builder and the household configurator and names Solcast as irradiance provider."
+  - id: EVD-0083
+    scenario_id: SCN-0009
+    subject: reported_limitations
+    source_id: SRC-0021
+    locator: "§§VI–VII"
+    evidence_status: explicitly_reported
+    note: "Communication is assumed ideal and further scalability testing is needed."
+  - id: EVD-0084
+    scenario_id: SCN-0010
+    subject: implemented_prototype
+    source_id: SRC-0023
+    locator: "§§2 and 4, Testbed Components"
+    locator_url: https://arxiv.org/pdf/2306.09774v2
+    evidence_status: explicitly_reported
+    note: "The mosaik-based prototype replays solar power and grid carbon-intensity forecasts and includes a simple battery model."
+  - id: EVD-0085
+    scenario_id: SCN-0010
+    subject: software_in_the_loop_components
+    source_id: SRC-0023
+    locator: "§3, Fig. 2 and §4.1"
+    locator_url: https://arxiv.org/pdf/2306.09774v2
+    evidence_status: explicitly_reported
+    note: "Describes the REST interface, real applications, a Raspberry Pi 3B+ measured with an INA219 and a Google Cloud VM with CPU-based power estimation."
+  - id: EVD-0086
+    scenario_id: SCN-0010
+    subject: microgrid_balance_and_scope
+    source_id: SRC-0023
+    locator: "§§3 and 4.4"
+    locator_url: https://arxiv.org/pdf/2306.09774v2
+    evidence_status: explicitly_reported
+    note: "Default balancing accounts for production, demand, storage and the macrogrid. Validation against real systems is described as future work."
+  - id: EVD-0087
+    scenario_id: SCN-0010
+    subject: repository_reuse_terms
+    source_id: SRC-0024
+    locator: "GitHub repository, license listing"
+    locator_url: https://github.com/dos-group/vessim
+    evidence_status: explicitly_reported
+    note: "The repository lists MIT for the software. The exact historical prototype and dataset terms remain unresolved."
+  - id: EVD-0088
+    scenario_id: SCN-0010
+    subject: related_publication_versions
+    source_id: SRC-0025
+    locator: "Publications page, recommended citation"
+    locator_url: https://vessim.readthedocs.io/en/latest/publications/
+    evidence_status: explicitly_reported
+    note: "The documentation lists a 2024 Vessim paper with five authors. The supplied three-author preprint is kept as the source for this overview."
+  - id: EVD-0089
+    scenario_id: SCN-0011
+    subject: benchmark_scope_and_components
+    source_id: SRC-0026
+    locator: "Section III-A"
+    locator_url: https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf
+    evidence_status: explicitly_reported
+    note: "Identifies the mosaik benchmark, its coupled electricity and heating networks, local PV and the power-to-heat link."
+  - id: EVD-0090
+    scenario_id: SCN-0011
+    subject: power_to_heat_controls
+    source_id: SRC-0026
+    locator: "Section III-A"
+    locator_url: https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf
+    evidence_status: explicitly_reported
+    note: "Describes voltage control of heat pump demand and flexible heat control using storage temperature and heat pump power."
+  - id: EVD-0091
+    scenario_id: SCN-0011
+    subject: reported_sensitivity_results
+    source_id: SRC-0026
+    locator: "Section III-A, Figures 4 and 5"
+    locator_url: https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf
+    evidence_status: explicitly_reported
+    note: "Compares first-order sensitivities of electrical self-consumption and minimum heat supply temperature to the tested factors."
+  - id: EVD-0092
+    scenario_id: SCN-0011
+    subject: toolbox_example_and_benchmark_repository
+    source_id: SRC-0028
+    locator: "README, Multi-Energy Networks Example Scenario"
+    locator_url: https://github.com/ERIGrid2/toolbox_doe_sa
+    evidence_status: explicitly_reported
+    note: "Identifies benchmark_2_example and links the source repository for the coupled benchmark."
+  - id: EVD-0093
+    scenario_id: SCN-0012
+    subject: thesis_scope_and_results
+    source_id: SRC-0029
+    locator: "Preface and Sections 3.1.1 and 4.2"
+    locator_url: https://repository.tudelft.nl/file/File_973b6cef-969f-48d9-90d3-8010d66dd34d
+    evidence_status: explicitly_reported
+    note: "Identifies the mosaik modelling stage and describes the sizing and voltage assessment."
+  - id: EVD-0094
+    scenario_id: SCN-0012
+    subject: hybrid_power_system_components
+    source_id: SRC-0030
+    locator: "Section II and Figure 1"
+    locator_url: https://repository.tudelft.nl/file/File_90e2976c-c66e-467a-a029-7effce866051
+    evidence_status: explicitly_reported
+    note: "Describes the industrial load, PVGIS profile, diesel generator, battery, grid connection and rolling-average energy management system."
+  - id: EVD-0095
+    scenario_id: SCN-0012
+    subject: separate_grid_assessment
+    source_id: SRC-0030
+    locator: "Section IV"
+    locator_url: https://repository.tudelft.nl/file/File_90e2976c-c66e-467a-a029-7effce866051
+    evidence_status: explicitly_reported
+    note: "Describes a subsequent pandapower steady-state load-flow assessment on the CIGRE medium-voltage network."
+  - id: EVD-0096
+    scenario_id: SCN-0012
+    subject: thesis_code_listings
+    source_id: SRC-0029
+    locator: "Appendix A, printed page 52"
+    locator_url: https://repository.tudelft.nl/file/File_973b6cef-969f-48d9-90d3-8010d66dd34d
+    evidence_status: explicitly_reported
+    note: "The contents list Python listings for the grid, diesel generator and battery energy storage system."
+  - id: EVD-0097
+    scenario_id: SCN-0013
+    subject: mosaik_testbed_components
+    source_id: SRC-0032
+    locator: "Section IV-A"
+    locator_url: https://arxiv.org/html/2412.03979v1
+    evidence_status: explicitly_reported
+    note: "Describes mosaik orchestration, pandapower, virtual network emulation, terminal units and network traffic recording."
+  - id: EVD-0098
+    scenario_id: SCN-0013
+    subject: physical_laboratory_comparison
+    source_id: SRC-0032
+    locator: "Section V and Section VI"
+    locator_url: https://arxiv.org/html/2412.03979v1
+    evidence_status: explicitly_reported
+    note: "Compares network data from the virtual testbed with captures from a physical laboratory and discusses reproducibility and differences in background traffic."
+  - id: EVD-0099
+    scenario_id: SCN-0013
+    subject: benchmark_topology_variant
+    source_id: SRC-0032
+    locator: "Section V-F and Figure 9"
+    locator_url: https://arxiv.org/html/2412.03979v1
+    evidence_status: explicitly_reported
+    note: "Reports an additional application of the same framework to a CIGRE medium-voltage benchmark topology."

@@ -1,0 +1,70 @@
+scenario_id: SCN-0009
+review_status: mixed_evidence
+note: The paper reports functional paths. Broker routing summarizes platform behavior. Exact evaluation controller topic bindings and switching thresholds remain unresolved.
+interactions:
+  - id: INT-0058
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0045
+    target_participation_id: PART-0044
+    reported_quantities: [presynthesized_household_load_PV_and_EV_profiles]
+    attributes: null
+    evidence_ids: [EVD-0076]
+  - id: INT-0059
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0044
+    target_participation_id: PART-0047
+    reported_quantities: [grid_state_and_PV_telemetry]
+    attributes: null
+    evidence_ids: [EVD-0076]
+  - id: INT-0060
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0047
+    target_participation_id: PART-0046
+    reported_quantities: [PV_feed_in_information]
+    attributes: null
+    applies_to: PV_based_sequential_wallbox_control
+    evidence_ids: [EVD-0077]
+  - id: INT-0061
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0046
+    target_participation_id: PART-0047
+    reported_quantities: [wallbox_switch_commands]
+    attributes: null
+    applies_to: PV_based_sequential_wallbox_control
+    evidence_ids: [EVD-0077]
+  - id: INT-0062
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0047
+    target_participation_id: PART-0044
+    reported_quantities: [charging_control_commands]
+    attributes: null
+    evidence_ids: [EVD-0076]
+  - id: INT-0063
+    interaction_type: result_recording
+    source_participation_id: PART-0044
+    target_participation_id: PART-0048
+    reported_quantities: [simulation_parameters_and_time_series]
+    attributes: null
+    evidence_ids: [EVD-0079]
+  - id: INT-0064
+    interaction_type: visualization
+    source_participation_id: PART-0048
+    target_participation_id: PART-0049
+    reported_quantities: [historical_simulation_results]
+    attributes: null
+    evidence_ids: [EVD-0076]
+  - id: INT-0065
+    interaction_type: visualization
+    source_participation_id: PART-0047
+    target_participation_id: PART-0050
+    reported_quantities: [live_grid_state]
+    attributes: null
+    evidence_ids: [EVD-0076]
+  - id: INT-0066
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0050
+    target_participation_id: PART-0047
+    reported_quantities: [manual_clock_and_charging_controls]
+    attributes: null
+    applies_to: platform_capability
+    evidence_ids: [EVD-0076]

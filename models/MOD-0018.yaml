@@ -1,0 +1,9 @@
+id: MOD-0018
+name: District heating supply plant mass and energy balance
+model_type: district_heating_plant
+definition:
+  source_id: SRC-0020
+  locator: §II-B–C, pp. 411–413
+representation: Computes mass flow supplied to the grid and thermal power required given the supply and return temperatures.
+scope: Published model definition. The exact executable artifact and its version remain unresolved.
+evidence_ids: [EVD-0064]

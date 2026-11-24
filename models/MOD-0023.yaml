@@ -1,0 +1,9 @@
+id: MOD-0023
+name: District heating building demand reader and return temperature calculation
+model_type: profile_based_thermal_demand
+definition:
+  source_id: SRC-0020
+  locator: §II-B–C, pp. 411–413
+representation: Reads prescribed thermal demand and uses network supply temperature to calculate the return-water temperature after heat extraction.
+scope: Published model definition. The exact executable artifact and its version remain unresolved.
+evidence_ids: [EVD-0066]

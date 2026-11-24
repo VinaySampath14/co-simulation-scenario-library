@@ -6,6 +6,7 @@
       "properties": {
         "id": {"type": "string", "pattern": "^SCN-[0-9]{4}$"},
         "title": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "collection_level": {"enum": [1, 2]},
         "record_type": {"enum": ["software_demo", "research_benchmark", "laboratory_validation", "research_testbed", "research_scenario"]},
         "framework": {"anyOf": [{"type": "string", "minLength": 1, "pattern": "\\S"}, {"type": "null"}]},
         "framework_software_id": {"type": "string", "pattern": "^SW-[0-9]{4}$"},
@@ -60,20 +61,29 @@
         "research_objective",
         "collection_status",
         "verification_status",
-        "runtime_verification_status",
         "evidence_ids"
       ],
       "additionalProperties": false,
       "allOf": [
         {
-          "if": {"properties": {"record_type": {"const": "software_demo"}}},
+          "if": {"required": ["collection_level"], "properties": {"collection_level": {"const": 1}}},
           "then": {
             "anyOf": [
               {"required": ["technical_purpose"]},
               {"properties": {"research_objective": {"type": "string", "minLength": 1, "pattern": "\\S"}}}
             ]
           },
-          "else": {"properties": {"scientific_publication_id": {"type": "string", "pattern": "^PUB-[0-9]{4}$"}}}
+          "else": {
+            "required": ["runtime_verification_status"],
+            "if": {"properties": {"record_type": {"const": "software_demo"}}},
+            "then": {
+              "anyOf": [
+                {"required": ["technical_purpose"]},
+                {"properties": {"research_objective": {"type": "string", "minLength": 1, "pattern": "\\S"}}}
+              ]
+            },
+            "else": {"properties": {"scientific_publication_id": {"type": "string", "pattern": "^PUB-[0-9]{4}$"}}}
+          }
         },
         {
           "if": {"required": ["review_status"], "properties": {"review_status": {"enum": ["human_reviewed", "accepted"]}}},
@@ -112,7 +122,7 @@
               },
               "evidence_ids": {"type": "array", "items": {"type": "string", "pattern": "^EVD-[0-9]{4}$"}, "minItems": 1}
             },
-            "required": ["id", "reported_component", "model_id", "software_id", "role", "identification_status", "evidence_ids"],
+            "required": ["id", "reported_component", "evidence_ids"],
             "additionalProperties": false
           },
           "minItems": 0

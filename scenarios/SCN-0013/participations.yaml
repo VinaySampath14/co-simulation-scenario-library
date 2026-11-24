@@ -1,0 +1,22 @@
+scenario_id: SCN-0013
+participations:
+  - id: PART-0071
+    reported_component: pandapower grid simulator
+    role: simulate the electrical distribution grid
+    evidence_ids: [EVD-0097]
+  - id: PART-0072
+    reported_component: Container-based communication network (rettij)
+    role: emulate the smart-grid communications environment
+    evidence_ids: [EVD-0097]
+  - id: PART-0073
+    reported_component: Remote terminal units
+    role: exchange measurements and control commands with the simulated grid
+    evidence_ids: [EVD-0097]
+  - id: PART-0074
+    reported_component: Master terminal units
+    role: collect measurements and issue control commands
+    evidence_ids: [EVD-0097]
+  - id: PART-0075
+    reported_component: Network traffic recorder
+    role: collect communication data for analysis and comparison
+    evidence_ids: [EVD-0097]

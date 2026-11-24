@@ -2,6 +2,8 @@
 
 Use this workflow from the repository root in the VS Code PowerShell terminal. The catalogue records what a source supports. The review report tracks what was checked and what needs a decision.
 
+Routine collection defaults to Level 1. Follow the [Level 1 collection steps](SCENARIO_COLLECTION_PROTOCOL.md#level-1--scenario-overview-default) and refresh the overview. Use the detailed workflow below when Level 2 is explicitly requested.
+
 ## 1. Collect a draft
 
 Give Codex the paper or source and ask it to follow the [collection protocol](SCENARIO_COLLECTION_PROTOCOL.md). Keep a separate scenario record, participations, interactions, and description. Reuse a model ID only when the definition matches. Record evidence IDs and original locators for important claims. Use `null` for a known gap and explain why the value cannot be established.

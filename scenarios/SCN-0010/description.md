@@ -1,0 +1,7 @@
+# SCN-0010 — Vessim prototype for software-in-the-loop carbon-aware computing
+
+The November 2023 Vessim preprint describes an implemented mosaik-based prototype that connects real carbon-aware applications to a simulated energy system. Its computing side includes a Raspberry Pi 3B+ monitored by an INA219 sensor and a Google Cloud virtual machine whose power demand is estimated from CPU utilization. The energy side replays solar generation and grid carbon-intensity forecasts and includes a simple battery model. [Preprint v2, §§2 and 4.1](https://arxiv.org/pdf/2306.09774v2)
+
+The example illustrates software-in-the-loop testing. A configurable REST interface gives applications visibility into simulated energy conditions, while the microgrid balances demand, generation, storage and upstream grid exchange. The paper describes validation against real energy systems as future work for the prototype. It discusses other generation, storage and grid-analysis modules as possible integrations. [Preprint v2, §3, Fig. 2 and §§4.2–4.5](https://arxiv.org/pdf/2306.09774v2)
+
+The public Vessim repository lists an MIT license for the repository software. The exact prototype revision, input traces and their reuse terms remain unresolved here. The project's publication index also lists a later paper with a different author list. This scenario is sourced to the supplied preprint version. [Software repository](https://github.com/dos-group/vessim) · [Publication index](https://vessim.readthedocs.io/en/latest/publications/)

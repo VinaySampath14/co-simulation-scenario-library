@@ -1,0 +1,52 @@
+scenario_id: SCN-0009
+note: Profile generation is an upstream preparation step. The dashboard and external control system have distinct roles.
+participations:
+  - id: PART-0044
+    reported_component: GridServer and pandapower
+    model_id: MOD-0024
+    software_id: SW-0010
+    role: calculate_low_voltage_power_flow
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0076, EVD-0078, EVD-0079]
+  - id: PART-0045
+    reported_component: Adapted ALPG and presynthesized profiles
+    model_id: MOD-0025
+    software_id: null
+    role: generate_load_EV_and_PV_profiles_before_simulation
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0076]
+  - id: PART-0046
+    reported_component: Smart Grid Control System
+    model_id: MOD-0026
+    software_id: null
+    role: switch_four_wallboxes_in_sequence_based_on_PV_feed_in
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0077]
+  - id: PART-0047
+    reported_component: Mosquitto
+    model_id: null
+    software_id: SW-0018
+    role: relay_MQTT_telemetry_and_commands
+    identification_status: output_component
+    evidence_ids: [EVD-0076, EVD-0080]
+  - id: PART-0048
+    reported_component: InfluxDB
+    model_id: null
+    software_id: SW-0019
+    role: record_simulation_time_series
+    identification_status: output_component
+    evidence_ids: [EVD-0076, EVD-0080]
+  - id: PART-0049
+    reported_component: Grafana
+    model_id: null
+    software_id: SW-0020
+    role: visualize_recorded_results
+    identification_status: output_component
+    evidence_ids: [EVD-0076, EVD-0080]
+  - id: PART-0050
+    reported_component: Node-RED dashboard
+    model_id: null
+    software_id: SW-0021
+    role: visualize_live_state_and_support_manual_test_control
+    identification_status: output_component
+    evidence_ids: [EVD-0076, EVD-0080]

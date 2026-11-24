@@ -1,0 +1,26 @@
+scenario_id: SCN-0012
+participations:
+  - id: PART-0065
+    reported_component: Industrial electric load profile
+    role: supply the site's electricity demand
+    evidence_ids: [EVD-0094]
+  - id: PART-0066
+    reported_component: Scalable PVGIS photovoltaic production profile
+    role: provide time-varying on-site solar generation
+    evidence_ids: [EVD-0094]
+  - id: PART-0067
+    reported_component: Diesel generator
+    role: supply residual demand when dispatched
+    evidence_ids: [EVD-0094]
+  - id: PART-0068
+    reported_component: Battery energy storage system
+    role: store and deliver electricity under the dispatch strategy
+    evidence_ids: [EVD-0094]
+  - id: PART-0069
+    reported_component: Rolling-average energy management system
+    role: dispatch resources and limit changes in grid draw
+    evidence_ids: [EVD-0094]
+  - id: PART-0070
+    reported_component: Grid connection
+    role: supply power imported from the grid
+    evidence_ids: [EVD-0094]

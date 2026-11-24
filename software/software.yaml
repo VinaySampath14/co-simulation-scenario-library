@@ -61,3 +61,19 @@ software:
     name: SIMONA
     type: power_system_analysis
     url: https://simona.ie3.e-technik.tu-dortmund.de
+  - id: SW-0017
+    name: Grid-Sim-Builder
+    type: co_simulation_framework
+    url: https://github.com/Carruthion/grid-sim-builder
+  - id: SW-0018
+    name: Eclipse Mosquitto
+    type: mqtt_broker
+  - id: SW-0019
+    name: InfluxDB
+    type: time_series_database
+  - id: SW-0020
+    name: Grafana
+    type: visualization
+  - id: SW-0021
+    name: Node-RED
+    type: visualization_and_control

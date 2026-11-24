@@ -1,0 +1,9 @@
+id: MOD-0020
+name: AixLib-derived stratified water tank FMU
+model_type: stratified_thermal_storage
+definition:
+  source_id: SRC-0020
+  locator: §II-B and Fig. 3, pp. 411–412
+representation: Represents layered water storage and reports top and bottom layer temperatures during charge or discharge.
+scope: Published model definition. The exact executable artifact and its version remain unresolved.
+evidence_ids: [EVD-0065]

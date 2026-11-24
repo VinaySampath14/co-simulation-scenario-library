@@ -1,0 +1,123 @@
+scenario_id: SCN-0008
+review_status: explicitly_reported
+note: Functional exchanges from Fig. 4 and the HDF5 result recording described with Fig. 8. Exact API attributes and per-edge timing remain unresolved. Storage-only labels refer to active storage strategy exchanges, and do not establish how idle storage is instantiated in other variants.
+interactions:
+  - id: INT-0042
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0039
+    target_participation_id: PART-0038
+    reported_quantities: [charge_discharge_idle_schedule_and_mass_flow_control]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0066]
+  - id: INT-0043
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0040
+    target_participation_id: PART-0042
+    reported_quantities: [advanced_thermal_power_and_mass_flow_profiles]
+    attributes: null
+    applies_to: demand_side_management
+    evidence_ids: [EVD-0066]
+  - id: INT-0044
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0042
+    target_participation_id: PART-0037
+    reported_quantities: [building_mass_flow_demand_and_return_temperature]
+    attributes: null
+    evidence_ids: [EVD-0066]
+  - id: INT-0045
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0042
+    target_participation_id: PART-0036
+    reported_quantities: [building_mass_flow_demand]
+    attributes: null
+    evidence_ids: [EVD-0066]
+  - id: INT-0046
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0041
+    target_participation_id: PART-0038
+    reported_quantities: [outdoor_temperature]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0066]
+  - id: INT-0047
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0038
+    target_participation_id: PART-0036
+    reported_quantities: [charging_or_discharging_mass_flow]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0066]
+  - id: INT-0048
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0038
+    target_participation_id: PART-0037
+    reported_quantities: [charging_or_discharging_mass_flow]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0066]
+  - id: INT-0049
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0036
+    target_participation_id: PART-0037
+    reported_quantities: [plant_supply_temperature, plant_injected_mass_flow]
+    attributes: null
+    evidence_ids: [EVD-0066]
+  - id: INT-0050
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0037
+    target_participation_id: PART-0042
+    reported_quantities: [building_supply_temperature]
+    attributes: null
+    evidence_ids: [EVD-0066]
+  - id: INT-0051
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0037
+    target_participation_id: PART-0038
+    reported_quantities: [storage_inlet_temperatures_from_delivery_and_return_networks]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0066]
+  - id: INT-0052
+    interaction_type: simulation_coupling
+    source_participation_id: PART-0037
+    target_participation_id: PART-0036
+    reported_quantities: [network_return_temperature]
+    attributes: null
+    evidence_ids: [EVD-0066]
+  - id: INT-0053
+    interaction_type: result_recording
+    source_participation_id: PART-0036
+    target_participation_id: PART-0043
+    reported_quantities: [reported_simulator_outputs]
+    attributes: null
+    evidence_ids: [EVD-0069]
+  - id: INT-0054
+    interaction_type: result_recording
+    source_participation_id: PART-0037
+    target_participation_id: PART-0043
+    reported_quantities: [reported_simulator_outputs]
+    attributes: null
+    evidence_ids: [EVD-0069]
+  - id: INT-0055
+    interaction_type: result_recording
+    source_participation_id: PART-0038
+    target_participation_id: PART-0043
+    reported_quantities: [reported_simulator_outputs]
+    attributes: null
+    applies_to: thermal_storage
+    evidence_ids: [EVD-0069]
+  - id: INT-0056
+    interaction_type: result_recording
+    source_participation_id: PART-0041
+    target_participation_id: PART-0043
+    reported_quantities: [reported_simulator_outputs]
+    attributes: null
+    evidence_ids: [EVD-0069]
+  - id: INT-0057
+    interaction_type: result_recording
+    source_participation_id: PART-0042
+    target_participation_id: PART-0043
+    reported_quantities: [reported_simulator_outputs]
+    attributes: null
+    evidence_ids: [EVD-0069]

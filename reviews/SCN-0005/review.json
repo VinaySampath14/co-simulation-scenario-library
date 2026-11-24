@@ -31,6 +31,20 @@
       "url": "https://doi.org/10.1007/978-3-031-34920-1_38",
       "title": "Adelt et al. (2023), Co-simulation of Socio-Technical Energy Systems",
       "version_or_commit": "version_of_record"
+    },
+    {
+      "id": "SRC-0004",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-csv/2.0.1/#files",
+      "title": "mosaik-csv",
+      "version_or_commit": "2.0.1"
+    },
+    {
+      "id": "SRC-0006",
+      "type": "package_release",
+      "url": "https://pypi.org/project/mosaik-pypower/0.9.0/#files",
+      "title": "mosaik-pypower",
+      "version_or_commit": "0.9.0"
     }
   ],
   "artifacts": [],
@@ -47,11 +61,11 @@
     "software/software.yaml": "../../software/software.yaml",
     "evidence/evidence.yaml": "../../evidence/evidence.yaml"
   },
-  "catalogue_sha256": "39348ab96e95c85fda0e97c725495f464b77e02684ac1f93ffa1813161c3b61a",
+  "catalogue_sha256": "265b8a8321071b39bb5316e4be8ca7e1e47da01ebe50015c40d1ee0eeb6fe8ad",
   "structural_validation": {
     "status": "passed",
-    "yaml_files": 46,
-    "unique_ids": 203
+    "yaml_files": 56,
+    "unique_ids": 248
   },
   "review_status": "structurally_validated",
   "declared_review_status": "draft",
@@ -59,7 +73,7 @@
   "ai_review": {
     "status": "not_run",
     "limitations": [
-      "The catalogue changed since the previous evidence review. Rerun source review."
+      "Independent source review is pending."
     ],
     "findings": []
   }

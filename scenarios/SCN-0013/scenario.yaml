@@ -1,0 +1,13 @@
+id: SCN-0013
+title: Smart-grid digital twin for cybersecurity data generation
+collection_level: 1
+record_type: research_testbed
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, communication networks, cybersecurity]
+source_ids: [SRC-0031, SRC-0032]
+scientific_publication_id: PUB-0012
+research_objective: The study couples electrical grid simulation with emulated smart-grid communications in mosaik to generate data for cybersecurity research. It compares network traffic from the virtual testbed with measurements from a physical laboratory.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids: [EVD-0097, EVD-0098, EVD-0099]

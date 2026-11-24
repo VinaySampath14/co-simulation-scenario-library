@@ -1,0 +1,227 @@
+{
+  "scenario_id": "SCN-0009",
+  "title": "EV charging and transformer loading in a photovoltaic-rich low-voltage grid",
+  "publication": {
+    "title": "A Modular Simulation Environment for Education and Research in Smart Low-Voltage Grids",
+    "url": "https://doi.org/10.1109/SmartGridComm65349.2025.11204608"
+  },
+  "sources": [
+    {
+      "id": "SRC-0021",
+      "type": "conference_publication",
+      "url": "https://doi.org/10.1109/SmartGridComm65349.2025.11204608",
+      "title": "Steinhagen et al. (2025), smart low-voltage grid simulation environment",
+      "version_or_commit": "version_of_record"
+    },
+    {
+      "id": "SRC-0022",
+      "type": "source_repository",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "title": "Grid-Sim-Builder source repository",
+      "version_or_commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "note": "The inspected Git tag is v0.1. The paper cites the Zenodo release in reference 17."
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "A1",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "LICENSE",
+      "sha256": "d8f5186451e89faa825fb4cb586c371e7db0176834852f1876c2a9aff3346671",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A2",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "README.md",
+      "line_start": 17,
+      "line_end": 69,
+      "sha256": "e657b454ec500c4ab15790a7244f3e7453349f72f06be588b1ccb13eba9e0eca",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A3",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "config/grids/amiro_net/amiro_net.py",
+      "sha256": "553cf2b9558246b5d42ca0e583e04cd4a0f01a8cea490da9b6ddc0a07d4f5c80",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A4",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "services/gridserver/src/main.py",
+      "line_start": 102,
+      "line_end": 114,
+      "sha256": "c5e9fda0b875e1e81bf465855beea9f84f36d70d01138c5aa303f59af547d8ec",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A5",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "services/gridserver/src/main.py",
+      "line_start": 600,
+      "line_end": 603,
+      "sha256": "c5e9fda0b875e1e81bf465855beea9f84f36d70d01138c5aa303f59af547d8ec",
+      "status": "supplied"
+    },
+    {
+      "artifact_id": "A6",
+      "source_id": "SRC-0022",
+      "url": "https://github.com/Carruthion/grid-sim-builder",
+      "kind": "git",
+      "commit": "1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea",
+      "path": "services/gridserver/requirements.txt",
+      "sha256": "0d1354403e74f7be69ff79fb7d3e1f065c7dde89ab030fa1228c7b1d899138c1",
+      "status": "supplied"
+    }
+  ],
+  "links": {
+    "scenarios/SCN-0009/interactions.yaml": "../../scenarios/SCN-0009/interactions.yaml",
+    "scenarios/SCN-0009/participations.yaml": "../../scenarios/SCN-0009/participations.yaml",
+    "scenarios/SCN-0009/scenario.yaml": "../../scenarios/SCN-0009/scenario.yaml",
+    "scenarios/SCN-0009/description.md": "../../scenarios/SCN-0009/description.md",
+    "models/MOD-0024.yaml": "../../models/MOD-0024.yaml",
+    "models/MOD-0025.yaml": "../../models/MOD-0025.yaml",
+    "models/MOD-0026.yaml": "../../models/MOD-0026.yaml",
+    "publications/PUB-0008.yaml": "../../publications/PUB-0008.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "f5524a6d47f2b8c7a12295ebbfd738357d71a4a79e511a74ff3aaa2265e6e065",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 63,
+    "unique_ids": 285
+  },
+  "review_status": "evidence_checked",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "completed",
+    "model": "gpt-5-mini",
+    "source_assessment": "consistent",
+    "limitations": [
+      "Provided snippets do not include full services/gridserver/src/main.py — only selection (lines 102–114 and 600–603) — so initialization of used_model, MQTT/InfluxDB client setup, and implementations of export_state/get_global_timestamp/setter functions are not available for inspection (A4, A5).",
+      "Household CSV/HH list file formats (schema, column names, units) and the contents of demo_load_profiles.tar.gz are not present in supplied artifacts (README references them but does not show schema) (A2).",
+      "Node-RED flows, Grafana dashboards, and Docker Compose service definitions (docker-compose.yml) were not supplied, so live UI/configuration details and service bindings (ports, topics, buckets) cannot be verified.",
+      "requirements.txt lists package names without pinned versions; exact dependency versions used at runtime are unresolved (A6).",
+      "No artifacts supplied for authentication, network security, or MQTT/InfluxDB configuration; operational security posture is therefore unknown."
+    ],
+    "findings": [
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "license",
+        "claim": "Repository is licensed under the MIT License.",
+        "artifact_id": "A1",
+        "locator": "",
+        "explanation": "The reviewer did not supply a usable artifact locator. LICENSE file contains the MIT permission grant and disclaimer (full file).",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "framework_description",
+        "claim": "GridServer is a Python backend built on pandapower and streams results to InfluxDB and/or MQTT.",
+        "artifact_id": "A2",
+        "locator": "README.md, lines 37-42, 54",
+        "explanation": "README explicitly states GridServer is Python-based, built on pandapower, and streams to InfluxDB 2 and/or MQTT in real time.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "operating_modes_and_timing",
+        "claim": "Operating modes include automatic, realtime, demo, batch; default step is 15 minutes; global_time and global_step exist.",
+        "artifact_id": "A2",
+        "locator": "README.md, lines 52-53, 61-68",
+        "explanation": "README documents operating modes and time engine variables with a default step of 15 min.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "amiro_model_contents",
+        "claim": "The AMiRo network model defines buses, an external grid, a 0.25 MVA transformer, 24 household loads, 24 PV generators and five EV loads, with lines between buses.",
+        "artifact_id": "A3",
+        "locator": "config/grids/amiro_net/amiro_net.py, lines 5-99",
+        "explanation": "amiro_net.py creates buses (lines 9-18), an ext_grid and transformer (lines 20-22), repeated load and sgen creation patterns that sum to 24 household loads and 24 sgens, plus EV loads (lines 24-35, 62-91).",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "power_flow_execution",
+        "claim": "Power-flow calculation uses pandapower's runpp(net) and then export_state(...) is called.",
+        "artifact_id": "A5",
+        "locator": "services/gridserver/src/main.py, lines 600-603",
+        "explanation": "do_power_flow() calls pp.runpp(net) and then export_state(get_global_timestamp(), hh_objects).",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "dependencies",
+        "claim": "Project depends on pandapower, paho_mqtt, influxdb-client, plotly, flask, jinja2 and other Python packages.",
+        "artifact_id": "A6",
+        "locator": "services/gridserver/requirements.txt, entire file",
+        "explanation": "requirements.txt lists these packages by name.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "used_model_default_and_initialization",
+        "claim": "The code defaults to AMiRo in published runs and the used_model origin is known.",
+        "artifact_id": "A4",
+        "locator": "services/gridserver/src/main.py, lines 102-114",
+        "explanation": "The selection branch shows what happens when used_model == 'AMiRo' (lines 109–112), but the supplied fragments do not show where used_model is defined or what default is used at runtime. The catalogue statement that the release 'selects the AMiRo model by default' cannot be fully verified from the supplied lines alone.",
+        "recommended_correction": "Provide the portion of main.py (or config) where used_model is set or a default is established, or update the catalogue to mark the default as 'unspecified in supplied code' until verified."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "CSV_schema_and_demo_profiles",
+        "claim": "Household profile CSV schema and demo_load_profiles contents are known.",
+        "artifact_id": "A2",
+        "locator": "README.md, lines 24-26 and 51",
+        "explanation": "README says profiles live under config/hh_data/load_profiles and demo_load_profiles.tar.gz must be unpacked, and that profiles are per-household CSVs for load, PV and optional EV charging. However, the actual CSV schema (column headers, timestamp format, units) and the demo tarball contents were not supplied.",
+        "recommended_correction": "Attach or point to the hh CSV schema and an example CSV (or include README subsections showing column format) so the catalogue can record precise input formats."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "export_state_and_published_schema",
+        "claim": "Exported telemetry (MQTT topics, InfluxDB measurement names/buckets, fields and tags) are known.",
+        "artifact_id": "A5",
+        "locator": "services/gridserver/src/main.py, lines 600-603",
+        "explanation": "Code calls export_state(...) after runpp, but the implementation of export_state and the exact MQTT topics/InfluxDB schema are not present in supplied artifacts.",
+        "recommended_correction": "Supply the implementation of export_state and any configuration files that define MQTT topics and InfluxDB bucket/measurement names so telemetry schemas can be recorded."
+      },
+      {
+        "category": "possible_hallucination",
+        "catalogue_field": "household_count_exactness",
+        "claim": "Catalogue lists household_count = 24 in configuration metadata.",
+        "artifact_id": "A3",
+        "locator": "config/grids/amiro_net/amiro_net.py, lines 24-91",
+        "explanation": "amiro_net.py defines loads and sgens in a pattern that corresponds to 24 household loads and 24 PV sgens; this supports an assertion of 24 households. However, the catalogue's configuration field 'household_count' should be explicitly tied to the code's grouping semantics (e.g., 4 buses × 6 households). If the catalogue treats dummy loads separately from controllable households, clarify the counting method.",
+        "recommended_correction": "Document how 'household_count' is derived from the code (e.g., counting unique household load groups vs. individual load entries) to avoid ambiguity."
+      },
+      {
+        "category": "human_question",
+        "catalogue_field": "",
+        "claim": "",
+        "artifact_id": "",
+        "locator": "",
+        "explanation": "Where are the implementations of: export_state(), get_global_timestamp(), the setter functions referenced in the README (assets in the loop), and the code that applies per-step CSV values to pandapower sgen/load objects? Supplying these would resolve several outstanding unknowns.",
+        "recommended_correction": "Provide file paths and locators for these implementations or include them in the supplied artifacts for review."
+      }
+    ]
+  }
+}

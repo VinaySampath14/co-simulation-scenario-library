@@ -1,0 +1,9 @@
+id: MOD-0026
+name: Sequential PV-driven wallbox switching
+model_type: ev_charging_control
+definition:
+  source_id: SRC-0021
+  locator: §V and Fig. 6
+representation: Switches four 22 kW charging points sequentially according to current PV feed-in.
+scope: Published control behavior. Thresholds, timing and executable evaluation policy remain unresolved.
+evidence_ids: [EVD-0077]
