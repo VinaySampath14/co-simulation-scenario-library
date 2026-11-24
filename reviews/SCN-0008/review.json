@@ -1,0 +1,201 @@
+{
+  "scenario_id": "SCN-0008",
+  "title": "District heating peak reduction under varying supply temperatures",
+  "publication": {
+    "title": "A Modular Co-Simulation Platform for Comparing Flexibility Solutions in District Heating Under Variable Operating Conditions",
+    "url": "https://doi.org/10.1109/TSUSC.2024.3449977"
+  },
+  "sources": [
+    {
+      "id": "SRC-0020",
+      "type": "journal_publication",
+      "url": "https://doi.org/10.1109/TSUSC.2024.3449977",
+      "title": "Mazzarino et al. (2025), district heating flexibility co-simulation",
+      "version_or_commit": "version_of_record"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "A1",
+      "source_id": "SRC-0020",
+      "url": "https://doi.org/10.1109/TSUSC.2024.3449977",
+      "kind": "local",
+      "path": "A_Modular_Co-Simulation_Platform_for_Comparing_Flexibility_Solutions_in_District_Heating_Under_Variable_Operating_Conditions.pdf",
+      "sha256": "cc34a4d05aec405babf53b5edabf5786ba41dfecfdf35ddb69ee595758984c56",
+      "status": "supplied"
+    }
+  ],
+  "links": {
+    "scenarios/SCN-0008/interactions.yaml": "../../scenarios/SCN-0008/interactions.yaml",
+    "scenarios/SCN-0008/participations.yaml": "../../scenarios/SCN-0008/participations.yaml",
+    "scenarios/SCN-0008/scenario.yaml": "../../scenarios/SCN-0008/scenario.yaml",
+    "scenarios/SCN-0008/description.md": "../../scenarios/SCN-0008/description.md",
+    "models/MOD-0018.yaml": "../../models/MOD-0018.yaml",
+    "models/MOD-0019.yaml": "../../models/MOD-0019.yaml",
+    "models/MOD-0020.yaml": "../../models/MOD-0020.yaml",
+    "models/MOD-0021.yaml": "../../models/MOD-0021.yaml",
+    "models/MOD-0022.yaml": "../../models/MOD-0022.yaml",
+    "models/MOD-0023.yaml": "../../models/MOD-0023.yaml",
+    "publications/PUB-0007.yaml": "../../publications/PUB-0007.yaml",
+    "software/software.yaml": "../../software/software.yaml",
+    "evidence/evidence.yaml": "../../evidence/evidence.yaml"
+  },
+  "catalogue_sha256": "375362f560bb327ff44fc2a717bafc32c4be4b6c122d72e824981ad91ee9fbe2",
+  "structural_validation": {
+    "status": "passed",
+    "yaml_files": 56,
+    "unique_ids": 243
+  },
+  "review_status": "evidence_checked",
+  "declared_review_status": "draft",
+  "runtime_status": "not_run",
+  "ai_review": {
+    "status": "completed",
+    "model": "gpt-5-mini",
+    "source_assessment": "consistent",
+    "limitations": [
+      "No executable code, FMU file, or simulation input dataset (time series / network files) supplied in the artifact — prevents runtime verification.",
+      "Thermal storage FMU export/validation details (tests comparing original Modelica model vs FMU) are not provided.",
+      "Control strategies are described as 'semi-optimized' or rule-based; no optimization algorithm or full pseudo-code is present.",
+      "Results derive from a single case study topology and specific DSM/storage schedules; generalizability to other networks is not demonstrated.",
+      "Time‑shifted exchange is described as an approximation; numerical/temporal error bounds or initialization procedure details are not provided."
+    ],
+    "findings": [
+      {
+        "category": "supported",
+        "catalogue_field": "purpose",
+        "claim": "Framework purpose: modular Plug&Play MOSAIK co-simulation platform to compare TES and DSM flexibility strategies in district heating under varying supply temperatures.",
+        "artifact_id": "A1",
+        "locator": "Abstract and Introduction, pp. 408–410",
+        "explanation": "Paper explicitly states the framework purpose in Abstract and Introduction.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "co-simulation_engine",
+        "claim": "Co-simulation engine: MOSAIK orchestrator and MOSAIK Python APIs manage synchronization, instantiation and data-exchange.",
+        "artifact_id": "A1",
+        "locator": "§II-B, pp. 410–412; Fig. 1 (p. 410)",
+        "explanation": "Section II-B and Fig. 1 describe MOSAIK use and roles.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "models_and_interfaces",
+        "claim": "Operational Layer includes: Thermal power plant (Python), DH grid (1-D quasi-steady Python model; Eqs. 1–3), Thermal storage (AixLib Modelica-derived FMU exposing Charging/Discharging temp & mass-flow, External temp, Top/Bottom temps), Control strategy (Python), Weather and Building as time-series readers.",
+        "artifact_id": "A1",
+        "locator": "§II-B, pp. 410–412; Fig. 3 (p. 411); Equations (1)–(3) (p. 411–412)",
+        "explanation": "Paper lists models, implementation types and TES FMU I/O in Section II-B and Fig. 3; DH equations are provided as (1)–(3).",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "co-simulation_workflow",
+        "claim": "Directional exchanges and sequence: preliminary Control→(Storage schedule or Building anticipatory profile) and numbered calculation flows as in Fig. 4 (Building → plant+grid; Weather→storage; Storage→plant+grid when charging/discharging; Plant→grid; Grid→Building+Storage; Building→Grid return; Grid→Plant).",
+        "artifact_id": "A1",
+        "locator": "§II-C, p. 412; Fig. 4 (p. 412)",
+        "explanation": "Fig. 4 and Section II‑C explicitly enumerate and describe the numbered message flows.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "time_resolution",
+        "claim": "Most simulators use 60 s time step; Thermal storage FMU stepped every 10 s; framework uses time‑shifted messaging to resolve cyclic data flows.",
+        "artifact_id": "A1",
+        "locator": "§IV-B, p. 415–416; Fig. 8 (p. 416)",
+        "explanation": "Section IV-B and Fig. 8 show execution graph and state that storage is stepped at 10 s while others at 60 s; time-shifted exchange is discussed.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "experimental_setup",
+        "claim": "Case study: radial delivery sub-network (202 nodes / 201 edges), 47 buildings, 1 thermal storage (~26,150 L), 1 thermal power plant; simulations run for supply temperatures 120, 110, 100, 90 °C.",
+        "artifact_id": "A1",
+        "locator": "§III, pp. 413–414; Fig. 5 (p. 413); §III and Table I (p. 414)",
+        "explanation": "Section III and figures/tables describe the topology, counts, storage capacity, and supply temperature scenarios.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "control_strategy_descriptions",
+        "claim": "Control strategies implemented: (i) TES schedule — charge 03:00–05:20 at ~3.094 kg/s and discharge ~06:00–07:00 with variable flow proportional to peak slope; (ii) DSM — advance selected building load profiles (majority by 30 minutes; Table I shows per-building advance distribution).",
+        "artifact_id": "A1",
+        "locator": "§III and §IV, pp. 413–414; Table I (p. 414)",
+        "explanation": "Paper gives charge/discharge schedule and DSM shift configuration; authors state schedules are not mathematically optimized.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "results_peak_reduction",
+        "claim": "Reported peak reduction: Storage strategy declines with lower inlet temperature (example values: 18.04% at 120 °C → 14.95% at 90 °C). DSM produces roughly constant reduction (~33–34%) across supply temperatures; maximum DSM variation ~1.22 percentage points.",
+        "artifact_id": "A1",
+        "locator": "§IV, pp. 414–415; Table II and Fig. 6 (p. 414)",
+        "explanation": "Section IV discusses and Table II (with Fig. 6) provides the numeric/visual results and the quoted percentages.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "fmu_validation_and_equivalence",
+        "claim": "Modified AixLib Modelica tank exported to FMU — equivalence to original Modelica model and numerical validation are assumed but not shown.",
+        "artifact_id": "A1",
+        "locator": "§II-B, p. 411 (statement: 'modifications only regard the interfaces ... without affecting the validity of the underlying physical model from AixLib')",
+        "explanation": "Authors state interface-only modifications but provide no validation data comparing FMU vs original Modelica model.",
+        "recommended_correction": "Record as 'validation tests absent'; catalogue should flag FMU artifact as 'not provided / validation not reported' and require addition of FMU verification artifacts."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "code_and_data_availability",
+        "claim": "No code URL, software versions, FMU files, or raw simulation inputs (time series, network topology files) are provided in the paper.",
+        "artifact_id": "A1",
+        "locator": "No explicit locator — absence across paper (see Sections II–IV and Conclusion where modularity and plug&play are claimed but no repository is given).",
+        "explanation": "Paper does not supply links or attachments for reproducibility (authors note modularity and plug&play but do not publish artifacts).",
+        "recommended_correction": "Catalogue should mark code_url and FMU artifacts as 'missing' and request deposit of FMUs, Python APIs, MOSAIK scenario scripts, and input datasets."
+      },
+      {
+        "category": "needs_evidence",
+        "catalogue_field": "numerical_error_and_time_shift_impact",
+        "claim": "Time‑shifted messaging is used to resolve cyclic data flows but numerical impact/accuracy implications are not quantified.",
+        "artifact_id": "A1",
+        "locator": "§IV-B, pp. 415–416; Fig. 8 (p. 416)",
+        "explanation": "Paper acknowledges approximation and initialization need but does not quantify errors introduced by time‑shifts or provide tests.",
+        "recommended_correction": "Recommend adding sensitivity/verification tests quantifying error from time-shifted exchanges and differing timestep resolutions."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "software_versions_and_dependencies",
+        "claim": "Specific software versions (MOSAIK version, Python packages, Modelica/AixLib version, FMU export toolchain) are not listed.",
+        "artifact_id": "A1",
+        "locator": "No explicit locator — absence across methodology and implementation descriptions (see §II-B and Conclusion).",
+        "explanation": "Paper names tools (MOSAIK, AixLib) but omits versioning which is important for reproducibility.",
+        "recommended_correction": "Catalogue should include fields for software versions; request authors to provide exact versions and FMU export settings."
+      },
+      {
+        "category": "supported",
+        "catalogue_field": "authors_caveats",
+        "claim": "Authors acknowledge that direct performance comparison with monolithic platforms (e.g., Modelica) is not straightforward and that optimal scheduling is out of scope.",
+        "artifact_id": "A1",
+        "locator": "Conclusion, p. 416",
+        "explanation": "Paper explicitly states these limitations in the Conclusion.",
+        "recommended_correction": ""
+      },
+      {
+        "category": "possible_hallucination",
+        "catalogue_field": "thermodynamic_explanation_of_storage_degradation",
+        "claim": "Paper does not provide a detailed thermodynamic explanation for why storage effectiveness declines with lower supply temperatures; any such explanation in the catalogue would be an inference rather than supported by explicit text.",
+        "artifact_id": "A1",
+        "locator": "§IV, pp. 414–415 (results and brief discussion)",
+        "explanation": "The paper reports the empirical trend but does not provide a detailed mechanistic thermodynamic analysis; catalogue should avoid asserting causes beyond authors' statements.",
+        "recommended_correction": "Avoid adding causal explanations in catalogue; if necessary, label as 'inference' and request authors for mechanistic analysis or sensitivity tests."
+      },
+      {
+        "category": "missing_metadata",
+        "catalogue_field": "initial_conditions_and_network_parameters",
+        "claim": "Exact initial conditions, per-pipe diameters/lengths, insulation properties, node elevations, and detailed network parameters used in the synthetic or real network are not fully enumerated.",
+        "artifact_id": "A1",
+        "locator": "§II-A and §III, pp. 410–414 (discussion of synthetic grid creation and topology) — detailed per-edge parameters are not listed.",
+        "explanation": "Paper describes general dimensioning principles and archetype composition but does not publish per-edge parameter tables necessary for exact replication.",
+        "recommended_correction": "Catalogue should mark network parameter set as 'not provided' and request a network data file or table."
+      }
+    ]
+  }
+}

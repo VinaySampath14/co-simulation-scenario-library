@@ -1,0 +1,14 @@
+id: SCN-0011
+title: "ERIGrid 2.0 Benchmark 2: Multi-Energy Networks"
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, district heating, multi-energy systems]
+source_ids: [SRC-0026, SRC-0027, SRC-0028]
+scientific_publication_id: PUB-0010
+research_objective: The study uses a coupled electricity and district heating benchmark to assess how changes in local PV generation, heat demand and heat pump capacity affect electricity self-consumption and district heating supply temperature.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://github.com/ERIGrid2/benchmark-model-multi-energy-networks
+evidence_ids: [EVD-0089, EVD-0090, EVD-0091, EVD-0092]

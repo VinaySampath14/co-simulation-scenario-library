@@ -1,0 +1,11 @@
+{
+  "scenario_id": "SCN-0009",
+  "artifacts": [
+    {"kind": "git", "source_id": "SRC-0022", "path": "LICENSE"},
+    {"kind": "git", "source_id": "SRC-0022", "path": "README.md", "line_start": 17, "line_end": 69},
+    {"kind": "git", "source_id": "SRC-0022", "path": "config/grids/amiro_net/amiro_net.py"},
+    {"kind": "git", "source_id": "SRC-0022", "path": "services/gridserver/src/main.py", "line_start": 102, "line_end": 114},
+    {"kind": "git", "source_id": "SRC-0022", "path": "services/gridserver/src/main.py", "line_start": 600, "line_end": 603},
+    {"kind": "git", "source_id": "SRC-0022", "path": "services/gridserver/requirements.txt"}
+  ]
+}

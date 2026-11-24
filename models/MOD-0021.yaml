@@ -1,0 +1,9 @@
+id: MOD-0021
+name: Scheduled district heating thermal storage peak reduction
+model_type: thermal_storage_dispatch
+definition:
+  source_id: SRC-0020
+  locator: §II-B and §III, pp. 412–414
+representation: Schedules charge, discharge and idle periods and controls the corresponding mass flow.
+scope: Published model definition. The exact executable artifact and its version remain unresolved.
+evidence_ids: [EVD-0065]

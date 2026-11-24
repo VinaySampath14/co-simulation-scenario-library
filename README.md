@@ -4,7 +4,7 @@ This library documents co-simulation scenarios from scientific publications and 
 
 ## Start with a scenario
 
-Open the [scenario catalogue](catalogue/scenarios.csv) to scan the titles, frameworks, and original sources. If you're new to co-simulation, start with the official mosaik demo.
+Open the [Level 1 scenario overview](catalogue/overview.md) to compare domains, components, research objectives, and original sources. The [CSV catalogue](catalogue/scenarios.csv) is available for spreadsheet use. If you're new to co-simulation, start with the official mosaik demo.
 
 | Scenario | Description | Review |
 | --- | --- | --- |
@@ -15,6 +15,8 @@ Open the [scenario catalogue](catalogue/scenarios.csv) to scan the titles, frame
 | `SCN-0005` | [mosaik smart-grid demo with ontology export](scenarios/SCN-0005/description.md) | [Report](reviews/SCN-0005/review.md) |
 | `SCN-0006` | [Electrification of residential end-users](scenarios/SCN-0006/description.md) | [Report](reviews/SCN-0006/review.md) |
 | `SCN-0007` | [Electrification of industrial prosumers](scenarios/SCN-0007/description.md) | [Report](reviews/SCN-0007/review.md) |
+| `SCN-0008` | [District heating peak reduction under varying supply temperatures](scenarios/SCN-0008/description.md) | [Report](reviews/SCN-0008/review.md) |
+| `SCN-0009` | [EV charging and transformer loading in a photovoltaic-rich low-voltage grid](scenarios/SCN-0009/description.md) | [Report](reviews/SCN-0009/review.md) |
 
 ## Follow the records
 
@@ -39,4 +41,4 @@ For example, [PUB-0006](publications/PUB-0006.yaml) is the primary publication f
 
 ## Contribute or review
 
-Use the [collection protocol](docs/SCENARIO_COLLECTION_PROTOCOL.md) to extract a new scenario. The [review workflow](docs/SCENARIO_REVIEW_WORKFLOW.md) explains how to validate the files in VS Code, request independent source review, and open a GitHub pull request. Structural checks verify that the records fit together. Source review checks whether the evidence supports the claims. Runtime reproduction has its own status.
+New scenarios start at **Level 1**, a source-backed overview of what they study and which components participate. Use the [collection protocol](docs/SCENARIO_COLLECTION_PROTOCOL.md) and regenerate the overview with `python tools/generate_overview.py`. **Level 2** starts on request and uses the [detailed review workflow](docs/SCENARIO_REVIEW_WORKFLOW.md), including independent source review where appropriate. Structural checks, scientific review, and runtime reproduction have separate outcomes.

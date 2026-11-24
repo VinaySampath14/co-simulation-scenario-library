@@ -2,10 +2,10 @@
 
 ## Deterministic validation
 
-Catalogue checks: **passed** (46 YAML files, 203 IDs).
+Catalogue checks: **passed** (56 YAML files, 248 IDs).
 Review status: `structurally_validated`. Declared human workflow status: `draft`. Runtime status: `not_run`.
 
-Catalogue packet SHA-256: `39348ab96e95c85fda0e97c725495f464b77e02684ac1f93ffa1813161c3b61a`.
+Catalogue packet SHA-256: `265b8a8321071b39bb5316e4be8ca7e1e47da01ebe50015c40d1ee0eeb6fe8ad`.
 
 ## Review index
 
@@ -27,6 +27,8 @@ Catalogue packet SHA-256: `39348ab96e95c85fda0e97c725495f464b77e02684ac1f93ffa18
 - SRC-0001 [mosaik-demo (official repository)](https://gitlab.com/mosaik/examples/mosaik-demo) at `74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8`
 - SRC-0005 [mosaik-householdsim](https://pypi.org/project/mosaik-householdsim/2.2.0/#files) at `2.2.0`
 - SRC-0019 [Adelt et al. (2023), Co-simulation of Socio-Technical Energy Systems](https://doi.org/10.1007/978-3-031-34920-1_38) at `version_of_record`
+- SRC-0004 [mosaik-csv](https://pypi.org/project/mosaik-csv/2.0.1/#files) at `2.0.1`
+- SRC-0006 [mosaik-pypower](https://pypi.org/project/mosaik-pypower/0.9.0/#files) at `0.9.0`
 
 ## AI-assisted evidence review
 
@@ -34,4 +36,4 @@ Status: **not_run**.
 
 The findings require human judgment. The review does not approve the scenario.
 
-- The catalogue changed since the previous evidence review. Rerun source review.
+- Independent source review is pending.

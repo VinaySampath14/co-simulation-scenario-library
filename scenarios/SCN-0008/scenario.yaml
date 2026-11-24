@@ -1,0 +1,42 @@
+id: SCN-0008
+title: District heating peak reduction under varying supply temperatures
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [district_heating, demand_side_management, thermal_storage]
+source_ids: [SRC-0020]
+scientific_publication_id: PUB-0007
+research_objective: Compare the sensitivity of district-heating peak reduction strategies to lower supply temperatures.
+collection_status: catalogued
+verification_status: publication_review
+runtime_verification_status: not_run
+code_url: null
+code_revision: null
+configuration:
+  case_basis: real_world_Northern_Italian_distribution_network
+  simulated_conditions: typical_winter_day
+  case_date: null
+  delivery_grid: {nodes: 202, edges: 201, radial: true}
+  building_count: 47
+  plant_count: 1
+  storage_count_in_case_topology: 1
+  storage_capacity_liters_approx: 26150
+  supply_temperatures_celsius: [120, 110, 100, 90]
+  strategies: [baseline, demand_side_management, thermal_storage]
+  comparison_runs: 12
+  standard_simulator_step_seconds: 60
+  storage_step_seconds: 10
+  dsm_building_profile_advance:
+    - {minutes: 30, buildings: 35}
+    - {minutes: 25, buildings: 3}
+    - {minutes: 20, buildings: 4}
+    - {minutes: 5, buildings: 1}
+    - {minutes: 0, buildings: 4}
+  storage_schedule:
+    charge_start: "03:00"
+    charge_end: "05:20"
+    charge_mass_flow_kg_per_second_approx: 3.094
+    discharge_start: "06:00"
+    discharge_end: "07:00"
+    discharge_flow_basis: morning_peak_slope
+evidence_ids: [EVD-0063, EVD-0064, EVD-0066, EVD-0067, EVD-0068, EVD-0069]

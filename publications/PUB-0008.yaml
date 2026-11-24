@@ -1,0 +1,9 @@
+id: PUB-0008
+title: A Modular Simulation Environment for Education and Research in Smart Low-Voltage Grids
+authors: [Bastian Steinhagen, Timon Jungh, Marc Hesse]
+year: 2025
+type: conference_paper
+conference: 2025 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)
+doi: 10.1109/SmartGridComm65349.2025.11204608
+source_id: SRC-0021
+evidence_ids: [EVD-0075]

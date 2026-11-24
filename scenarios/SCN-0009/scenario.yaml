@@ -1,0 +1,31 @@
+id: SCN-0009
+title: EV charging and transformer loading in a photovoltaic-rich low-voltage grid
+record_type: research_scenario
+framework: Grid-Sim-Builder
+framework_software_id: SW-0017
+domain: [electrical_distribution, photovoltaics, electric_vehicle_charging]
+source_ids: [SRC-0021, SRC-0022]
+scientific_publication_id: PUB-0008
+research_objective: Compare how EV charging strategies affect transformer loading on a sunny day in a PV-rich low-voltage grid.
+collection_status: catalogued
+verification_status: mixed_source_review
+runtime_verification_status: not_run
+code_url: https://github.com/Carruthion/grid-sim-builder
+code_revision: 1a3d59809c93f46d1e5f3adfe941c40d8f49a3ea
+entry_point: services/gridserver/src/main.py
+configuration:
+  software_release_tag: v0.1
+  household_count: 24
+  household_pv_count: 24
+  fast_charging_station_count_in_topology: 1
+  controlled_wallbox_count: 4
+  controlled_wallbox_rating_kw: 22
+  irradiance_input: {location: Bielefeld, evaluation_date: "2019-08-03", provider: Solcast}
+  generated_household_profile_interval_seconds: 60
+  experiment_power_flow_step_seconds: null
+  code_documented_default_step_seconds: 900
+  variants: [no_EV_charging, PV_based_sequential_wallbox_control, uncontrolled_occupant_based_EV_charging]
+  transport: MQTT
+  communication_model: ideal
+  outcome_metric: transformer_loading_percent
+evidence_ids: [EVD-0075, EVD-0076, EVD-0077, EVD-0078, EVD-0079, EVD-0080, EVD-0081, EVD-0082, EVD-0083]

@@ -1,0 +1,9 @@
+id: MOD-0022
+name: Building load-profile advance for district heating demand-side management
+model_type: demand_side_management
+definition:
+  source_id: SRC-0020
+  locator: §II-B and §III, pp. 412–414
+representation: Uses complete demand profiles to advance selected building loads and reduce the aggregate peak.
+scope: Published model definition. The exact executable artifact and its version remain unresolved.
+evidence_ids: [EVD-0065]

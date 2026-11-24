@@ -1,0 +1,9 @@
+id: MOD-0025
+name: Adapted ALPG household profile generator
+model_type: activity_based_household_profiles
+definition:
+  source_id: SRC-0021
+  locator: §IV-A–B
+representation: Generates household load, PV and optional EV charging profiles. The adaptation supports selectable EV models with different charging power and battery capacity.
+scope: Published implementation description. The exact evaluation household settings and source dataset reuse terms remain unresolved.
+evidence_ids: [EVD-0076]

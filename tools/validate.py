@@ -120,33 +120,43 @@ def validate_catalogue(root=ROOT):
         folder = f"scenarios/{scenario_id}"
         if documents.get(f"{folder}/scenario.yaml") != records[scenario_id]:
             raise ValueError(f"{folder}/scenario.yaml is missing or inconsistent.")
-        for name in ("participations.yaml", "interactions.yaml"):
+        scenario = records[scenario_id]
+        level_one = scenario.get("collection_level") == 1
+        required_files = ("participations.yaml",) if level_one else ("participations.yaml", "interactions.yaml")
+        for name in required_files:
             if f"{folder}/{name}" not in documents:
                 raise ValueError(f"{folder}/{name} is missing.")
         if not (root / folder / "description.md").is_file():
             raise ValueError(f"{folder}/description.md is missing.")
-        scenario = records[scenario_id]
         primary = scenario["scientific_publication_id"]
         if primary and records[primary]["source_id"] not in scenario["source_ids"]:
             raise ValueError(f"{scenario_id}: primary publication source is absent from source_ids.")
         if scenario.get("code_revision") and not scenario.get("code_url"):
             raise ValueError(f"{scenario_id}: code_revision requires code_url.")
-        parts = documents[f"{folder}/participations.yaml"]["participations"]
+        participation_document = documents[f"{folder}/participations.yaml"]
+        parts = participation_document["participations"]
+        edges = documents.get(f"{folder}/interactions.yaml", {}).get("interactions", [])
+        if level_one and not parts and not participation_document.get("note"):
+            raise ValueError(f"{scenario_id}: explain why reported components are unavailable.")
         part_ids = {part["id"] for part in parts}
         for part in parts:
-            if part["identification_status"].startswith("identified") and not part["model_id"]:
+            if not level_one:
+                for field in ("model_id", "software_id", "role", "identification_status"):
+                    if field not in part:
+                        raise ValueError(f"{part['id']}: Level 2 participation requires {field}.")
+            if part.get("identification_status", "").startswith("identified") and not part.get("model_id"):
                 raise ValueError(f"{part['id']} claims an identified model but lacks model_id.")
         for record in mappings(scenario):
             for key, prefix, identifier in references(record):
                 if prefix == "PART" and identifier not in part_ids:
                     raise ValueError(f"{scenario_id}: {key} refers to a participant outside its scenario.")
-        for record in [scenario, *parts, *documents[f"{folder}/interactions.yaml"]["interactions"]]:
+        for record in [scenario, *parts, *edges]:
             for entry in mappings(record):
                 for identifier in entry.get("evidence_ids", []):
                     evidence = records[identifier]
                     if evidence["scenario_id"] != scenario_id or evidence["source_id"] not in scenario["source_ids"]:
                         raise ValueError(f"{scenario_id}: evidence {identifier} is outside the scenario or its sources.")
-        for edge in documents[f"{folder}/interactions.yaml"]["interactions"]:
+        for edge in edges:
             if {edge["source_participation_id"], edge["target_participation_id"]} - part_ids:
                 raise ValueError(f"{edge['id']} connects participants outside {scenario_id}.")
             for direction in ("source", "target"):

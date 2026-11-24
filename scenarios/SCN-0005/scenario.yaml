@@ -4,7 +4,7 @@ record_type: software_demo
 framework: mosaik
 framework_software_id: SW-0006
 domain: [smart_grid, electrical_distribution, scenario_planning]
-source_ids: [SRC-0018, SRC-0001, SRC-0005, SRC-0019]
+source_ids: [SRC-0018, SRC-0001, SRC-0005, SRC-0019, SRC-0004, SRC-0006]
 scientific_publication_id: null
 related_publication_ids: [PUB-0006]
 related_scenario_ids: [SCN-0001]
@@ -38,4 +38,4 @@ locked_software:
   - {software_id: SW-0001, version: "0.9.0"}
   - {software_id: SW-0004, version: "0.4.0"}
   - {software_id: SW-0007, version: "5.1.21"}
-evidence_ids: [EVD-0047, EVD-0048, EVD-0051, EVD-0052, EVD-0053, EVD-0054, EVD-0055, EVD-0056]
+evidence_ids: [EVD-0047, EVD-0048, EVD-0051, EVD-0052, EVD-0053, EVD-0054, EVD-0055, EVD-0056, EVD-0070, EVD-0071, EVD-0072, EVD-0073, EVD-0074]

@@ -1,0 +1,9 @@
+id: MOD-0024
+name: AMiRo low-voltage network model
+model_type: electrical_network_case
+definition:
+  source_id: SRC-0022
+  path: config/grids/amiro_net/amiro_net.py
+representation: Defines the AMiRo grid with 24 household loads and 24 PV generators served through four household buses, plus a fast-charger connection.
+scope: The code topology corresponds to the main structural features in the paper's Fig. 4. The exact evaluation snapshot and runtime settings remain unresolved.
+evidence_ids: [EVD-0078]

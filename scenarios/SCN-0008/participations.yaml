@@ -1,0 +1,59 @@
+scenario_id: SCN-0008
+note: The strategy participations represent alternative behaviors of one control model interface.
+participations:
+  - id: PART-0036
+    reported_component: Thermal power plant
+    model_id: MOD-0018
+    software_id: null
+    role: supply_temperature_and_plant_mass_energy_balance
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0064, EVD-0066]
+  - id: PART-0037
+    reported_component: DH grid
+    model_id: MOD-0019
+    software_id: null
+    role: delivery_and_return_thermo_hydraulics
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0064, EVD-0066, EVD-0067]
+  - id: PART-0038
+    reported_component: Thermal storage FMU
+    model_id: MOD-0020
+    software_id: null
+    role: charging_and_discharging_heat_storage
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0064, EVD-0065, EVD-0066, EVD-0067, EVD-0069]
+  - id: PART-0039
+    reported_component: Control strategy
+    model_id: MOD-0021
+    software_id: null
+    role: schedule_thermal_storage_in_storage_variant
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0065, EVD-0066, EVD-0067]
+  - id: PART-0040
+    reported_component: Control strategy
+    model_id: MOD-0022
+    software_id: null
+    role: shift_building_demand_profiles_in_DSM_variant
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0065, EVD-0066, EVD-0067]
+  - id: PART-0041
+    reported_component: Weather input
+    model_id: null
+    software_id: null
+    role: supply_outdoor_temperature_time_series
+    identification_status: unresolved_input_identity
+    evidence_ids: [EVD-0064, EVD-0066]
+  - id: PART-0042
+    reported_component: Building demand and return model
+    model_id: MOD-0023
+    software_id: null
+    role: replay_demand_and_calculate_return_temperature
+    identification_status: identified_published_definition
+    evidence_ids: [EVD-0064, EVD-0066, EVD-0067]
+  - id: PART-0043
+    reported_component: HDF5 results database
+    model_id: null
+    software_id: null
+    role: collect_simulator_outputs
+    identification_status: output_component
+    evidence_ids: [EVD-0069]

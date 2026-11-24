@@ -10,3 +10,7 @@ The [archive-only API report](archive-review.md) is advisory. It predates the li
 | DFG workbook | `xmind/xmind_im_export_dfg.config:6–9` names the integrated XMind workbook. The ZIP member listing confirms that it is absent. This gap is already recorded in the scenario description. |
 
 The review did not establish a second configured scenario or a reason to change the current mappings. Human approval and runtime verification are pending.
+
+## Reuse terms checked locally
+
+The archive checksum matched `SRC-0018`. The only license file found in the ZIP was `eval_mosaik_demo/LICENSE.txt`, which contains GNU LGPL 2.1 text. The inspected archive does not establish a separate license for the bundled grid, PV and household inputs. I checked the metadata and license files of the three package wheels against the hashes in the archive's lockfile. See `EVD-0070`–`EVD-0074` in the [evidence register](../../evidence/evidence.yaml) for artifact-specific findings.

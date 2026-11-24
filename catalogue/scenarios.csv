@@ -6,3 +6,9 @@ SCN-0004,Two-subgrid mosaik testbed for distributed SCADA monitoring,research_te
 SCN-0005,mosaik smart-grid demo with ontology export,software_demo,mosaik,catalogued,urn:sha256:e3749b8800868abfd761cffe77515dc7d2193109caec3ce071ed30a4ea3f405f
 SCN-0006,Electrification of residential end-users,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-34920-1_38
 SCN-0007,Electrification of industrial prosumers,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-34920-1_38
+SCN-0008,District heating peak reduction under varying supply temperatures,research_scenario,mosaik,catalogued,https://doi.org/10.1109/TSUSC.2024.3449977
+SCN-0009,EV charging and transformer loading in a photovoltaic-rich low-voltage grid,research_scenario,Grid-Sim-Builder,catalogued,https://github.com/Carruthion/grid-sim-builder
+SCN-0010,Vessim prototype for software-in-the-loop carbon-aware computing,research_testbed,mosaik (Vessim),catalogued,https://github.com/dos-group/vessim
+SCN-0011,ERIGrid 2.0 Benchmark 2: Multi-Energy Networks,research_scenario,mosaik,catalogued,https://github.com/ERIGrid2/benchmark-model-multi-energy-networks
+SCN-0012,Industrial hybrid power system sizing and voltage assessment,research_scenario,mosaik,catalogued,https://resolver.tudelft.nl/uuid:67428726-21d0-4ef7-83bf-fc26bde07ff7
+SCN-0013,Smart-grid digital twin for cybersecurity data generation,research_testbed,mosaik,catalogued,https://doi.org/10.1109/CSR61664.2024.10679448
