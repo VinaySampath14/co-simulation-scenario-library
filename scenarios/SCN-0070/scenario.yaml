@@ -1,0 +1,19 @@
+id: SCN-0070
+title: Smart-grid test bench data for load scheduling and forecasting
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- energy education
+- energy management
+source_ids:
+- SRC-0100
+scientific_publication_id: PUB-0067
+research_objective: Demonstrates the use of mosaik with a smart-grid teaching test
+  bench to examine measurements, power demand and scheduling outputs.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0173

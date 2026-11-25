@@ -1,0 +1,34 @@
+scenario_id: SCN-0017
+participations:
+  - id: PART-0096
+    reported_component: Physical UMAR unit
+    role: provide the field-experiment reference and measurements
+    evidence_ids: [EVD-0108]
+  - id: PART-0097
+    reported_component: BAC-Bench building digital twin
+    role: represent room temperatures and building energy use
+    evidence_ids: [EVD-0108]
+  - id: PART-0098
+    reported_component: HVAC system
+    role: provide heating and cooling under the tested control strategies
+    evidence_ids: [EVD-0109]
+  - id: PART-0099
+    reported_component: Rule-based and predictive controllers
+    role: control HVAC and in one variant additional energy assets
+    evidence_ids: [EVD-0109]
+  - id: PART-0100
+    reported_component: Domestic hot water system
+    role: participate in the broader emissions-minimizing control configuration
+    evidence_ids: [EVD-0109]
+  - id: PART-0101
+    reported_component: Electric vehicle
+    role: participate as a flexible electrical load in the broader configuration
+    evidence_ids: [EVD-0109]
+  - id: PART-0102
+    reported_component: Solar PV
+    role: provide on-site generation in the broader configuration
+    evidence_ids: [EVD-0109]
+  - id: PART-0103
+    reported_component: Battery storage
+    role: provide electrical storage in the broader configuration
+    evidence_ids: [EVD-0109]

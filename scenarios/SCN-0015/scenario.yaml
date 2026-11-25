@@ -1,0 +1,13 @@
+id: SCN-0015
+title: Closed-loop community battery control for an Austrian renewable energy community
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, renewable energy communities, energy storage]
+source_ids: [SRC-0035]
+scientific_publication_id: PUB-0014
+research_objective: The study uses mosaik to assess how closed-loop control of a shared battery affects local solar self-consumption in an Austrian renewable energy community. It examines how forecast quality and battery model errors change the outcome.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids: [EVD-0102, EVD-0103, EVD-0104]

@@ -1,0 +1,21 @@
+id: SCN-0046
+title: Adaptive state estimation from live distribution-grid simulation data
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- state estimation
+- stream processing
+source_ids:
+- SRC-0075
+scientific_publication_id: PUB-0044
+research_objective: Evaluates whether the Odysseus stream-processing system can estimate
+  grid state from live mosaik data and how processing changes with the grid configuration.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0147
+related_scenario_ids:
+- SCN-0001

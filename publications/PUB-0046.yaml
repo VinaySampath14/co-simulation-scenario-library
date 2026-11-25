@@ -1,0 +1,18 @@
+id: PUB-0046
+title: 'eELib: Open-source model library for prosumer power systems and energy management
+  strategies'
+authors:
+- Carsten Wegkamp
+- Henrik Wagner
+- Eike Niehs
+- Julien Essers
+- Marcel Lüdecke
+- Mattias Hadlak
+- Bernd Engel
+year: 2024
+type: conference_paper
+doi: 10.1109/OSMSES62085.2024.10668964
+source_id: SRC-0077
+evidence_ids:
+- EVD-0149
+- EVD-0150

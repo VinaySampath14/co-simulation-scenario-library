@@ -1,0 +1,19 @@
+id: SCN-0031
+title: FMI 3 communication delays in distribution-grid tap control
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication networks
+- grid control
+source_ids:
+- SRC-0055
+scientific_publication_id: PUB-0029
+research_objective: Demonstrates hybrid co-simulation with mosaik 3 by combining grid
+  power flow, a tap controller and an event-driven communications model.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0127

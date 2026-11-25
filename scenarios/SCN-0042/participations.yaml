@@ -1,0 +1,17 @@
+scenario_id: SCN-0042
+participations:
+- id: PART-0220
+  reported_component: Medium-voltage grid model
+  role: represent the electrical network
+  evidence_ids:
+  - EVD-0141
+- id: PART-0221
+  reported_component: Power cells
+  role: represent local power-system groupings
+  evidence_ids:
+  - EVD-0141
+- id: PART-0222
+  reported_component: MASSCA multi-agent simulator
+  role: coordinate peer-to-peer and hierarchical agent interactions
+  evidence_ids:
+  - EVD-0141

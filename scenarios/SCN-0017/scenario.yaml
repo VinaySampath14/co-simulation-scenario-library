@@ -1,0 +1,14 @@
+id: SCN-0017
+title: HVAC controller benchmarking with the UMAR building digital twin
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain: [building energy, HVAC, electricity]
+source_ids: [SRC-0037, SRC-0038]
+scientific_publication_id: PUB-0016
+research_objective: The study uses a calibrated building digital twin to compare three HVAC control strategies under the same boundary conditions. It assesses room-level thermal comfort and energy use and describes how mosaik synchronizes the digital twin, physical building and other energy components.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://github.com/uesl-empa/nestli
+evidence_ids: [EVD-0108, EVD-0109, EVD-0110]

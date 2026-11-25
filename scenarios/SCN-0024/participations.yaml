@@ -1,0 +1,17 @@
+scenario_id: SCN-0024
+participations:
+- id: PART-0140
+  reported_component: SimBench urban medium-voltage grid
+  role: represent voltage conditions and network limits
+  evidence_ids:
+  - EVD-0119
+- id: PART-0141
+  reported_component: Large electrolyser model
+  role: represent the hydrogen plant's electrical demand
+  evidence_ids:
+  - EVD-0119
+- id: PART-0142
+  reported_component: Electrolyser degradation model
+  role: assess deterioration during operation
+  evidence_ids:
+  - EVD-0119

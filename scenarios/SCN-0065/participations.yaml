@@ -1,0 +1,37 @@
+scenario_id: SCN-0065
+participations:
+- id: PART-0327
+  reported_component: Wind and rooftop PV models
+  role: supply local renewable generation
+  evidence_ids:
+  - EVD-0168
+- id: PART-0328
+  reported_component: Household consumption profiles
+  role: provide community electricity demand
+  evidence_ids:
+  - EVD-0168
+- id: PART-0329
+  reported_component: Lithium-ion battery
+  role: provide short-term storage
+  evidence_ids:
+  - EVD-0168
+- id: PART-0330
+  reported_component: Electrolyser
+  role: turn surplus electricity into hydrogen
+  evidence_ids:
+  - EVD-0168
+- id: PART-0331
+  reported_component: Hydrogen tank
+  role: store hydrogen
+  evidence_ids:
+  - EVD-0168
+- id: PART-0332
+  reported_component: Fuel cell
+  role: convert hydrogen to electricity
+  evidence_ids:
+  - EVD-0168
+- id: PART-0333
+  reported_component: Energy management controller
+  role: balance supply and demand
+  evidence_ids:
+  - EVD-0168

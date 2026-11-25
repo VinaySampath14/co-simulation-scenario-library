@@ -167,6 +167,449 @@ sources:
     url: https://arxiv.org/html/2412.03979v1
     title: Open preprint of the smart-grid digital twin study
     version_or_commit: arXiv:2412.03979v1
+  - id: SRC-0033
+    type: conference_publication
+    url: https://doi.org/10.5281/zenodo.13984401
+    title: An Open-Source Carbon-Emissions Simulator for Smart Grid Co-Simulation Scenarios
+    version_or_commit: null
+    note: "Publication metadata also available at https://www.offis.de/en/offis/publication/an-open-source-carbon-emissions-simulator-for-smart-grid-co-simulation-scenarios.html"
+  - id: SRC-0034
+    type: source_repository
+    url: https://gitlab.com/mosaik/components/energy/mosaikemissions
+    title: mosaik emissions simulator repository
+    version_or_commit: null
+    note: The paper links this repository. The original showcase revision remains unverified.
+  - id: SRC-0035
+    type: conference_publication
+    url: https://opus.fhv.at/frontdoor/deliver/index/docId/5442/file/Seiler_Assessing_MPC_for_EC_Flex.pdf
+    title: Assessing Model Predictive Control for Energy Communities’ Flexibilities
+    version_or_commit: null
+    note: "Institutional record at https://opus.fhv.at/frontdoor/index/index/docId/5442. The listed DOI 10.57739/978-3-903207-89-9 identifies the proceedings volume."
+  - id: SRC-0036
+    type: conference_publication
+    url: https://doi.org/10.5220/0012739800003714
+    title: Assessing the Suitability of Architectural Models for Generating Smart Grid Co-Simulations
+    version_or_commit: null
+    note: "Author institution PDF at https://www.en-trust.at/papers/Peter24a.pdf. The paper lists CC BY-NC-ND 4.0 for the publication."
+  - id: SRC-0037
+    type: conference_publication
+    url: https://doi.org/10.46855/energy-proceedings-10382
+    title: Benchmarking HVAC controller performance with a digital twin
+    version_or_commit: null
+    note: "Published PDF at https://www.energy-proceedings.org/wp-content/uploads/cen2022/1651648655.pdf. The conference took place in 2022 and the proceedings volume is dated 2023."
+  - id: SRC-0038
+    type: source_repository
+    url: https://github.com/uesl-empa/nestli
+    title: Empa nestli benchmarking repository
+    version_or_commit: null
+    note: The repository cites this paper and lists AGPL-3.0. Coverage of the mosaik integration and the paper-era revision remain unverified.
+  - id: SRC-0039
+    type: conference_publication
+    url: https://doi.org/10.1109/OSMSES69376.2026.11457214
+    title: "mosaiks are made of tesserae: GUI design for a co-simulation framework"
+    version_or_commit: null
+  - id: SRC-0040
+    type: source_repository
+    url: https://gitlab.com/mosaik/mosaik-gui
+    title: mosaik GUI repository
+    version_or_commit: null
+    note: Linked by the paper. The revision for the photographed configuration remains unverified.
+  - id: SRC-0041
+    type: conference_publication
+    url: https://doi.org/10.1109/sest53650.2022.9898417
+    title: Assessment of EV charging strategies and their effect on residential grids
+      using co-simulation
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item 8HJYYJT6.
+  - id: SRC-0042
+    type: conference_publication
+    url: https://doi.org/10.1049/icp.2022.2713
+    title: 'Co-simulation-based analysis of the grid capacity for electric vehicles
+      in districts: the case of “Am Ölper Berge” in Lower Saxony'
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item J35ALLZ3.
+  - id: SRC-0043
+    type: conference_publication
+    url: https://doi.org/10.1109/GreenTech62170.2025.10977582
+    title: Using Co-Simulation to Capture Sector Coupling Dynamics in Low-Temperature
+      Anergy Systems
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item W5X6LFWJ.
+  - id: SRC-0044
+    type: source_repository
+    url: https://github.com/DominikVereno/anergy-network-co-simulation
+    title: Repository linked by the publication
+    version_or_commit: null
+  - id: SRC-0045
+    type: conference_publication
+    url: https://doi.org/10.1007/978-3-031-74738-0_12
+    title: 'Challenges in Transitioning from Co-simulation to Practical Application:
+      A Case Study on Economic Emission Dispatch in a Greenhouse Compartment'
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item EYZW2469.
+  - id: SRC-0046
+    type: conference_publication
+    url: https://www.offis.de/uploads/tx_offisdata/1730119122-Manuscript_SIM_LEARN_AG_01.pdf
+    title: Co-Simulation Analysis for Large-Scale Electrolysers Integration in Electricity
+      Grids
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item QC4U5Y4Y.
+  - id: SRC-0047
+    type: source_repository
+    url: https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios
+    title: Repository linked by the publication
+    version_or_commit: null
+  - id: SRC-0048
+    type: conference_publication
+    url: https://doi.org/10.1109/MSCPES.2015.7115410
+    title: Exchangeability of power flow simulators in smart grid co-simulations with
+      mosaik
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item LKLUU7FV.
+  - id: SRC-0049
+    type: conference_publication
+    url: https://ojs.sba.org.br/index.php/cba/article/view/6555
+    title: 'Co-simulação de Redes Elétricas Inteligentes: Implementação e Análise de
+      Desempenho da Integração Mosaik-OpenDSS'
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item 24WUGJ6H.
+  - id: SRC-0050
+    type: conference_publication
+    url: https://doi.org/10.1109/EEEIC/ICPSEurope49358.2020.9160641
+    title: Multi-modeling building energy simulation over MOSAIK co-simulation infrastructure
+      with FMI integration
+    version_or_commit: null
+    note: PDF consulted in Zotero group 5844550, item 3VA4J7L9.
+  - id: SRC-0051
+    type: conference_publication
+    url: https://doi.org/10.1109/MSCPES55116.2022.9770106
+    title: Qualification of Initialisation Challenges in Co-Simulation setups for Integrated Energy Systems
+    version_or_commit: null
+  - id: SRC-0052
+    type: journal_publication
+    url: https://doi.org/10.3390/app9050923
+    title: 'CPES Testing with mosaik: Co-Simulation Planning, Execution and Analysis'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item QUMTNFX3.
+  - id: SRC-0053
+    type: journal_publication
+    url: https://doi.org/10.1007/s00450-017-0379-y
+    title: 'Smart grid co-simulation with MOSAIK and HLA: a comparison study'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item IZUPB5FW.
+  - id: SRC-0054
+    type: conference_publication
+    url: https://uol.de/f/2/dept/informatik/ag/ui/publications/Schuette_Scherfke_Sonnenschein_2012_mosaik_-_Smart_Grid_Simulation_API.pdf
+    title: 'Mosaik - Smart grid simulation API: Toward a semantic based standard for
+      interchanging smart grid simulations'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item DM557K5I.
+  - id: SRC-0055
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1007/978-3-031-99451-7_4
+    title: Extended Co-Simulation Approaches
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item FSK27RYS.
+  - id: SRC-0056
+    type: masters_thesis
+    url: https://opus.hs-offenburg.de/frontdoor/deliver/index/docId/12432/file/Thesis_Thennadan.pdf
+    title: Development, implementation and validation of a mosaik framework in python
+      for component models and control systems of district energy centers
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item I8IKJR5T.
+  - id: SRC-0057
+    type: journal_publication
+    url: https://doi.org/10.1109/ACCESS.2024.3435336
+    title: Facilitating Smart Grids Integration Through a Hybrid Multi-Model Co-Simulation
+      Framework
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item MTIYWIFP.
+  - id: SRC-0058
+    type: technical_report
+    url: https://doi.org/10.2139/ssrn.4415340
+    title: On Multi-Use Applications Unlocking Behind-the-Meter Flexibility for Grid-Supporting
+      Services
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item AYQT429R.
+  - id: SRC-0059
+    type: journal_publication
+    url: https://doi.org/10.1016/j.softx.2024.101667
+    title: 'cosima-mango: Investigating Multi-Agent System robustness through integrated
+      communication simulation'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item MAS4F7XE.
+  - id: SRC-0060
+    type: conference_publication
+    url: https://doi.org/10.18086/eurosun.2024.02.09
+    title: Simulation of a Photovoltaic-Thermal (PV-T) Air Source Heat Pump (ASHP) System
+      for Building Thermal Demands
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item F57K9XC6.
+  - id: SRC-0061
+    type: conference_publication
+    url: https://arxiv.org/html/2410.17603v1
+    title: Scaling Analysis in a Multi-Energy System
+    version_or_commit: null
+    note: Open author version of DOI 10.1109/EEE-AM58328.2023.10395068. The Zotero attachment
+      had limited extractable text.
+  - id: SRC-0062
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-018-0058-7
+    title: An integrated testbed for locally monitoring SCADA systems in smart grids
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item XD8JNFBT.
+  - id: SRC-0063
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-018-0042-2
+    title: Lessons learned from CPES co-simulation with distributed, heterogeneous systems
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 8LC4W4EC.
+  - id: SRC-0064
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-019-0079-x
+    title: Towards modular composition of agent-based voltage control concepts
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item LWNXNX6D.
+  - id: SRC-0065
+    type: conference_publication
+    url: https://doi.org/10.1109/COMPSAC65507.2025.00286
+    title: Design and Evaluation of Vertical Scalability Strategies for Deploying Large-scale
+      Co-simulations
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item VJRPXLWD.
+  - id: SRC-0066
+    type: technical_report
+    url: https://arxiv.org/abs/2506.17739
+    title: Choosing the Right Battery Model for Data Center Simulations
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item VSEIHZAV.
+  - id: SRC-0067
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1007/978-3-032-23187-1_2
+    title: Leveraging Architectural Models for the Generation of Smart Grid Co-Simulations
+    version_or_commit: null
+    note: Companion chapter. Accepted manuscript reviewed in Zotero, item FIVQ4L5X.
+  - id: SRC-0068
+    type: conference_publication
+    url: https://doi.org/10.5281/zenodo.14004357
+    title: 'MASSCA: Scalable Multi-Agent System Framework for Smart Power Cell Co-Simulation'
+    version_or_commit: null
+    note: The Zotero attachment belonged to another paper. The author-posted full text
+      and OFFIS publication record supplied the evidence.
+  - id: SRC-0069
+    type: source_repository
+    url: https://gitlab.com/hybit1/massca
+    title: MASSCA source repository
+    version_or_commit: null
+    note: The paper links this repository. The experiment revision remains unverified.
+  - id: SRC-0070
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1007/978-3-031-43824-0_10
+    title: 'Midas: An Open-Source Framework for Simulation-Based Analysis of Energy
+      Systems'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item XJLCVMAX.
+  - id: SRC-0071
+    type: journal_or_conference_publication
+    url: https://doi.org/10.48550/arXiv.2209.12550
+    title: Coupling OMNeT++ and mosaik for integrated Co-Simulation of ICT-reliant Smart
+      Grids
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item NE4FL9CE.
+  - id: SRC-0072
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1049/icp.2022.3326
+    title: Evaluating Multi-Use Applications in a Co-Simulation Environment
+    version_or_commit: null
+    note: Companion study reviewed from the Zotero PDF.
+  - id: SRC-0073
+    type: conference_publication
+    url: https://doi.org/10.1109/OSMSES54027.2022.9769129
+    title: Comparison of two approaches for modeling the thermal domain of multi-energy
+      networks
+    version_or_commit: null
+    note: Companion study reviewed from the Zotero PDF.
+  - id: SRC-0074
+    type: journal_publication
+    url: https://doi.org/10.22456/2175-2745.95095
+    title: 'Mosaik and PADE : Multiagents and Co-simulation for smart grids modeling'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item ZS8NEEB8.
+  - id: SRC-0075
+    type: masters_thesis
+    url: http://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf
+    title: Adaptive State Estimation in Odysseus
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item EBB96C3I.
+  - id: SRC-0076
+    type: conference_publication
+    url: https://doi.org/10.1145/3470481.3472712
+    title: 'Energy Hub Gas: A Multi-Domain System Modelling and Co-Simulation Approach'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item N2JP66XK.
+  - id: SRC-0077
+    type: conference_publication
+    url: https://doi.org/10.1109/OSMSES62085.2024.10668964
+    title: 'eELib: Open-source model library for prosumer power systems and energy management
+      strategies'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item SCYQ5PDS.
+  - id: SRC-0078
+    type: conference_publication
+    url: https://doi.org/10.1145/3447555.3465415
+    title: Why your power system restoration does not work and what the ICT system can
+      do about it
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 4YEJDLYX.
+  - id: SRC-0079
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-021-00180-6
+    title: 'Socio-technical modeling of smart energy systems: a co-simulation design
+      for domestic energy demand'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 7HMIMKPQ.
+  - id: SRC-0080
+    type: conference_publication
+    url: https://doi.org/10.1109/SmartGridComm.2017.8340672
+    title: 'Context-aware local Intrusion Detection in SCADA systems: A testbed and
+      two showcases'
+    version_or_commit: null
+    note: Earlier related testbed study. Reviewed in Zotero, item YBUI9VTE.
+  - id: SRC-0081
+    type: masters_thesis
+    url: https://era.library.ualberta.ca/items/ad67ffb4-e563-4236-88cd-2a729f6fc820
+    title: Towards Efficient Co-Simulation of Cyber-Physical Systems
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item PSJ3FDRH.
+  - id: SRC-0082
+    type: conference_publication
+    url: https://doi.org/10.1109/ISIE.2015.7281633
+    title: 'Towards smart grid system validation: Integrating the SmartEST and the SESA
+      laboratories'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item DTUELFCU.
+  - id: SRC-0083
+    type: conference_publication
+    url: https://doi.org/10.1109/IECON.2013.6700395
+    title: OPC UA compliant coupling of multi-agent systems and Smart Grid simulations
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item YN3JKAT2.
+  - id: SRC-0084
+    type: conference_publication
+    url: https://doi.org/10.1109/MSCPES.2016.7480222
+    title: Quantifying probabilistic uncertainty in smart grid Co-Simulation
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item DHYDNPZB.
+  - id: SRC-0085
+    type: conference_publication
+    url: https://doi.org/10.1109/EUROCON.2015.7313679
+    title: Challenges and necessity of systematic uncertainty quantification in smart
+      grid co-simulation
+    version_or_commit: null
+  - id: SRC-0086
+    type: technical_report
+    url: https://www.zotero.org/groups/5844550/items/SVHJWS6T
+    title: A Non-Intrusive Uncertainty Quantification System for Modular Smart Grid
+      Co-Simulation
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item SVHJWS6T.
+  - id: SRC-0087
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1007/978-3-319-31559-1_16
+    title: Ensemble-based uncertainty quantification for smart grid co-simulation
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item F8BLLGJB.
+  - id: SRC-0088
+    type: conference_publication
+    url: https://doi.org/10.1109/SmartGridComm.2014.7007645
+    title: Integrated Smart Grid simulations for generic automation architectures with
+      RT-LAB and mosaik
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item R28U38SS.
+  - id: SRC-0089
+    type: conference_publication
+    url: https://doi.org/10.1109/PSCC.2014.7038479
+    title: Evaluation of smart grid control strategies in co-simulation - integration
+      of IPSYS and mosaik
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 79XLA87P.
+  - id: SRC-0090
+    type: journal_publication
+    url: https://doi.org/10.1515/auto-2014-1087
+    title: Gekoppelte Simulation komplexer Energiesysteme mittels MOSAIK und FMI
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item NB8FAHFA.
+  - id: SRC-0091
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-019-0084-0
+    title: Enabling architecture based Co-Simulation of complex Smart Grid applications
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 82B7HF57.
+  - id: SRC-0092
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-019-0080-4
+    title: Distributed multi-objective scheduling of power consumption for smart buildings
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item JTPR4IRS.
+  - id: SRC-0093
+    type: technical_report
+    url: https://www.zotero.org/groups/5844550/items/3VYZZZFT
+    title: Smart Grids Overreview and their Operations
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 3VYZZZFT.
+  - id: SRC-0094
+    type: technical_report
+    url: https://doi.org/10.1007/978-3-031-26236-4_21
+    title: Paving the Way for Reinforcement Learning in Smart Grid Co-Simulation
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item FNFECDX9.
+  - id: SRC-0095
+    type: conference_publication
+    url: https://doi.org/10.1109/PowerTech55446.2023.10202816
+    title: 'The Illuminator: An Open Source Energy System Integration Development Kit'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item Q9VF5Y6V.
+  - id: SRC-0096
+    type: conference_publication
+    url: https://doi.org/10.1145/3607120.3607123
+    title: Coupling OMNeT++ and Mosaik for Integrated Co-Simulation of ICT-Reliant Smart
+      Grids
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item 5EBYB72F.
+  - id: SRC-0097
+    type: journal_or_conference_publication
+    url: https://doi.org/10.1007/978-3-658-20380-1_14
+    title: Using the Co-Simulation Mosaik for Teaching Energy Informatics
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item Y7Y2FQDC.
+  - id: SRC-0098
+    type: journal_publication
+    url: https://doi.org/10.1016/j.proeng.2017.07.092
+    title: Towards Generalized Co-simulation of Urban Energy Systems
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item CJ4I4CBP.
+  - id: SRC-0099
+    type: journal_publication
+    url: https://doi.org/10.3390/app11052410
+    title: MOSAIK and FMI-based co-simulation applied to transient stability analysis
+      of grid-forming converter modulated wind power plants
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item ZGVV4UD2.
+  - id: SRC-0100
+    type: journal_publication
+    url: https://doi.org/10.3390/en15072702
+    title: 'Smart Energy Management System : Design of a Smart Grid Test Bench for Educational
+      Purposes'
+    version_or_commit: null
+    note: PDF reviewed in Zotero group 5844550, item CNN48PFJ.
+  - id: SRC-0101
+    type: journal_publication
+    url: https://doi.org/10.1016/j.epsr.2024.110254
+    title: A co-simulation environment to evaluate cyber resilience in active distribution
+      grids utilising behind-the-meter assets
+    version_or_commit: null
+    note: Institutional PDF reviewed after text extraction from the Zotero attachment
+      failed.
 assertions:
   - id: EVD-0001
     scenario_id: SCN-0001
@@ -919,3 +1362,698 @@ assertions:
     locator_url: https://arxiv.org/html/2412.03979v1
     evidence_status: explicitly_reported
     note: "Reports an additional application of the same framework to a CIGRE medium-voltage benchmark topology."
+  - id: EVD-0100
+    scenario_id: SCN-0014
+    source_id: SRC-0033
+    subject: showcase_configuration
+    locator: "Showcase section and Figure 2, printed page 358"
+    evidence_status: explicitly_reported
+    note: "Describes the CIGRE grid, standalone PV and wind simulators, conventional generation and emissions calculation for Lower Saxony."
+  - id: EVD-0101
+    scenario_id: SCN-0014
+    source_id: SRC-0033
+    subject: photovoltaic_comparison
+    locator: "Showcase section and Figure 3, printed pages 358–359"
+    evidence_status: explicitly_reported
+    note: "Compares daily generation and estimated carbon emissions with and without PV deployment."
+  - id: EVD-0102
+    scenario_id: SCN-0015
+    source_id: SRC-0035
+    subject: setup_and_component_roles
+    locator: "Abstract and methods"
+    evidence_status: explicitly_reported
+    note: "Identifies mosaik, the community assets, smart-meter data exchange, closed-loop predictive control and LSTM forecasting."
+  - id: EVD-0103
+    scenario_id: SCN-0015
+    source_id: SRC-0035
+    subject: effects_of_forecast_and_model_error
+    locator: "Abstract and results"
+    evidence_status: explicitly_reported
+    note: "Reports self-consumption reductions under combined forecast and modelling uncertainty and for battery capacity mismatch alone."
+  - id: EVD-0104
+    scenario_id: SCN-0015
+    source_id: SRC-0035
+    subject: publication_metadata_and_license
+    locator: "Institutional publication record, metadata"
+    locator_url: https://opus.fhv.at/frontdoor/index/index/docId/5442
+    evidence_status: explicitly_reported
+    note: "Lists the authors, proceedings volume DOI and CC BY 4.0 for the publication."
+  - id: EVD-0105
+    scenario_id: SCN-0016
+    source_id: SRC-0036
+    subject: use_case_and_information_flow
+    locator: "Section 3 and Figure 2"
+    locator_url: https://www.en-trust.at/papers/Peter24a.pdf
+    evidence_status: explicitly_reported
+    note: "Describes electric vehicle charging using wind and market price information and shows the smart meter and power grid."
+  - id: EVD-0106
+    scenario_id: SCN-0016
+    source_id: SRC-0036
+    subject: implemented_mosaik_components
+    locator: "Section 4.2 and Listing 1"
+    locator_url: https://www.en-trust.at/papers/Peter24a.pdf
+    evidence_status: explicitly_reported
+    note: "Identifies PYPOWER and the four dedicated mosaik components for the electric vehicle, charging station, smart meter and wind turbine."
+  - id: EVD-0107
+    scenario_id: SCN-0016
+    source_id: SRC-0036
+    subject: architectural_comparison_and_publication
+    locator: "Title page, Abstract and Section 5"
+    locator_url: https://www.en-trust.at/papers/Peter24a.pdf
+    evidence_status: explicitly_reported
+    note: "Documents the publication license and the authors' conclusion that type-level architecture can help generate a code skeleton but leaves entity-level details unspecified."
+  - id: EVD-0108
+    scenario_id: SCN-0017
+    source_id: SRC-0037
+    subject: building_twin_and_mosaik_synchronization
+    locator: "Sections 2.1–2.2 and Figure 3"
+    locator_url: https://www.energy-proceedings.org/wp-content/uploads/cen2022/1651648655.pdf
+    evidence_status: explicitly_reported
+    note: "Describes the calibrated building model and the synchronization of physical and digital systems. Online deployment was still under testing and validation."
+  - id: EVD-0109
+    scenario_id: SCN-0017
+    source_id: SRC-0037
+    subject: benchmark_configurations
+    locator: "Section 3.2 and Table 2"
+    locator_url: https://www.energy-proceedings.org/wp-content/uploads/cen2022/1651648655.pdf
+    evidence_status: explicitly_reported
+    note: "Reports a rule-based controller and two predictive controller configurations, including the system components and comfort constraints."
+  - id: EVD-0110
+    scenario_id: SCN-0017
+    source_id: SRC-0038
+    subject: benchmark_repository_and_license
+    locator: "Repository README and license listing"
+    locator_url: https://github.com/uesl-empa/nestli
+    evidence_status: explicitly_reported
+    note: "The repository cites the paper and lists the AGPL-3.0 license for the repository software."
+  - id: EVD-0111
+    scenario_id: SCN-0018
+    source_id: SRC-0039
+    subject: publication_and_gui_purpose
+    locator: "PDF pages 1–2, Abstract and Introduction"
+    evidence_status: explicitly_reported
+    note: "Describes graphical scenario composition using tesserae and provides the GUI repository link."
+  - id: EVD-0112
+    scenario_id: SCN-0018
+    source_id: SRC-0039
+    subject: pv_control_subgraph
+    locator: "PDF page 3, Section III and Figure 2"
+    evidence_status: explicitly_reported
+    note: "Identifies the PV systems, their controllers and low-voltage buses."
+  - id: EVD-0113
+    scenario_id: SCN-0018
+    source_id: SRC-0039
+    subject: demonstration_components
+    locator: "PDF page 4, Figure 3"
+    evidence_status: explicitly_reported
+    note: "Shows buses, PV systems, PV control, wind plants and a coal plant in the example. The wind group uses constant entities."
+  - id: EVD-0114
+    scenario_id: SCN-0019
+    subject: scenario_setup_and_participants
+    source_id: SRC-0041
+    locator: PDF pages 1–3, Abstract and Section III
+    locator_url: https://doi.org/10.1109/sest53650.2022.9898417
+    evidence_status: explicitly_reported
+    note: The authors use a modified suburban Kerber grid in pandapower. Python EV models
+      use charging behaviour derived from Dutch public-charger data. Household demand,
+      PV output and electricity prices enter as time series. Mosaik synchronizes the
+      components and the grid power-flow calculation.
+  - id: EVD-0115
+    scenario_id: SCN-0020
+    subject: scenario_setup_and_participants
+    source_id: SRC-0042
+    locator: PDF pages 3–5, Sections 3.1–3.2 and Figure 2
+    locator_url: https://doi.org/10.1049/icp.2022.2713
+    evidence_status: explicitly_reported
+    note: The district co-simulation uses a pandapower representation of the local grid
+      and EV mobility and charging profiles derived using emobpy. The study models building
+      energy management and grid correction, and compares voltage behaviour across EV
+      uptake and control variants.
+  - id: EVD-0116
+    scenario_id: SCN-0021
+    subject: scenario_setup_and_participants
+    source_id: SRC-0043
+    locator: PDF pages 2–3, scenario and implementation description
+    locator_url: https://doi.org/10.1109/GreenTech62170.2025.10977582
+    evidence_status: explicitly_reported
+    note: Apartment buildings draw heat through heat pumps. A data center contributes
+      waste heat while requiring electricity and cooling. PV supplies the data center,
+      and a power-to-heat unit can use surplus electricity. The paper describes a PYPOWER
+      interface for the electricity network.
+  - id: EVD-0117
+    scenario_id: SCN-0022
+    subject: scenario_setup_and_participants
+    source_id: SRC-0045
+    locator: PDF pages 4–5, case study and Figures 2–3
+    locator_url: https://doi.org/10.1007/978-3-031-74738-0_12
+    evidence_status: explicitly_reported
+    note: The control system computes setpoints for the greenhouse energy system in
+      response to its state. The local energy system includes a gas boiler, a heat pump,
+      district heating, combined heat and power, thermal storage and grid electricity.
+      The practical implementation uses a separate operational architecture.
+  - id: EVD-0118
+    scenario_id: SCN-0023
+    subject: scenario_setup_and_participants
+    source_id: SRC-0046
+    locator: PDF pages 2–5, co-simulation design and Showcase I
+    locator_url: https://www.offis.de/uploads/tx_offisdata/1730119122-Manuscript_SIM_LEARN_AG_01.pdf
+    evidence_status: explicitly_reported
+    note: The extra-high-voltage showcase combines SimBench grid and profile data with
+      distributed electrolysers. It compares operation driven by renewable generation,
+      electricity prices or maximum current, and varies the location of the electrolysers.
+      The medium-voltage showcase is documented separately because the network and the
+      research question differ.
+  - id: EVD-0119
+    scenario_id: SCN-0024
+    subject: scenario_setup_and_participants
+    source_id: SRC-0046
+    locator: PDF pages 2 and 6–7, co-simulation design and Showcase II
+    locator_url: https://www.offis.de/uploads/tx_offisdata/1730119122-Manuscript_SIM_LEARN_AG_01.pdf
+    evidence_status: explicitly_reported
+    note: The medium-voltage showcase first screens grid buses for steady-state voltage
+      constraints and then studies the effect of a large electrolyser on the selected
+      network. This case uses the same toolbox as the extra-high-voltage congestion
+      showcase.
+  - id: EVD-0120
+    scenario_id: SCN-0025
+    source_id: SRC-0048
+    subject: scenario_setup_and_participants
+    locator: PDF pages 2–5, power-flow interfaces and experimental setup
+    evidence_status: explicitly_reported
+    note: The study connects the same household and PV time-series simulators to alternative
+      power-flow backends. It examines how grid models and simulation interfaces affect
+      the comparison.
+  - id: EVD-0121
+    scenario_id: SCN-0026
+    source_id: SRC-0049
+    subject: scenario_setup_and_participants
+    locator: PDF pages 3–6, Section 3.1 and Figures 7 and associated setup
+    evidence_status: explicitly_reported
+    note: The setup exchanges power and control values with OpenDSS. The paper reports
+      voltage profiles and execution times, including timings for the individual components.
+  - id: EVD-0122
+    scenario_id: SCN-0027
+    source_id: SRC-0050
+    subject: scenario_setup_and_participants
+    locator: PDF pages 4-6, Figure 2, component descriptions and results
+    evidence_status: explicitly_reported
+    note: The EnergyPlus building model exchanges inputs and outputs with Python models of weather, household
+      behaviour and photovoltaic production. A heat pump supplies building heat, and
+      the study tracks household and heat-pump electrical consumption alongside PV generation. A virtual smart meter collects these readings.
+  - id: EVD-0123
+    scenario_id: SCN-0011
+    source_id: SRC-0051
+    subject: benchmark_initialization_experiment
+    locator: "PDF pages 4–5, Section III and Figures 2–3"
+    evidence_status: explicitly_reported
+    note: The authors use the ERIGrid 2.0 Multi-Energy Networks benchmark to demonstrate two same-time-loop configurations for initialization.
+  - id: EVD-0124
+    scenario_id: SCN-0028
+    source_id: SRC-0052
+    subject: scenario_setup_and_participants
+    locator: PDF pp. 10–14, Section 3 and Figure 4
+    evidence_status: explicitly_reported
+    note: Three wind turbines and two flexible industrial loads are coordinated by the
+      ISAAC control system. The grid also contains inflexible households and industrial
+      loads. Section 3 reports the demonstration and its uncertainty analysis.
+  - id: EVD-0125
+    scenario_id: SCN-0029
+    source_id: SRC-0053
+    subject: scenario_setup_and_participants
+    locator: PDF pp. 5–8, Section 4 and Figure 2
+    evidence_status: explicitly_reported
+    note: The example couples a wind turbine generator plant and an active pitch controller.
+      The authors compare how the two implementations reproduce the controller response
+      as wind conditions push rotor speed past a threshold. The HLA implementation uses
+      CERTI.
+  - id: EVD-0126
+    scenario_id: SCN-0030
+    source_id: SRC-0054
+    subject: scenario_setup_and_participants
+    locator: PDF pp. 9–10, Section 5 and Figure 7
+    evidence_status: explicitly_reported
+    note: The GridSurfer experiment couples Python/SimPy EVs, MATLAB/Simulink photovoltaics,
+      residential demand from CSV time series, and single-phase grid power flow using
+      Python/Pylon. The authors report a prototype with fixed execution order and data
+      mappings.
+  - id: EVD-0127
+    scenario_id: SCN-0031
+    source_id: SRC-0055
+    subject: scenario_setup_and_participants
+    locator: PDF p. 6, printed p. 40, Figure 3 and accompanying text
+    evidence_status: explicitly_reported
+    note: The grid is represented in pandapower and receives time-series loads. Voltage
+      measurements travel through a communication queue to a Python tap changer controller.
+      The communication simulator uses FMI 3.0 and has deterministic and probabilistic
+      variants. The remaining simulators are coupled using FMI 2.0.
+  - id: EVD-0128
+    scenario_id: SCN-0032
+    source_id: SRC-0056
+    subject: scenario_setup_and_participants
+    locator: PDF pp. 30 and 43–45; Sections 4.1 and validation results
+    evidence_status: explicitly_reported
+    note: The thesis models two energy center configurations, one based on a heat pump
+      and one on combined heat and power. The comparison uses recorded operation to
+      assess how well the simulation reproduces long-term energy balances and component
+      performance.
+  - id: EVD-0129
+    scenario_id: SCN-0033
+    source_id: SRC-0057
+    subject: reported_setup_and_participants
+    locator: PDF pp. 11–15, Figures 4–7 and deployment description
+    evidence_status: explicitly_reported
+    note: The real-time simulator hosts the grid, grid loads, PV, battery and building
+      energy management. Mosaik coordinates software models for household behaviour,
+      rooftop PV, weather, the building envelope, voltage control, and the heat pump
+      and its controller.
+  - id: EVD-0130
+    scenario_id: SCN-0034
+    source_id: SRC-0058
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–4 and 6–9, Sections 3–5 and Figure 2
+    evidence_status: explicitly_reported
+    note: The study uses rural and semi-urban SimBench networks as variants. Household
+      energy management systems schedule assets, while edge devices aggregate flexibility
+      and coordinate with the distribution system operator. The authors compare stacked
+      and single-use control approaches.
+  - id: EVD-0131
+    scenario_id: SCN-0035
+    source_id: SRC-0059
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–4, experiment discussion and Table 1
+    evidence_status: explicitly_reported
+    note: Mango agents use the COHDA heuristic to coordinate CHP plants with different
+      sizes and initial states. Cosima couples the agents to OMNeT++ so the study can
+      measure how network delivery affects negotiation time. The paper also reports
+      an impaired-communication comparison.
+  - id: EVD-0132
+    scenario_id: SCN-0036
+    source_id: SRC-0060
+    subject: reported_setup_and_participants
+    locator: PDF pp. 1–2, 5 and 8, abstract, component models and co-simulation setup
+    evidence_status: explicitly_reported
+    note: The photovoltaic-thermal collector model supplies warmed inlet air and electrical
+      output. The study compares collector configurations and evaluates heat-pump efficiency
+      for building thermal demand.
+  - id: EVD-0133
+    scenario_id: SCN-0011
+    source_id: SRC-0061
+    subject: reported_setup_and_participants
+    locator: Sections II–IV
+    evidence_status: explicitly_reported
+    note: Uses the ERIGrid multi-energy benchmark to study cross-domain sensitivity
+      and thermal storage sizing.
+  - id: EVD-0134
+    scenario_id: SCN-0026
+    source_id: SRC-0049
+    subject: reported_setup_and_participants
+    locator: PDF p. 5, Section 4.1 and Figure 5
+    evidence_status: explicitly_reported
+    note: Identifies the IEEE 34-bus feeder, PV at buses 830 and 848, and storage at
+      bus 834.
+  - id: EVD-0135
+    scenario_id: SCN-0037
+    source_id: SRC-0062
+    subject: reported_setup_and_participants
+    locator: PDF pp. 11–14, implementation sections and Figures 3–4
+    evidence_status: explicitly_reported
+    note: The testbed combines PYPOWER, household load and PV inputs, a simulated remote
+      terminal unit, a SCADA server and a local monitoring device. The paper studies
+      local monitoring of a field station. This is the earlier testbed in the research
+      lineage of the later two-subgrid monitoring study.
+  - id: EVD-0136
+    scenario_id: SCN-0038
+    source_id: SRC-0063
+    subject: reported_setup_and_participants
+    locator: PDF pp. 2–5, Co-simulation system and component descriptions
+    evidence_status: explicitly_reported
+    note: The PAVN scenario connects a virtual power plant simulator, a power system
+      simulation tool and a communication and service platform. The virtual power plant
+      computes generation and consumption schedules, the power system tool evaluates
+      grid restrictions, and the service platform represents coordination between participating
+      organizations.
+  - id: EVD-0137
+    scenario_id: SCN-0039
+    source_id: SRC-0064
+    subject: grid_and_controller_comparison
+    locator: PDF pp. 8–10, simulation setup, Figure 4 and Table 2
+    evidence_status: explicitly_reported
+    note: Mosaik coordinates pandapower power-flow calculations and voltage-control
+      agents implemented with aiomas. The agents use distributed generator reactive
+      power and an on-load tap-changing transformer to regulate voltages. The four test
+      cases vary the location and direction of the voltage deviation and the flexibility
+      available to the controller.
+  - id: EVD-0138
+    scenario_id: SCN-0040
+    source_id: SRC-0065
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–6, Sections III–IV and Figures 2–3
+    evidence_status: explicitly_reported
+    note: The COESI scenario includes building, heat pump, PV, battery, household behaviour,
+      weather and smart meter models. Profiling identifies PV computation as the main
+      bottleneck in the tested setup. The authors compare multiprocessing and Ray-based
+      approaches for that simulator.
+  - id: EVD-0139
+    scenario_id: SCN-0041
+    source_id: SRC-0066
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3 and 5–7, Sections 3–5 and Figure 7
+    evidence_status: explicitly_reported
+    note: The simplified data center combines two constant-load server nodes, solar
+      production driven by Berlin irradiance data, and interchangeable battery models.
+      The study compares battery response under changing net power and examines the
+      trade-off between modelling detail and runtime. The paper lists Odej Kao as an
+      author.
+  - id: EVD-0140
+    scenario_id: SCN-0016
+    source_id: SRC-0067
+    subject: companion_architecture_case
+    locator: Accepted manuscript PDF pp. 9–11, Section 4.2
+    evidence_status: explicitly_reported
+    note: The expanded EV charging case specifies PYPOWER with IEEE 13-node test feeder
+      data.
+  - id: EVD-0141
+    scenario_id: SCN-0042
+    source_id: SRC-0068
+    subject: reported_setup_and_participants
+    locator: Printed pp. 363–367, simulation setup and scalability experiments
+    evidence_status: explicitly_reported
+    note: The authors use a benchmark derived from the European medium-voltage distribution
+      network and couple it to MASSCA's mango-based multi-agent simulator. The experiments
+      measure total scenario runtime and agent interaction time for different cell counts
+      and hierarchy depths.
+  - id: EVD-0142
+    scenario_id: SCN-0043
+    source_id: SRC-0070
+    subject: reported_setup_and_participants
+    locator: PDF pp. 9–16, Sections 4–7 and Table 1
+    evidence_status: explicitly_reported
+    note: The study trains surrogate models using an urban SimBench network and compares
+      their predictions with the original model. It also profiles a CIGRE grid with
+      explicit distributed energy resources alongside the SimBench configuration as
+      a runtime comparison.
+  - id: EVD-0143
+    scenario_id: SCN-0044
+    source_id: SRC-0071
+    subject: reported_setup_and_participants
+    locator: PDF pp. 6–7, Section 4 and Figures 3–6
+    evidence_status: explicitly_reported
+    note: The baseline has five agents, each attached to a PV system. OMNeT++ models
+      delivery of messages between the agents. A larger-network experiment varies agent
+      count to assess how simulation runtime and the number of steps scale.
+  - id: EVD-0144
+    scenario_id: SCN-0034
+    source_id: SRC-0072
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–6, Sections 3.5–4 and Table 1
+    evidence_status: explicitly_reported
+    note: The companion experiment compares single-use and combined operation on rural
+      and semi-urban SimBench low-voltage feeders.
+  - id: EVD-0145
+    scenario_id: SCN-0011
+    source_id: SRC-0073
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–5, Sections III–V and Table III
+    evidence_status: explicitly_reported
+    note: The authors compare pandapipes and the District Heating Library as thermal
+      implementations of the same energy benchmark.
+  - id: EVD-0146
+    scenario_id: SCN-0045
+    source_id: SRC-0074
+    subject: reported_setup_and_participants
+    locator: PDF pp. 6–8, Section 6 and Figures 9–12
+    evidence_status: explicitly_reported
+    note: The study uses 37 residential loads, 20 PV generators and 20 storage agents.
+      PYPOWER computes grid conditions. Solar generation is supplied from CSV measurement
+      data, while the PADE storage agents apply a simplified rule based on PV output.
+      The paper is published under CC BY-NC-ND 4.0.
+  - id: EVD-0147
+    scenario_id: SCN-0046
+    source_id: SRC-0075
+    subject: reported_setup_and_participants
+    locator: PDF pp. 79–89, Chapter 5 and Figures 5.1–5.2
+    evidence_status: explicitly_reported
+    note: The thesis uses a small radial feeder with four nodes and a larger 37-node
+      configuration based on the mosaik demo. Simulated electrical values feed the Odysseus
+      estimator and provide a reference for checking its results. The thesis title page
+      dates the work to 2016.
+  - id: EVD-0148
+    scenario_id: SCN-0047
+    source_id: SRC-0076
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–6, Sections III–V and Table 1
+    evidence_status: explicitly_reported
+    note: The study represents a neighborhood-scale application with coupled energy
+      carriers and uses an electrolyser as a documented example of component integration.
+      The authors report matching results for the mosaik and PROOF implementations of
+      the use case.
+  - id: EVD-0149
+    scenario_id: SCN-0048
+    source_id: SRC-0077
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–5, Sections IV-A–IV-C, Tables I and III
+    evidence_status: explicitly_reported
+    note: The eELib building case models electricity and heat demand, PV generation,
+      a stationary battery, an electric vehicle and charger, and a heat pump. The home
+      energy management system uses ideal forecasts and mathematical optimization to
+      schedule flexible equipment and increase self-consumption.
+  - id: EVD-0150
+    scenario_id: SCN-0049
+    source_id: SRC-0077
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–6, Section IV and Table II
+    evidence_status: explicitly_reported
+    note: The grid case uses pandapower and lower-detail household device representations.
+      Home energy management charges batteries when generation exceeds consumption and
+      discharges them when demand exceeds local generation. The paper provides per-building
+      parameters and reports grid-scenario results separately from the single-building
+      case.
+  - id: EVD-0151
+    scenario_id: SCN-0050
+    source_id: SRC-0078
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–4, experiment setup and Figure 2
+    evidence_status: explicitly_reported
+    note: Mosaik couples a SimBench grid, mango restoration agents and a NetworkX communications
+      model. The study compares communications cell sizes and battery backup availability,
+      using restored electrical load as the evaluation measure.
+  - id: EVD-0152
+    scenario_id: SCN-0051
+    source_id: SRC-0079
+    subject: reported_setup_and_participants
+    locator: PDF pp. 6–10, Figures 2–4 and heat pump and scalability sections
+    evidence_status: explicitly_reported
+    note: The authors couple demod occupancy and demand models with a TESPy-based heat
+      pump, a hot-water tank and a heating controller. The paper reports household demand
+      profiles and compares runtime for stand-alone demand simulation, mosaik integration
+      and the added heating system.
+  - id: EVD-0153
+    scenario_id: SCN-0037
+    source_id: SRC-0080
+    subject: earlier_local_monitoring_testbed
+    locator: PDF pp. 2–3 and 6, testbed and Figure 2
+    evidence_status: explicitly_reported
+    note: The earlier paper describes a mosaik testbed for process-aware local monitoring
+      using simulated grid measurements and remote terminal units.
+  - id: EVD-0154
+    scenario_id: SCN-0052
+    source_id: SRC-0081
+    subject: reported_setup_and_participants
+    locator: PDF p. 43 and printed pp. 80–86, Figure 3.1 and Section 5.1
+    evidence_status: explicitly_reported
+    note: The thesis couples OpenDSS and ns-3 with Python control, state-estimation
+      and collection components. The two applications share the grid and communications
+      simulation architecture and are evaluated as examples in Chapter 5.
+  - id: EVD-0155
+    scenario_id: SCN-0053
+    source_id: SRC-0082
+    subject: reported_setup_and_participants
+    locator: PDF pp. 5–6, Section V and Figures 5–6
+    evidence_status: explicitly_reported
+    note: The test case takes active and reactive power from the PV inverter at SmartEST
+      and transfers those measurements into the mosaik setup. The paper reports the
+      voltage of a PYPOWER node and the inverter profile, with results stored in HDF5.
+  - id: EVD-0156
+    scenario_id: SCN-0054
+    source_id: SRC-0083
+    subject: reported_setup_and_participants
+    locator: PDF pp. 5–6, Section V-D and Figures 5–6
+    evidence_status: explicitly_reported
+    note: Mosaik simulates generators and storage with changing reliability. JADE agents
+      assess the coalition and determine whether rescheduling is needed. The paper reports
+      step execution time for different numbers of units and agents.
+  - id: EVD-0157
+    scenario_id: SCN-0055
+    source_id: SRC-0084
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–5, Section V and Figures 2 and 5
+    evidence_status: explicitly_reported
+    note: The eight-node PYPOWER grid is coupled to household consumption data, photovoltaic
+      panel models and irradiance data. The probabilistic study evaluates ensemble-based
+      propagation. An earlier related study uses the same component pattern to examine
+      uncertainty bounds.
+  - id: EVD-0158
+    scenario_id: SCN-0055
+    source_id: SRC-0085
+    subject: related_uncertainty_bounds_study
+    locator: PDF pp. 2–4, Sections III–IV and Figures 1–3
+    evidence_status: explicitly_reported
+    note: Evaluates uncertainty bounds with the same model types and a related small-feeder
+      setup.
+  - id: EVD-0159
+    scenario_id: SCN-0056
+    source_id: SRC-0086
+    subject: reported_setup_and_participants
+    locator: PDF pp. 143–145, Section 3.7.3 and Figures 3.28–3.29
+    evidence_status: explicitly_reported
+    note: The low-voltage network has four branches, with one household and one PV unit
+      at each node. The evaluation propagates probability distributions for uncertain
+      weather, consumption and model inputs and examines the resulting output uncertainty.
+  - id: EVD-0160
+    scenario_id: SCN-0057
+    source_id: SRC-0087
+    subject: reported_setup_and_participants
+    locator: PDF pp. 2–3, Sections 2–3 and Figure 2
+    evidence_status: explicitly_reported
+    note: The four-node low-voltage grid has one PV panel and two refrigerators at each
+      node. Weather data drive PV production. The authors vary assumptions about weather,
+      PV and refrigerator models and report ranges and quantiles for active power flow.
+  - id: EVD-0161
+    scenario_id: SCN-0058
+    source_id: SRC-0088
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4–5, Section IV and Figures 2–4
+    evidence_status: explicitly_reported
+    note: Figure 2 shows the complete arrangement. PYPOWER represents a low-voltage
+      feeder with household and PV profiles. OPAL-RT adds higher voltage levels and
+      a second low-voltage feeder, and a physical PV converter is connected from the
+      AIT laboratory. The later SmartEST–SESA publication is also catalogued as SCN-0053.
+  - id: EVD-0162
+    scenario_id: SCN-0059
+    source_id: SRC-0089
+    subject: reported_setup_and_participants
+    locator: PDF pp. 6–7, experiments and Figures 9–11
+    evidence_status: explicitly_reported
+    note: Figure 9 identifies the wind turbines, diesel generators, residential load
+      and dump load. The experiments replace the controller implementation with MasSim
+      or JadeSim while using IPSYS-DE for the power system.
+  - id: EVD-0163
+    scenario_id: SCN-0060
+    source_id: SRC-0090
+    subject: reported_setup_and_participants
+    locator: PDF pp. 9–10, Section 7 and Figures 8–10
+    evidence_status: explicitly_reported
+    note: The study combines a PYPOWER grid, household load profiles and a GridSurfer
+      EV simulator. The PV variants use CSV measurement data or OpenModelica FMUs. The
+      paper compares power at the local transformer.
+  - id: EVD-0164
+    scenario_id: SCN-0061
+    source_id: SRC-0091
+    subject: reported_setup_and_participants
+    locator: PDF pp. 12–16, case study and Figures 6–7
+    evidence_status: explicitly_reported
+    note: The setup includes household demand, PV, a price signal generator and EVs
+      with a price-based charging strategy exported as Java code. Results are retained
+      in HDF5 and displayed in the web visualization.
+  - id: EVD-0165
+    scenario_id: SCN-0062
+    source_id: SRC-0092
+    subject: reported_setup_and_participants
+    locator: PDF p. 10 onward, single-day simulation setup and results
+    evidence_status: explicitly_reported
+    note: The building model aggregates PV, battery storage and EV charging. It sends
+      default and alternative schedules to ISAAC along with a monetary estimate of the
+      adaptation involved. The study compares different representative days.
+  - id: EVD-0166
+    scenario_id: SCN-0063
+    source_id: SRC-0093
+    subject: reported_setup_and_participants
+    locator: PDF pp. 45–49, Chapter 5 and Figures 5.1–5.5
+    evidence_status: explicitly_reported
+    note: The report uses household profiles, PV time series, PYPOWER, HDF5 and web
+      output. Chapter 5 introduces PV and EVs to examine changes in active power.
+  - id: EVD-0167
+    scenario_id: SCN-0064
+    source_id: SRC-0094
+    subject: reported_setup_and_participants
+    locator: PDF pp. 11–14, Section 5 and case-study setup
+    evidence_status: explicitly_reported
+    note: The case couples a small distribution grid, households, EV charging stations
+      and a management system. A TF-Agents controller changes the charging power available
+      to stations. The authors compare architectures for coupling the controller and
+      the orchestrator.
+  - id: EVD-0168
+    scenario_id: SCN-0065
+    source_id: SRC-0095
+    subject: reported_setup_and_participants
+    locator: PDF pp. 4 and 6–7, Figures 6–10
+    evidence_status: explicitly_reported
+    note: The Raspberry Pi deployment assigns the energy management controller to a
+      leader and the component models to followers. The controller uses the battery
+      first and activates electrolysis or the fuel cell when needed. The paper reports
+      outcomes over a month using June profiles.
+  - id: EVD-0169
+    scenario_id: SCN-0066
+    source_id: SRC-0096
+    subject: reported_setup_and_participants
+    locator: PDF pp. 7–9, Sections 4.2–4.3 and Figures 6–7
+    evidence_status: explicitly_reported
+    note: The authors implemented a simplified COHDA-inspired experiment. Each agent
+      receives data from PV and household simulators. The communication variants compare
+      direct exchange, simulated Ethernet and LTE delivery, and a case with one agent
+      becoming unavailable. This evaluates cooperative power coordination, alongside
+      a separate scheduling-speed study covered by SCN-0044.
+  - id: EVD-0170
+    scenario_id: SCN-0067
+    source_id: SRC-0097
+    subject: reported_setup_and_participants
+    locator: PDF pp. 5 and 8–9, Section 4.2 and Figure 2
+    evidence_status: explicitly_reported
+    note: The exercise starts with a refrigerator model and adds generation, a metering
+      authority, grid simulation, and a planning authority. Students progress from ordinary
+      unit behaviour to scheduled control and compare a simulated-annealing approach
+      with an agent-based one. The chapter describes an exercise sequence and leaves
+      numerical study results open.
+  - id: EVD-0171
+    scenario_id: SCN-0068
+    source_id: SRC-0098
+    subject: reported_setup_and_participants
+    locator: PDF pp. 3–7, framework implementation, Section 4.2 and Figure 6
+    locator_url: https://doi.org/10.1016/j.proeng.2017.07.092
+    evidence_status: explicitly_reported
+    note: The hypothetical office uses EnergyPlus for the building and No-MASS for occupant
+      behaviour. The authors compare annual stochastic runs with deterministic schedules
+      and a previous study. The office uses Geneva weather data.
+  - id: EVD-0172
+    scenario_id: SCN-0069
+    source_id: SRC-0099
+    subject: reported_setup_and_participants
+    locator: PDF pp. 6–10 and 15–22, Figures 4–5 and results
+    locator_url: https://doi.org/10.3390/app11052410
+    evidence_status: explicitly_reported
+    note: The authors separate a Simulink wind turbine controller from the PowerFactory
+      power system, package the two as FMUs, and compare transient responses across
+      configurations. The setup diagram shows the wind terminal, grid connection, and
+      other generating units.
+  - id: EVD-0173
+    scenario_id: SCN-0070
+    source_id: SRC-0100
+    subject: reported_setup_and_participants
+    locator: PDF pp. 24–28, Figures 24–27
+    locator_url: https://doi.org/10.3390/en15072702
+    evidence_status: explicitly_reported
+    note: The authors use test-bench data and software-generated outputs for co-simulation.
+      Their examples plot induction-motor RMS voltage, aggregate demand, scheduled power
+      demand, and forecast demand. The published figures establish the reported outputs
+      while the full executable coupling remains unverified.
+  - id: EVD-0174
+    scenario_id: SCN-0071
+    source_id: SRC-0101
+    subject: reported_setup_and_participants
+    locator: Sections 4–5 and Figures 1 and 4, institutional full text
+    locator_url: https://publications.rwth-aachen.de/record/980505/files/980505.pdf
+    evidence_status: explicitly_reported
+    note: The study uses mosaik 3 to join a SimBench low-voltage grid, pandapower load
+      flow, smart homes and a distribution system operator model. The comparison evaluates
+      a fallback mechanism for maintaining grid operation. The paper states that its
+      data cannot be shared.

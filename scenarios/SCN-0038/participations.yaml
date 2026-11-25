@@ -1,0 +1,17 @@
+scenario_id: SCN-0038
+participations:
+- id: PART-0201
+  reported_component: Virtual power plant simulator
+  role: compute distributed energy resource schedules
+  evidence_ids:
+  - EVD-0136
+- id: PART-0202
+  reported_component: Power system simulation tool
+  role: assess the schedules against grid restrictions
+  evidence_ids:
+  - EVD-0136
+- id: PART-0203
+  reported_component: Communication and service platform (KDP)
+  role: support coordination and information exchange
+  evidence_ids:
+  - EVD-0136

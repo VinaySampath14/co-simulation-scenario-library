@@ -1,0 +1,19 @@
+id: SCN-0029
+title: Wind turbine storm control benchmark in mosaik and HLA
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- wind energy
+- co-simulation benchmarking
+source_ids:
+- SRC-0053
+scientific_publication_id: PUB-0027
+research_objective: Compares mosaik and HLA time synchronization by simulating wind
+  turbine storm control under comparable coupling schemes.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0125

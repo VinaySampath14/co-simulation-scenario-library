@@ -1,0 +1,27 @@
+scenario_id: SCN-0032
+participations:
+- id: PART-0172
+  reported_component: Heat-pump energy center
+  role: represent heat-pump-based heat production
+  evidence_ids:
+  - EVD-0128
+- id: PART-0173
+  reported_component: Combined heat and power energy center
+  role: represent coupled heat and electricity production
+  evidence_ids:
+  - EVD-0128
+- id: PART-0174
+  reported_component: Gas boilers
+  role: provide peak heat supply
+  evidence_ids:
+  - EVD-0128
+- id: PART-0175
+  reported_component: Thermal storage
+  role: buffer thermal energy
+  evidence_ids:
+  - EVD-0128
+- id: PART-0176
+  reported_component: Operational data
+  role: provide the validation reference
+  evidence_ids:
+  - EVD-0128

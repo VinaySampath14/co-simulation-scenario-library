@@ -1,0 +1,17 @@
+scenario_id: SCN-0035
+participations:
+- id: PART-0189
+  reported_component: CHP unit models
+  role: represent flexibility from generating plants
+  evidence_ids:
+  - EVD-0131
+- id: PART-0190
+  reported_component: Mango COHDA agents
+  role: coordinate distributed power schedules
+  evidence_ids:
+  - EVD-0131
+- id: PART-0191
+  reported_component: OMNeT++ communication simulator
+  role: represent message delivery and timing
+  evidence_ids:
+  - EVD-0131

@@ -1,0 +1,19 @@
+id: SCN-0064
+title: Reinforcement-learning integration for coordinated EV charging
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- electric mobility
+- control
+source_ids:
+- SRC-0094
+scientific_publication_id: PUB-0061
+research_objective: Tests ways to integrate a learning controller into mosaik for
+  coordinated EV charging while limiting demand peaks.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0167

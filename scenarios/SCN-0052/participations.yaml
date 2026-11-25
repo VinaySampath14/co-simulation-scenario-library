@@ -1,0 +1,27 @@
+scenario_id: SCN-0052
+participations:
+- id: PART-0262
+  reported_component: OpenDSS grid
+  role: simulate electrical conditions
+  evidence_ids:
+  - EVD-0154
+- id: PART-0263
+  reported_component: ns-3 network
+  role: deliver simulated measurements and commands
+  evidence_ids:
+  - EVD-0154
+- id: PART-0264
+  reported_component: Transformer tap controller
+  role: regulate voltage
+  evidence_ids:
+  - EVD-0154
+- id: PART-0265
+  reported_component: Distributed state estimator
+  role: estimate electrical state from measurements
+  evidence_ids:
+  - EVD-0154
+- id: PART-0266
+  reported_component: Data collector
+  role: record outputs
+  evidence_ids:
+  - EVD-0154

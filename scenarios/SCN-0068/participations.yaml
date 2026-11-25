@@ -1,0 +1,17 @@
+scenario_id: SCN-0068
+participations:
+- id: PART-0343
+  reported_component: EnergyPlus office model
+  role: simulate building energy use
+  evidence_ids:
+  - EVD-0171
+- id: PART-0344
+  reported_component: No-MASS occupant model
+  role: represent stochastic occupancy and occupant decisions
+  evidence_ids:
+  - EVD-0171
+- id: PART-0345
+  reported_component: Geneva weather file
+  role: supply environmental inputs
+  evidence_ids:
+  - EVD-0171

@@ -1,0 +1,27 @@
+scenario_id: SCN-0059
+participations:
+- id: PART-0296
+  reported_component: IPSYS-DE island grid
+  role: simulate electrical response
+  evidence_ids:
+  - EVD-0162
+- id: PART-0297
+  reported_component: Wind turbines
+  role: provide renewable generation
+  evidence_ids:
+  - EVD-0162
+- id: PART-0298
+  reported_component: Diesel generators
+  role: balance island generation
+  evidence_ids:
+  - EVD-0162
+- id: PART-0299
+  reported_component: Residential load and dump load
+  role: represent consumption
+  evidence_ids:
+  - EVD-0162
+- id: PART-0300
+  reported_component: MasSim and JadeSim controllers
+  role: provide alternative dispatch implementations
+  evidence_ids:
+  - EVD-0162

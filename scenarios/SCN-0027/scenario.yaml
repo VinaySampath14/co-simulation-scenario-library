@@ -1,0 +1,20 @@
+id: SCN-0027
+title: FMI-based building energy co-simulation with PV and a heat pump
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- building energy
+- electricity
+- heat
+source_ids:
+- SRC-0050
+scientific_publication_id: PUB-0025
+research_objective: Demonstrates the integration of a building simulation with external
+  models in mosaik using FMI. The example examines combined household demand, heat
+  pump use and PV production.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0122

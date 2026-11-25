@@ -1,0 +1,37 @@
+scenario_id: SCN-0021
+participations:
+- id: PART-0121
+  reported_component: Low-temperature thermal network
+  role: transport heat between supply and demand points
+  evidence_ids:
+  - EVD-0116
+- id: PART-0122
+  reported_component: PYPOWER electricity network
+  role: represent the electrical grid
+  evidence_ids:
+  - EVD-0116
+- id: PART-0123
+  reported_component: Apartment building models
+  role: represent temperature-dependent heat demand
+  evidence_ids:
+  - EVD-0116
+- id: PART-0124
+  reported_component: Data center
+  role: consume electricity and supply recoverable waste heat
+  evidence_ids:
+  - EVD-0116
+- id: PART-0125
+  reported_component: Heat pumps and heat tanks
+  role: couple electrical demand to heat supply
+  evidence_ids:
+  - EVD-0116
+- id: PART-0126
+  reported_component: PV installation
+  role: supply local electricity
+  evidence_ids:
+  - EVD-0116
+- id: PART-0127
+  reported_component: Power-to-heat unit
+  role: convert surplus electricity to heat
+  evidence_ids:
+  - EVD-0116

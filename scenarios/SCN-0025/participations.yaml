@@ -1,0 +1,17 @@
+scenario_id: SCN-0025
+participations:
+- id: PART-0143
+  reported_component: Power-flow simulator variants
+  role: calculate grid power flows
+  evidence_ids:
+  - EVD-0120
+- id: PART-0144
+  reported_component: Household profile replay
+  role: represent household electricity demand
+  evidence_ids:
+  - EVD-0120
+- id: PART-0145
+  reported_component: PV profile replay
+  role: represent photovoltaic output
+  evidence_ids:
+  - EVD-0120

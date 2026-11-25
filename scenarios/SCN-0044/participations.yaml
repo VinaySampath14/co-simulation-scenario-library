@@ -1,0 +1,17 @@
+scenario_id: SCN-0044
+participations:
+- id: PART-0228
+  reported_component: PV simulators
+  role: provide time-based generation data to agents
+  evidence_ids:
+  - EVD-0143
+- id: PART-0229
+  reported_component: Software agents
+  role: receive plant data and exchange messages
+  evidence_ids:
+  - EVD-0143
+- id: PART-0230
+  reported_component: OMNeT++ communication model
+  role: simulate network delivery and timing
+  evidence_ids:
+  - EVD-0143

@@ -1,0 +1,19 @@
+id: SCN-0020
+title: EV hosting capacity in the Am Ölper Berge residential district
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- electric mobility
+source_ids:
+- SRC-0042
+scientific_publication_id: PUB-0019
+research_objective: Studies how increasing electric vehicle adoption affects voltage
+  in the Am Ölper Berge low-voltage grid in Brunswick, Germany. It compares charging
+  and local control strategies.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0115

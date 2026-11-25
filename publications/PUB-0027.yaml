@@ -1,0 +1,16 @@
+id: PUB-0027
+title: 'Smart grid co-simulation with MOSAIK and HLA: a comparison study'
+authors:
+- Cornelius Steinbrink
+- A. A. van der Meer
+- M. Cvetkovic
+- Davood Babazadeh
+- Sebastian Rohjans
+- Peter Palensky
+- Sebastian Lehnhoff
+year: 2017
+type: journal_article
+doi: 10.1007/s00450-017-0379-y
+source_id: SRC-0053
+evidence_ids:
+- EVD-0125

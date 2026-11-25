@@ -1,0 +1,19 @@
+id: SCN-0069
+title: Transient stability of a grid-forming wind power plant
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- wind energy
+- transient stability
+source_ids:
+- SRC-0099
+scientific_publication_id: PUB-0066
+research_objective: Benchmarks a mosaik and FMI co-simulation of a grid-forming wind
+  turbine against a monolithic PowerFactory reference.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0172

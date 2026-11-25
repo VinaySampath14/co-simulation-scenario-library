@@ -1,0 +1,13 @@
+id: PUB-0051
+title: OPC UA compliant coupling of multi-agent systems and Smart Grid simulations
+authors:
+- Steffen Schütte
+- Astrid Nieße
+- Sebastian Rohjans
+- Henning Rohlfs
+year: 2013
+type: conference_paper
+doi: 10.1109/IECON.2013.6700395
+source_id: SRC-0083
+evidence_ids:
+- EVD-0156

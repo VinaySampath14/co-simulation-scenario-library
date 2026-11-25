@@ -1,0 +1,27 @@
+scenario_id: SCN-0028
+participations:
+- id: PART-0157
+  reported_component: Distribution grid and transformer
+  role: represent power flows and the congestion constraint
+  evidence_ids:
+  - EVD-0124
+- id: PART-0158
+  reported_component: Wind turbines
+  role: provide controllable generation
+  evidence_ids:
+  - EVD-0124
+- id: PART-0159
+  reported_component: Flexible industrial loads
+  role: provide scheduling flexibility
+  evidence_ids:
+  - EVD-0124
+- id: PART-0160
+  reported_component: Inflexible residential and industrial loads
+  role: represent demand outside the controller
+  evidence_ids:
+  - EVD-0124
+- id: PART-0161
+  reported_component: ISAAC technical virtual power plant
+  role: coordinate flexible assets
+  evidence_ids:
+  - EVD-0124

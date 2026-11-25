@@ -1,0 +1,27 @@
+scenario_id: SCN-0057
+participations:
+- id: PART-0285
+  reported_component: Low-voltage grid simulator
+  role: calculate branch power flow
+  evidence_ids:
+  - EVD-0160
+- id: PART-0286
+  reported_component: PV panel models
+  role: supply generation
+  evidence_ids:
+  - EVD-0160
+- id: PART-0287
+  reported_component: Refrigerator models
+  role: represent controllable consumption
+  evidence_ids:
+  - EVD-0160
+- id: PART-0288
+  reported_component: Weather data
+  role: provide irradiation
+  evidence_ids:
+  - EVD-0160
+- id: PART-0289
+  reported_component: Ensemble uncertainty system
+  role: estimate the distribution of outputs
+  evidence_ids:
+  - EVD-0160

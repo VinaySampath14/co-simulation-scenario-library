@@ -1,0 +1,19 @@
+id: SCN-0071
+title: Fallback voltage control for residential PV in an active distribution grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- distributed flexibility
+- resilience
+source_ids:
+- SRC-0101
+scientific_publication_id: PUB-0068
+research_objective: Compares normal and fallback voltage regulation for a residential
+  PV demand-side management system when communications are disrupted.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0174

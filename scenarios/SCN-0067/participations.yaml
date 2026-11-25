@@ -1,0 +1,27 @@
+scenario_id: SCN-0067
+participations:
+- id: PART-0338
+  reported_component: Controllable refrigerator model
+  role: represent a flexible electrical load
+  evidence_ids:
+  - EVD-0170
+- id: PART-0339
+  reported_component: Generation model
+  role: supply electricity
+  evidence_ids:
+  - EVD-0170
+- id: PART-0340
+  reported_component: Metering authority model
+  role: collect information on energy units
+  evidence_ids:
+  - EVD-0170
+- id: PART-0341
+  reported_component: Grid simulator
+  role: represent the power grid
+  evidence_ids:
+  - EVD-0170
+- id: PART-0342
+  reported_component: Planning authority and agents
+  role: compare centralized and distributed scheduling
+  evidence_ids:
+  - EVD-0170

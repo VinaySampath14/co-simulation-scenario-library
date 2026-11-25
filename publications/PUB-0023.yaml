@@ -1,0 +1,18 @@
+id: PUB-0023
+title: Exchangeability of power flow simulators in smart grid co-simulations with
+  mosaik
+authors:
+- Sebastian Lehnhoff
+- Okko Nannen
+- Sebastian Rohjans
+- Florian Schlogl
+- Stefan Dalhues
+- Lena Robitzky
+- Ulf Hager
+- Christian Rehtanz
+year: 2015
+type: conference_paper
+doi: 10.1109/MSCPES.2015.7115410
+source_id: SRC-0048
+evidence_ids:
+- EVD-0120

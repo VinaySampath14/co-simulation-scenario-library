@@ -1,0 +1,12 @@
+id: PUB-0035
+title: An integrated testbed for locally monitoring SCADA systems in smart grids
+authors:
+- Justyna J. Chromik
+- Anne Remke
+- Boudewijn R. Haverkort
+year: 2018
+type: journal_article
+doi: 10.1186/s42162-018-0058-7
+source_id: SRC-0062
+evidence_ids:
+- EVD-0135

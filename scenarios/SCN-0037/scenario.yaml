@@ -1,0 +1,22 @@
+id: SCN-0037
+title: Local process-aware monitoring of a distribution substation
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- SCADA
+- defensive monitoring
+source_ids:
+- SRC-0062
+- SRC-0080
+scientific_publication_id: PUB-0035
+research_objective: Evaluates whether a local monitor can recognize unsafe or inconsistent
+  operation by checking SCADA information against the physical behaviour of a distribution
+  grid.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0135
+- EVD-0153

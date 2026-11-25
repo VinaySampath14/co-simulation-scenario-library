@@ -1,0 +1,19 @@
+id: SCN-0019
+title: Residential EV charging strategies on a Dutch-style distribution grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- electric mobility
+source_ids:
+- SRC-0041
+scientific_publication_id: PUB-0018
+research_objective: Compares EV charging strategies in a residential distribution-grid
+  co-simulation. The authors measure voltage quality and asset loading alongside driver
+  charging delay and cost.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0114

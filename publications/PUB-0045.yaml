@@ -1,0 +1,16 @@
+id: PUB-0045
+title: 'Energy Hub Gas: A Multi-Domain System Modelling and Co-Simulation Approach'
+authors:
+- Rafael Poppenborg
+- Johannes Ruf
+- M. Chlosta
+- J. Liu
+- Christian Hotz
+- Clemens Düpmeier
+- Thomas Kolb
+year: 2021
+type: conference_paper
+doi: 10.1145/3470481.3472712
+source_id: SRC-0076
+evidence_ids:
+- EVD-0148

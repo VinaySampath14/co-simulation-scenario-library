@@ -1,0 +1,22 @@
+scenario_id: SCN-0049
+participations:
+- id: PART-0249
+  reported_component: pandapower distribution grid
+  role: calculate electrical behaviour of the low-voltage network
+  evidence_ids:
+  - EVD-0150
+- id: PART-0250
+  reported_component: Household device profiles
+  role: represent prosumer loads and generation
+  evidence_ids:
+  - EVD-0150
+- id: PART-0251
+  reported_component: Stationary batteries
+  role: store surplus electricity and discharge to meet demand
+  evidence_ids:
+  - EVD-0150
+- id: PART-0252
+  reported_component: Home energy management system
+  role: apply the surplus-based battery strategy
+  evidence_ids:
+  - EVD-0150

@@ -1,0 +1,21 @@
+id: SCN-0066
+title: Active-power coordination by PV and household agents over simulated communications
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communications
+- multi-agent systems
+source_ids:
+- SRC-0096
+scientific_publication_id: PUB-0063
+research_objective: Uses mosaik and cosima to study how communication affects a group
+  of agents coordinating an active-power contribution.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0169
+related_scenario_ids:
+- SCN-0044

@@ -1,0 +1,32 @@
+scenario_id: SCN-0020
+participations:
+- id: PART-0115
+  reported_component: pandapower district grid
+  role: calculate low-voltage grid behaviour
+  evidence_ids:
+  - EVD-0115
+- id: PART-0116
+  reported_component: mosaik-car
+  role: represent vehicle mobility and charging demand
+  evidence_ids:
+  - EVD-0115
+- id: PART-0117
+  reported_component: mosaik-cs
+  role: apply charging strategies
+  evidence_ids:
+  - EVD-0115
+- id: PART-0118
+  reported_component: mosaik-control
+  role: balance building energy flows and dispatch flexibility
+  evidence_ids:
+  - EVD-0115
+- id: PART-0119
+  reported_component: mosaik-grid_correcter
+  role: respond to grid voltage limits
+  evidence_ids:
+  - EVD-0115
+- id: PART-0120
+  reported_component: Battery storage
+  role: provide local flexibility
+  evidence_ids:
+  - EVD-0115

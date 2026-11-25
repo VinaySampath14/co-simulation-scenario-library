@@ -1,0 +1,17 @@
+id: PUB-0024
+title: 'Co-simulação de Redes Elétricas Inteligentes: Implementação e Análise de Desempenho
+  da Integração Mosaik-OpenDSS'
+authors:
+- Luis Felipe Carneiro de Souza
+- Giovanni Corrdeiro Barroso
+- Lucas Silveira Melo
+- Caio Lucas Nascimento Silva
+- Ruth Pastôra Saraiva Leão
+- Raquel Cristina Filiagi Gregory
+- Raimundo Furtado Sampaio
+year: 2026
+type: conference_paper
+doi: null
+source_id: SRC-0049
+evidence_ids:
+- EVD-0121

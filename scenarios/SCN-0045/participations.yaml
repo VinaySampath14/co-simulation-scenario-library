@@ -1,0 +1,27 @@
+scenario_id: SCN-0045
+participations:
+- id: PART-0231
+  reported_component: PYPOWER grid
+  role: calculate feeder power flow
+  evidence_ids:
+  - EVD-0146
+- id: PART-0232
+  reported_component: Residential load simulator
+  role: supply household demand
+  evidence_ids:
+  - EVD-0146
+- id: PART-0233
+  reported_component: PV measurement profiles
+  role: supply photovoltaic production
+  evidence_ids:
+  - EVD-0146
+- id: PART-0234
+  reported_component: PADE storage agents
+  role: represent storage behaviour
+  evidence_ids:
+  - EVD-0146
+- id: PART-0235
+  reported_component: HDF5 and web visualization
+  role: record and display results
+  evidence_ids:
+  - EVD-0146

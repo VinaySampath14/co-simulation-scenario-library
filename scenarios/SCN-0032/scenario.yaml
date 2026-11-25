@@ -1,0 +1,19 @@
+id: SCN-0032
+title: Durlach district energy center validation with operational data
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- heat
+- electricity
+- district energy
+source_ids:
+- SRC-0056
+scientific_publication_id: PUB-0030
+research_objective: Validates the mosaik-based DES.sim framework against one year
+  of operational data from the Durlach residential district in Karlsruhe.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0128

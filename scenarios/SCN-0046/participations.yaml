@@ -1,0 +1,22 @@
+scenario_id: SCN-0046
+participations:
+- id: PART-0236
+  reported_component: PYPOWER distribution grid
+  role: simulate electrical values and provide reference results
+  evidence_ids:
+  - EVD-0147
+- id: PART-0237
+  reported_component: Household and solar inputs
+  role: represent demand and generation
+  evidence_ids:
+  - EVD-0147
+- id: PART-0238
+  reported_component: Odysseus stream processor
+  role: receive and process live simulation data
+  evidence_ids:
+  - EVD-0147
+- id: PART-0239
+  reported_component: Adaptive state estimator
+  role: estimate grid state from incoming data
+  evidence_ids:
+  - EVD-0147

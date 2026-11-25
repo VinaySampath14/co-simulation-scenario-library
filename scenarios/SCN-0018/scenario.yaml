@@ -1,0 +1,13 @@
+id: SCN-0018
+title: Tesserae GUI demonstration for a low-voltage electricity grid
+collection_level: 1
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, smart grids, co-simulation tooling]
+source_ids: [SRC-0039, SRC-0040]
+scientific_publication_id: PUB-0017
+research_objective: The authors use a low-voltage electricity-grid example to demonstrate how the mosaik GUI groups simulation entities into tesserae and connects groups of models without wiring each instance individually.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids: [EVD-0111, EVD-0112, EVD-0113]

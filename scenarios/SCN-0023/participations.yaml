@@ -1,0 +1,22 @@
+scenario_id: SCN-0023
+participations:
+- id: PART-0136
+  reported_component: SimBench extra-high-voltage network
+  role: represent the German grid for congestion analysis
+  evidence_ids:
+  - EVD-0118
+- id: PART-0137
+  reported_component: Grid and renewable profiles
+  role: supply time-varying operating conditions
+  evidence_ids:
+  - EVD-0118
+- id: PART-0138
+  reported_component: Distributed electrolyser models
+  role: represent hydrogen-producing electrical loads
+  evidence_ids:
+  - EVD-0118
+- id: PART-0139
+  reported_component: Electrolyser operation strategies
+  role: determine the electrical demand of the plants
+  evidence_ids:
+  - EVD-0118

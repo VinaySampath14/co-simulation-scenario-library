@@ -1,0 +1,22 @@
+scenario_id: SCN-0030
+participations:
+- id: PART-0164
+  reported_component: Python/SimPy EV models
+  role: represent vehicle charging
+  evidence_ids:
+  - EVD-0126
+- id: PART-0165
+  reported_component: MATLAB/Simulink PV models
+  role: represent solar generation
+  evidence_ids:
+  - EVD-0126
+- id: PART-0166
+  reported_component: Residential CSV profiles
+  role: supply household load
+  evidence_ids:
+  - EVD-0126
+- id: PART-0167
+  reported_component: Python/Pylon power flow
+  role: represent rural and urban distribution grids
+  evidence_ids:
+  - EVD-0126

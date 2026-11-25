@@ -1,0 +1,27 @@
+scenario_id: SCN-0051
+participations:
+- id: PART-0257
+  reported_component: demod occupancy and demand models
+  role: generate occupant activities and electricity and heat demand
+  evidence_ids:
+  - EVD-0152
+- id: PART-0258
+  reported_component: Building thermal model
+  role: represent indoor temperatures and space-heating needs
+  evidence_ids:
+  - EVD-0152
+- id: PART-0259
+  reported_component: TESPy-based heat pump
+  role: provide heat and electrical demand
+  evidence_ids:
+  - EVD-0152
+- id: PART-0260
+  reported_component: Hot-water tank
+  role: store heat
+  evidence_ids:
+  - EVD-0152
+- id: PART-0261
+  reported_component: Heating controller
+  role: coordinate the heat pump and tank
+  evidence_ids:
+  - EVD-0152

@@ -1,0 +1,19 @@
+id: SCN-0026
+title: OpenDSS integration benchmark for a smart distribution grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- simulation interoperability
+source_ids:
+- SRC-0049
+scientific_publication_id: PUB-0024
+research_objective: Evaluates the integration of OpenDSS with mosaik by comparing
+  a smart-grid co-simulation against a native OpenDSS benchmark.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0121
+- EVD-0134

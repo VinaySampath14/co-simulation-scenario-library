@@ -1,0 +1,27 @@
+scenario_id: SCN-0056
+participations:
+- id: PART-0280
+  reported_component: PYPOWER low-voltage grid
+  role: calculate feeder power flows
+  evidence_ids:
+  - EVD-0159
+- id: PART-0281
+  reported_component: Household lookup-table simulator
+  role: supply demand
+  evidence_ids:
+  - EVD-0159
+- id: PART-0282
+  reported_component: PV panel simulator
+  role: estimate solar output
+  evidence_ids:
+  - EVD-0159
+- id: PART-0283
+  reported_component: Weather lookup-table simulator
+  role: supply solar irradiance
+  evidence_ids:
+  - EVD-0159
+- id: PART-0284
+  reported_component: MoReSQUE prototype
+  role: propagate input uncertainty
+  evidence_ids:
+  - EVD-0159

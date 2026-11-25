@@ -1,0 +1,19 @@
+id: SCN-0043
+title: Power-flow surrogate training on a MIDAS medium-voltage benchmark
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- data-driven modelling
+- co-simulation performance
+source_ids:
+- SRC-0070
+scientific_publication_id: PUB-0041
+research_objective: Uses MIDAS and mosaik to compare sampling methods and evaluate
+  whether data-driven models can replace a medium-voltage power-flow model.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0142

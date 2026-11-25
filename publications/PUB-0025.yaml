@@ -1,0 +1,15 @@
+id: PUB-0025
+title: Multi-modeling building energy simulation over MOSAIK co-simulation infrastructure
+  with FMI integration
+authors:
+- Daniele Salvatore Schiera
+- Luca Barbierato
+- Andrea Lanzini
+- Romano Borchiellini
+- Enrico Pons
+year: 2020
+type: conference_paper
+doi: 10.1109/EEEIC/ICPSEurope49358.2020.9160641
+source_id: SRC-0050
+evidence_ids:
+- EVD-0122

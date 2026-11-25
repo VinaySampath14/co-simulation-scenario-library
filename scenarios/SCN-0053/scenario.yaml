@@ -1,0 +1,20 @@
+id: SCN-0053
+title: Cross-laboratory PV inverter and distribution-grid co-simulation
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- photovoltaics
+- laboratory validation
+source_ids:
+- SRC-0082
+scientific_publication_id: PUB-0050
+research_objective: Demonstrates distributed smart-grid validation by coupling the
+  SmartEST and SESA laboratories in mosaik and observing how emulated PV generation
+  affects a low-voltage network.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0155

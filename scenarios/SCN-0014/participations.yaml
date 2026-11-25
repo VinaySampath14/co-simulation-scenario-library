@@ -1,0 +1,30 @@
+scenario_id: SCN-0014
+participations:
+  - id: PART-0076
+    reported_component: CIGRE benchmark network in pandapower using SimBench
+    role: calculate network power flows
+    evidence_ids: [EVD-0100]
+  - id: PART-0077
+    reported_component: Electrical loads
+    role: represent local consumption
+    evidence_ids: [EVD-0100]
+  - id: PART-0078
+    reported_component: Solar PV simulator
+    role: supply solar generation in the PV configuration
+    evidence_ids: [EVD-0100]
+  - id: PART-0079
+    reported_component: Wind turbine simulator
+    role: supply wind generation
+    evidence_ids: [EVD-0100]
+  - id: PART-0080
+    reported_component: Conventional diesel generators
+    role: represent local conventional supply
+    evidence_ids: [EVD-0100]
+  - id: PART-0081
+    reported_component: External grid
+    role: supply imported electricity
+    evidence_ids: [EVD-0100]
+  - id: PART-0082
+    reported_component: Carbon-emissions simulator
+    role: estimate emissions from electricity supply using emission factors
+    evidence_ids: [EVD-0100]

@@ -1,0 +1,27 @@
+scenario_id: SCN-0037
+participations:
+- id: PART-0196
+  reported_component: PYPOWER distribution grid
+  role: represent electrical network conditions
+  evidence_ids:
+  - EVD-0135
+- id: PART-0197
+  reported_component: Household and PV simulators
+  role: provide demand and generation
+  evidence_ids:
+  - EVD-0135
+- id: PART-0198
+  reported_component: Remote terminal unit
+  role: relay measurements and control information
+  evidence_ids:
+  - EVD-0135
+- id: PART-0199
+  reported_component: SCADA server
+  role: represent supervisory monitoring and control
+  evidence_ids:
+  - EVD-0135
+- id: PART-0200
+  reported_component: Local process-aware monitor
+  role: check physical consistency and safe operation
+  evidence_ids:
+  - EVD-0135

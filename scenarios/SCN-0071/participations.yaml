@@ -1,0 +1,27 @@
+scenario_id: SCN-0071
+participations:
+- id: PART-0353
+  reported_component: SimBench low-voltage grid and pandapower
+  role: calculate network voltages
+  evidence_ids:
+  - EVD-0174
+- id: PART-0354
+  reported_component: Household PV and energy management models
+  role: represent generation and local control
+  evidence_ids:
+  - EVD-0174
+- id: PART-0355
+  reported_component: Distribution system operator model
+  role: coordinate voltage regulation
+  evidence_ids:
+  - EVD-0174
+- id: PART-0356
+  reported_component: Communication model
+  role: represent information exchange
+  evidence_ids:
+  - EVD-0174
+- id: PART-0357
+  reported_component: Fallback logic
+  role: evaluate continued voltage regulation during communication disruption
+  evidence_ids:
+  - EVD-0174

@@ -1,0 +1,27 @@
+scenario_id: SCN-0058
+participations:
+- id: PART-0291
+  reported_component: PYPOWER feeder
+  role: calculate software-based low-voltage power flow
+  evidence_ids:
+  - EVD-0161
+- id: PART-0292
+  reported_component: Household and PV profiles
+  role: supply demand and generation
+  evidence_ids:
+  - EVD-0161
+- id: PART-0293
+  reported_component: OPAL-RT network models
+  role: simulate additional voltage levels and feeder in real time
+  evidence_ids:
+  - EVD-0161
+- id: PART-0294
+  reported_component: AIT PV converter
+  role: supply hardware readings
+  evidence_ids:
+  - EVD-0161
+- id: PART-0295
+  reported_component: HDF5 recorder
+  role: store results
+  evidence_ids:
+  - EVD-0161

@@ -1,0 +1,22 @@
+scenario_id: SCN-0018
+participations:
+  - id: PART-0104
+    reported_component: Low-voltage buses (pandapower listed in GUI)
+    role: represent grid connection points
+    evidence_ids: [EVD-0113]
+  - id: PART-0105
+    reported_component: PV systems
+    role: represent solar generation connected to the buses
+    evidence_ids: [EVD-0112]
+  - id: PART-0106
+    reported_component: PV control
+    role: represent control of the PV systems
+    evidence_ids: [EVD-0112]
+  - id: PART-0107
+    reported_component: Wind plants (constant-output entities)
+    role: represent wind generation connected to the buses
+    evidence_ids: [EVD-0113]
+  - id: PART-0108
+    reported_component: Coal plant
+    role: represent conventional generation connected to the buses
+    evidence_ids: [EVD-0113]

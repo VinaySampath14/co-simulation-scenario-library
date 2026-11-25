@@ -1,0 +1,17 @@
+scenario_id: SCN-0069
+participations:
+- id: PART-0346
+  reported_component: PowerFactory power system FMU
+  role: simulate the wind plant and surrounding power system
+  evidence_ids:
+  - EVD-0172
+- id: PART-0347
+  reported_component: Simulink wind turbine controller FMU
+  role: provide grid-forming converter control
+  evidence_ids:
+  - EVD-0172
+- id: PART-0348
+  reported_component: Monolithic PowerFactory model
+  role: provide a comparison baseline
+  evidence_ids:
+  - EVD-0172

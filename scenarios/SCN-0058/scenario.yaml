@@ -1,0 +1,20 @@
+id: SCN-0058
+title: SESA-Lab staged real-time and hardware-in-the-loop grid demonstration
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- laboratory validation
+source_ids:
+- SRC-0088
+scientific_publication_id: PUB-0055
+research_objective: Demonstrates how mosaik can extend a software-only feeder simulation
+  with an OPAL-RT network and a physical PV converter in three stages.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0161
+related_scenario_ids:
+- SCN-0053

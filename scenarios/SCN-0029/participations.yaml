@@ -1,0 +1,12 @@
+scenario_id: SCN-0029
+participations:
+- id: PART-0162
+  reported_component: Wind turbine generator plant
+  role: represent rotor response to changing wind and blade pitch
+  evidence_ids:
+  - EVD-0125
+- id: PART-0163
+  reported_component: Active pitch controller
+  role: respond to excessive rotor speed
+  evidence_ids:
+  - EVD-0125

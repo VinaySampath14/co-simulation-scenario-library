@@ -1,0 +1,19 @@
+id: SCN-0041
+title: Battery model comparison in a simulated data center microgrid
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- data centers
+- battery storage
+source_ids:
+- SRC-0066
+scientific_publication_id: PUB-0039
+research_objective: Compares four battery models in a two-day Vessim data center experiment
+  orchestrated with mosaik.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0139

@@ -1,0 +1,19 @@
+id: SCN-0047
+title: Energy Hub Gas multi-carrier conversion co-simulation
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- hydrogen
+- multi-energy systems
+source_ids:
+- SRC-0076
+scientific_publication_id: PUB-0045
+research_objective: Evaluates whether the same Energy Hub Gas concept can be implemented
+  consistently with mosaik and PROOF.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0148

@@ -12,3 +12,61 @@ SCN-0010,Vessim prototype for software-in-the-loop carbon-aware computing,resear
 SCN-0011,ERIGrid 2.0 Benchmark 2: Multi-Energy Networks,research_scenario,mosaik,catalogued,https://github.com/ERIGrid2/benchmark-model-multi-energy-networks
 SCN-0012,Industrial hybrid power system sizing and voltage assessment,research_scenario,mosaik,catalogued,https://resolver.tudelft.nl/uuid:67428726-21d0-4ef7-83bf-fc26bde07ff7
 SCN-0013,Smart-grid digital twin for cybersecurity data generation,research_testbed,mosaik,catalogued,https://doi.org/10.1109/CSR61664.2024.10679448
+SCN-0014,Carbon-emissions effects of solar PV in a wind-enabled benchmark grid,software_demo,mosaik,catalogued,https://gitlab.com/mosaik/components/energy/mosaikemissions
+SCN-0015,Closed-loop community battery control for an Austrian renewable energy community,research_scenario,mosaik,catalogued,https://opus.fhv.at/frontdoor/deliver/index/docId/5442/file/Seiler_Assessing_MPC_for_EC_Flex.pdf
+SCN-0016,Wind-powered electric vehicle charging for architecture-to-simulation comparison,research_scenario,mosaik,catalogued,https://doi.org/10.5220/0012739800003714
+SCN-0017,HVAC controller benchmarking with the UMAR building digital twin,research_benchmark,mosaik,catalogued,https://github.com/uesl-empa/nestli
+SCN-0018,Tesserae GUI demonstration for a low-voltage electricity grid,software_demo,mosaik,catalogued,https://doi.org/10.1109/OSMSES69376.2026.11457214
+SCN-0019,Residential EV charging strategies on a Dutch-style distribution grid,research_scenario,mosaik,catalogued,https://doi.org/10.1109/sest53650.2022.9898417
+SCN-0020,EV hosting capacity in the Am Ölper Berge residential district,research_scenario,mosaik,catalogued,https://doi.org/10.1049/icp.2022.2713
+SCN-0021,Electricity and heat coupling in a low-temperature anergy network,research_scenario,mosaik,catalogued,https://github.com/DominikVereno/anergy-network-co-simulation
+SCN-0022,Economic emission dispatch for a Danish industrial greenhouse,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-74738-0_12
+SCN-0023,Electrolyser deployment and congestion in the German extra-high-voltage grid,research_scenario,mosaik,catalogued,https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios
+SCN-0024,Large electrolyser connection in an urban medium-voltage grid,research_scenario,mosaik,catalogued,https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios
+SCN-0025,Power-flow simulator exchangeability in a residential PV grid,research_scenario,mosaik,catalogued,https://doi.org/10.1109/MSCPES.2015.7115410
+SCN-0026,OpenDSS integration benchmark for a smart distribution grid,research_scenario,mosaik,catalogued,https://ojs.sba.org.br/index.php/cba/article/view/6555
+SCN-0027,FMI-based building energy co-simulation with PV and a heat pump,research_scenario,mosaik,catalogued,https://doi.org/10.1109/EEEIC/ICPSEurope49358.2020.9160641
+SCN-0028,Virtual power plant scheduling to prevent transformer overload,research_scenario,mosaik,catalogued,https://doi.org/10.3390/app9050923
+SCN-0029,Wind turbine storm control benchmark in mosaik and HLA,research_scenario,mosaik,catalogued,https://doi.org/10.1007/s00450-017-0379-y
+SCN-0030,GridSurfer EV charging in rural and urban distribution grids,research_scenario,mosaik,catalogued,https://uol.de/f/2/dept/informatik/ag/ui/publications/Schuette_Scherfke_Sonnenschein_2012_mosaik_-_Smart_Grid_Simulation_API.pdf
+SCN-0031,FMI 3 communication delays in distribution-grid tap control,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-99451-7_4
+SCN-0032,Durlach district energy center validation with operational data,research_scenario,mosaik,catalogued,https://opus.hs-offenburg.de/frontdoor/deliver/index/docId/12432/file/Thesis_Thennadan.pdf
+SCN-0033,Hybrid real-time voltage control with a grid-connected building,research_scenario,mosaik,catalogued,https://doi.org/10.1109/ACCESS.2024.3435336
+SCN-0034,Behind-the-meter flexibility for self-consumption and grid congestion management,research_scenario,mosaik,catalogued,https://doi.org/10.2139/ssrn.4415340
+SCN-0035,Communication effects on distributed CHP scheduling with cosima-mango,research_scenario,mosaik,catalogued,https://doi.org/10.1016/j.softx.2024.101667
+SCN-0036,Air photovoltaic-thermal collectors coupled to a building heat pump,research_scenario,mosaik,catalogued,https://doi.org/10.18086/eurosun.2024.02.09
+SCN-0037,Local process-aware monitoring of a distribution substation,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-018-0058-7
+SCN-0038,PAVN distributed virtual power plant and grid coordination,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-018-0042-2
+SCN-0039,Comparing modular agent-based voltage control on a distribution grid,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-019-0079-x
+SCN-0040,Vertical scaling of a building multi-energy co-simulation,research_benchmark,mosaik,catalogued,https://doi.org/10.1109/COMPSAC65507.2025.00286
+SCN-0041,Battery model comparison in a simulated data center microgrid,research_benchmark,mosaik,catalogued,https://arxiv.org/abs/2506.17739
+SCN-0042,Scalability of multi-agent control in cellular power grids,research_benchmark,mosaik,catalogued,https://gitlab.com/hybit1/massca
+SCN-0043,Power-flow surrogate training on a MIDAS medium-voltage benchmark,research_benchmark,mosaik,catalogued,https://doi.org/10.1007/978-3-031-43824-0_10
+SCN-0044,Event-based communication benchmark with photovoltaic agents,research_benchmark,mosaik,catalogued,https://doi.org/10.48550/arXiv.2209.12550
+SCN-0045,Distributed PV and storage agents on a low-voltage feeder,research_scenario,mosaik,catalogued,https://doi.org/10.22456/2175-2745.95095
+SCN-0046,Adaptive state estimation from live distribution-grid simulation data,research_scenario,mosaik,catalogued,http://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf
+SCN-0047,Energy Hub Gas multi-carrier conversion co-simulation,research_scenario,mosaik,catalogued,https://doi.org/10.1145/3470481.3472712
+SCN-0048,eELib building self-consumption with forecast-based control,research_scenario,mosaik,catalogued,https://doi.org/10.1109/OSMSES62085.2024.10668964
+SCN-0049,eELib low-voltage prosumer grid with battery surplus control,research_scenario,mosaik,catalogued,https://doi.org/10.1109/OSMSES62085.2024.10668964
+SCN-0050,Power restoration with communications backup in a distribution grid,research_scenario,mosaik,catalogued,https://doi.org/10.1145/3447555.3465415
+SCN-0051,Socio-technical residential demand with heat pump integration,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-021-00180-6
+SCN-0052,Distribution-grid tap control and state estimation with simulated communications,research_scenario,mosaik,catalogued,https://era.library.ualberta.ca/items/ad67ffb4-e563-4236-88cd-2a729f6fc820
+SCN-0053,Cross-laboratory PV inverter and distribution-grid co-simulation,research_scenario,mosaik,catalogued,https://doi.org/10.1109/ISIE.2015.7281633
+SCN-0054,Virtual power plant rescheduling test over OPC UA,research_scenario,mosaik,catalogued,https://doi.org/10.1109/IECON.2013.6700395
+SCN-0055,Uncertainty propagation in an eight-node residential PV grid,research_scenario,mosaik,catalogued,https://doi.org/10.1109/MSCPES.2016.7480222
+SCN-0056,MoReSQUE uncertainty propagation on a 37-node PV feeder,research_scenario,mosaik,catalogued,https://www.zotero.org/groups/5844550/items/SVHJWS6T
+SCN-0057,Ensemble uncertainty quantification in a PV and refrigerator feeder,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-319-31559-1_16
+SCN-0058,SESA-Lab staged real-time and hardware-in-the-loop grid demonstration,research_scenario,mosaik,catalogued,https://doi.org/10.1109/SmartGridComm.2014.7007645
+SCN-0059,Island-grid diesel dispatch with IPSYS and agent controllers,research_scenario,mosaik,catalogued,https://doi.org/10.1109/PSCC.2014.7038479
+SCN-0060,Smart Nord feeder comparison of PV profiles and FMI models,research_scenario,mosaik,catalogued,https://doi.org/10.1515/auto-2014-1087
+SCN-0061,Architecture-generated EV charging on a residential PV feeder,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-019-0084-0
+SCN-0062,ISAAC scheduling of smart buildings with household adaptation costs,research_scenario,mosaik,catalogued,https://doi.org/10.1186/s42162-019-0080-4
+SCN-0063,mosaik demo-derived comparison of household demand with PV and EVs,research_scenario,mosaik,catalogued,https://www.zotero.org/groups/5844550/items/3VYZZZFT
+SCN-0064,Reinforcement-learning integration for coordinated EV charging,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-031-26236-4_21
+SCN-0065,Illuminator community energy balance with battery and hydrogen storage,research_scenario,mosaik,catalogued,https://doi.org/10.1109/PowerTech55446.2023.10202816
+SCN-0066,Active-power coordination by PV and household agents over simulated communications,research_scenario,mosaik,catalogued,https://doi.org/10.1145/3607120.3607123
+SCN-0067,Teaching distributed scheduling with controllable energy units,research_scenario,mosaik,catalogued,https://doi.org/10.1007/978-3-658-20380-1_14
+SCN-0068,Office energy demand with stochastic occupancy and controls,research_scenario,mosaik,catalogued,https://doi.org/10.1016/j.proeng.2017.07.092
+SCN-0069,Transient stability of a grid-forming wind power plant,research_scenario,mosaik,catalogued,https://doi.org/10.3390/app11052410
+SCN-0070,Smart-grid test bench data for load scheduling and forecasting,research_scenario,mosaik,catalogued,https://doi.org/10.3390/en15072702
+SCN-0071,Fallback voltage control for residential PV in an active distribution grid,research_scenario,mosaik,catalogued,https://doi.org/10.1016/j.epsr.2024.110254

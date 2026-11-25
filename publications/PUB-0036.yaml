@@ -1,0 +1,13 @@
+id: PUB-0036
+title: Lessons learned from CPES co-simulation with distributed, heterogeneous systems
+authors:
+- Cornelius Steinbrink
+- Christian Köhler
+- Marius Siemonsmeier
+- Thorsten Van Ellen
+year: 2018
+type: journal_article
+doi: 10.1186/s42162-018-0042-2
+source_id: SRC-0063
+evidence_ids:
+- EVD-0136

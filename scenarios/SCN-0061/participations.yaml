@@ -1,0 +1,32 @@
+scenario_id: SCN-0061
+participations:
+- id: PART-0306
+  reported_component: Distribution grid model
+  role: represent feeder voltage and power demand
+  evidence_ids:
+  - EVD-0164
+- id: PART-0307
+  reported_component: Household simulators
+  role: provide demand
+  evidence_ids:
+  - EVD-0164
+- id: PART-0308
+  reported_component: PV simulators
+  role: provide generation
+  evidence_ids:
+  - EVD-0164
+- id: PART-0309
+  reported_component: Price generator
+  role: supply electricity price signals
+  evidence_ids:
+  - EVD-0164
+- id: PART-0310
+  reported_component: EV simulator with generated charging logic
+  role: schedule charging in response to prices
+  evidence_ids:
+  - EVD-0164
+- id: PART-0311
+  reported_component: HDF5 and web visualization
+  role: record and display results
+  evidence_ids:
+  - EVD-0164

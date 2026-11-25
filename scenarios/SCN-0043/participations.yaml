@@ -1,0 +1,27 @@
+scenario_id: SCN-0043
+participations:
+- id: PART-0223
+  reported_component: SimBench medium-voltage grid
+  role: provide the reference power-flow model for training and evaluation
+  evidence_ids:
+  - EVD-0142
+- id: PART-0224
+  reported_component: CIGRE medium-voltage grid
+  role: provide a comparison for profiling
+  evidence_ids:
+  - EVD-0142
+- id: PART-0225
+  reported_component: Demand and generation profiles
+  role: supply time-varying operating conditions
+  evidence_ids:
+  - EVD-0142
+- id: PART-0226
+  reported_component: Distributed energy resource models
+  role: represent resources in the CIGRE profiling case
+  evidence_ids:
+  - EVD-0142
+- id: PART-0227
+  reported_component: Power-flow surrogate models
+  role: predict grid outputs in place of the original simulator
+  evidence_ids:
+  - EVD-0142

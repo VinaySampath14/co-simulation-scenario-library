@@ -1,0 +1,20 @@
+id: SCN-0038
+title: PAVN distributed virtual power plant and grid coordination
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- distributed energy resources
+- grid flexibility
+source_ids:
+- SRC-0063
+scientific_publication_id: PUB-0036
+research_objective: Demonstrates how mosaik couples distributed simulation tools to
+  evaluate the coordination of virtual power plant schedules with distribution-grid
+  limits.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0136

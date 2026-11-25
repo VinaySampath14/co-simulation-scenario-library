@@ -1,0 +1,20 @@
+id: SCN-0055
+title: Uncertainty propagation in an eight-node residential PV grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- uncertainty quantification
+source_ids:
+- SRC-0084
+- SRC-0085
+scientific_publication_id: PUB-0052
+research_objective: Uses a mosaik residential PV grid to study how uncertain inputs
+  and model outputs affect photovoltaic production and feeder power flow.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0157
+- EVD-0158

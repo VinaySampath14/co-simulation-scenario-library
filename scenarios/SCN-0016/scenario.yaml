@@ -1,0 +1,24 @@
+id: SCN-0016
+title: Wind-powered electric vehicle charging for architecture-to-simulation comparison
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- electric mobility
+- smart-grid architecture
+source_ids:
+- SRC-0036
+- SRC-0067
+scientific_publication_id: PUB-0015
+research_objective: The authors model the same electric vehicle charging case in the
+  SGAM Toolbox and in mosaik to assess which information an architectural model can
+  supply when generating a smart-grid co-simulation.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0105
+- EVD-0106
+- EVD-0107
+- EVD-0140

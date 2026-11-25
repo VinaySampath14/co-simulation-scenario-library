@@ -41,4 +41,15 @@ For example, [PUB-0006](publications/PUB-0006.yaml) is the primary publication f
 
 ## Contribute or review
 
+For a Zotero group library, add `--group GROUP_ID` when listing collection keys or processing a collection.
+
+For batch intake, enable the local API in Zotero Desktop under **Settings → Advanced** and leave Zotero open. Install the validation dependencies and `pypdf` with `python -m pip install -r requirements-validation.txt pypdf`. Then list collection keys with `python tools/zotero_intake.py`.
+
+```powershell
+python tools/zotero_intake.py ABCD1234 --limit 5
+python tools/zotero_intake.py ABCD1234 --limit 5 --draft --output "$env:TEMP/zotero-level1.json"
+```
+
+Replace `ABCD1234` with the key of a personal-library collection. The first command checks publication matches and local PDF availability. The second sends the extracted PDF text to the configured model API using `OPENAI_API_KEY` and `EXTRACTION_MODEL` (or `VALIDATION_MODEL`) from `.env` or the environment. Review the draft and page excerpts before adding catalogue records. Use `--include-known` to compare against existing entries and `--offset 5` to advance to the next batch in an unchanged collection.
+
 New scenarios start at **Level 1**, a source-backed overview of what they study and which components participate. Use the [collection protocol](docs/SCENARIO_COLLECTION_PROTOCOL.md) and regenerate the overview with `python tools/generate_overview.py`. **Level 2** starts on request and uses the [detailed review workflow](docs/SCENARIO_REVIEW_WORKFLOW.md), including independent source review where appropriate. Structural checks, scientific review, and runtime reproduction have separate outcomes.

@@ -1,0 +1,19 @@
+id: SCN-0054
+title: Virtual power plant rescheduling test over OPC UA
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- multi-agent systems
+- interoperability
+source_ids:
+- SRC-0083
+scientific_publication_id: PUB-0051
+research_objective: Tests an OPC UA interface between mosaik and a multi-agent system
+  by monitoring whether a virtual power plant needs to reschedule its units.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0156

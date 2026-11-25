@@ -1,0 +1,19 @@
+id: SCN-0061
+title: Architecture-generated EV charging on a residential PV feeder
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- electric mobility
+- smart-grid architecture
+source_ids:
+- SRC-0091
+scientific_publication_id: PUB-0058
+research_objective: Demonstrates the transfer of an EV charging design from the SGAM
+  Toolbox to a mosaik simulation of a residential feeder.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0164

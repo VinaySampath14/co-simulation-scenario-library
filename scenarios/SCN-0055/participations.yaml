@@ -1,0 +1,27 @@
+scenario_id: SCN-0055
+participations:
+- id: PART-0275
+  reported_component: PYPOWER low-voltage feeder
+  role: calculate grid power flows
+  evidence_ids:
+  - EVD-0157
+- id: PART-0276
+  reported_component: Household consumption profiles
+  role: supply demand
+  evidence_ids:
+  - EVD-0157
+- id: PART-0277
+  reported_component: Photovoltaic panel model
+  role: estimate PV production
+  evidence_ids:
+  - EVD-0157
+- id: PART-0278
+  reported_component: Solar irradiance profiles
+  role: supply weather input
+  evidence_ids:
+  - EVD-0157
+- id: PART-0279
+  reported_component: Uncertainty modules
+  role: propagate assumptions through the co-simulation
+  evidence_ids:
+  - EVD-0157

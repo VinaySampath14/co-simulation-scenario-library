@@ -1,0 +1,13 @@
+id: PUB-0034
+title: Simulation of a Photovoltaic-Thermal (PV-T) Air Source Heat Pump (ASHP) System
+  for Building Thermal Demands
+authors:
+- Pranay Kasturi
+- Herena Torio
+- Jan Soeren Schwarz
+year: 2024
+type: conference_paper
+doi: 10.18086/eurosun.2024.02.09
+source_id: SRC-0060
+evidence_ids:
+- EVD-0132

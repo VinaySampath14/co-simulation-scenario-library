@@ -1,0 +1,22 @@
+scenario_id: SCN-0016
+participations:
+  - id: PART-0091
+    reported_component: Electric vehicle
+    role: represent charging demand and battery charge level
+    evidence_ids: [EVD-0106]
+  - id: PART-0092
+    reported_component: Charging station
+    role: coordinate vehicle charging and electricity procurement
+    evidence_ids: [EVD-0105]
+  - id: PART-0093
+    reported_component: Smart meter
+    role: manage information exchange between the turbine and charging station
+    evidence_ids: [EVD-0105]
+  - id: PART-0094
+    reported_component: Wind turbine
+    role: provide a local electricity supply option
+    evidence_ids: [EVD-0105]
+  - id: PART-0095
+    reported_component: PYPOWER grid simulator
+    role: represent grid structure and characteristics
+    evidence_ids: [EVD-0106]

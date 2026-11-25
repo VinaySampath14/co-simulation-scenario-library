@@ -1,0 +1,27 @@
+scenario_id: SCN-0034
+participations:
+- id: PART-0184
+  reported_component: pandapower and SimBench grid
+  role: calculate distribution grid power flows
+  evidence_ids:
+  - EVD-0130
+- id: PART-0185
+  reported_component: Behind-the-meter assets
+  role: provide controllable demand and generation
+  evidence_ids:
+  - EVD-0130
+- id: PART-0186
+  reported_component: Home energy management systems
+  role: schedule household assets
+  evidence_ids:
+  - EVD-0130
+- id: PART-0187
+  reported_component: Edge aggregation devices
+  role: aggregate household flexibility
+  evidence_ids:
+  - EVD-0130
+- id: PART-0188
+  reported_component: Distribution system operator model
+  role: coordinate grid-supporting flexibility
+  evidence_ids:
+  - EVD-0130

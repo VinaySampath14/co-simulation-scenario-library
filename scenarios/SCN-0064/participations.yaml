@@ -1,0 +1,27 @@
+scenario_id: SCN-0064
+participations:
+- id: PART-0322
+  reported_component: Distribution grid
+  role: represent the electrical system
+  evidence_ids:
+  - EVD-0167
+- id: PART-0323
+  reported_component: Household simulators
+  role: provide baseline demand
+  evidence_ids:
+  - EVD-0167
+- id: PART-0324
+  reported_component: EV charging stations
+  role: represent vehicle charging loads
+  evidence_ids:
+  - EVD-0167
+- id: PART-0325
+  reported_component: Charging-station management system
+  role: limit available charging power
+  evidence_ids:
+  - EVD-0167
+- id: PART-0326
+  reported_component: TF-Agents controller
+  role: learn a charging strategy
+  evidence_ids:
+  - EVD-0167

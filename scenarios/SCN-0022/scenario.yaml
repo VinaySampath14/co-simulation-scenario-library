@@ -1,0 +1,20 @@
+id: SCN-0022
+title: Economic emission dispatch for a Danish industrial greenhouse
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- heat
+- industrial energy management
+source_ids:
+- SRC-0045
+scientific_publication_id: PUB-0021
+research_objective: Uses a Danish industrial greenhouse to study how a closed-loop
+  dispatch controller can balance energy cost and emissions. The authors compare requirements
+  in mosaik with those of operational deployment.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0117

@@ -1,0 +1,21 @@
+id: SCN-0042
+title: Scalability of multi-agent control in cellular power grids
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- multi-agent systems
+- co-simulation performance
+source_ids:
+- SRC-0068
+- SRC-0069
+scientific_publication_id: PUB-0040
+research_objective: Benchmarks the execution time of a mosaik-based cellular grid
+  simulation as the number of cells and the depth of the agent hierarchy change.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0141
+code_url: https://gitlab.com/hybit1/massca

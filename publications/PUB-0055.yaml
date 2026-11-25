@@ -1,0 +1,21 @@
+id: PUB-0055
+title: Integrated Smart Grid simulations for generic automation architectures with
+  RT-LAB and mosaik
+authors:
+- Martin Büscher
+- Arno Claassen
+- Matthias Kube
+- Sebastian Lehnhoff
+- Klaus Piech
+- Sebastian Rohjans
+- Stefan Scherfke
+- Cornelius Steinbrink
+- Jorge Velasquez
+- Francois Tempez
+- Yahia Bouzid
+year: 2014
+type: conference_paper
+doi: 10.1109/SmartGridComm.2014.7007645
+source_id: SRC-0088
+evidence_ids:
+- EVD-0161

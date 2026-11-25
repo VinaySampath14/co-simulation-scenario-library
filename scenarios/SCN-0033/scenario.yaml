@@ -1,0 +1,19 @@
+id: SCN-0033
+title: Hybrid real-time voltage control with a grid-connected building
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- building energy
+- real-time co-simulation
+source_ids:
+- SRC-0057
+scientific_publication_id: PUB-0031
+research_objective: Tests low-voltage control in a hybrid mosaik and OPAL-RT setup
+  by comparing operation with the voltage controller enabled and disabled.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0129

@@ -1,0 +1,21 @@
+id: PUB-0026
+title: 'CPES Testing with mosaik: Co-Simulation Planning, Execution and Analysis'
+authors:
+- Cornelius Steinbrink
+- Marita Blank-Babazadeh
+- André El-Ama
+- Stefanie Holly
+- Bengt Lüers
+- Marvin Nebel-Wenner
+- Rebeca Ramírez Acosta
+- Thomas Raub
+- Jan Sören Schwarz
+- Sanja Stark
+- Astrid Nieße
+- Sebastian Lehnhoff
+year: 2019
+type: journal_article
+doi: 10.3390/app9050923
+source_id: SRC-0052
+evidence_ids:
+- EVD-0124

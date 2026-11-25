@@ -1,0 +1,19 @@
+id: SCN-0040
+title: Vertical scaling of a building multi-energy co-simulation
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- building energy
+- electricity
+- co-simulation performance
+source_ids:
+- SRC-0065
+scientific_publication_id: PUB-0038
+research_objective: Benchmarks how the runtime of a mosaik-based building energy co-simulation
+  changes as more model instances are added.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0138

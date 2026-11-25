@@ -1,0 +1,22 @@
+scenario_id: SCN-0070
+participations:
+- id: PART-0349
+  reported_component: Smart-grid test bench datasets
+  role: provide physical equipment measurements
+  evidence_ids:
+  - EVD-0173
+- id: PART-0350
+  reported_component: Induction motor and installed loads
+  role: supply the reported voltage and aggregate demand signals
+  evidence_ids:
+  - EVD-0173
+- id: PART-0351
+  reported_component: Scheduling and forecasting software
+  role: provide optimization and forecast outputs
+  evidence_ids:
+  - EVD-0173
+- id: PART-0352
+  reported_component: Result database
+  role: store data for comparison
+  evidence_ids:
+  - EVD-0173

@@ -1,0 +1,22 @@
+scenario_id: SCN-0066
+participations:
+- id: PART-0334
+  reported_component: PV models
+  role: provide generation values
+  evidence_ids:
+  - EVD-0169
+- id: PART-0335
+  reported_component: Household models
+  role: provide load values
+  evidence_ids:
+  - EVD-0169
+- id: PART-0336
+  reported_component: Power coordination agents
+  role: find a collective active-power contribution
+  evidence_ids:
+  - EVD-0169
+- id: PART-0337
+  reported_component: OMNeT++ communication model
+  role: simulate message delivery
+  evidence_ids:
+  - EVD-0169

@@ -1,0 +1,27 @@
+scenario_id: SCN-0063
+participations:
+- id: PART-0317
+  reported_component: PYPOWER grid
+  role: calculate active power exchanges
+  evidence_ids:
+  - EVD-0166
+- id: PART-0318
+  reported_component: Household profiles
+  role: represent household demand
+  evidence_ids:
+  - EVD-0166
+- id: PART-0319
+  reported_component: PV time series
+  role: provide generation
+  evidence_ids:
+  - EVD-0166
+- id: PART-0320
+  reported_component: Electric vehicles
+  role: add charging demand
+  evidence_ids:
+  - EVD-0166
+- id: PART-0321
+  reported_component: HDF5 and web visualization
+  role: record and display results
+  evidence_ids:
+  - EVD-0166

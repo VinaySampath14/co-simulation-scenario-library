@@ -1,0 +1,27 @@
+scenario_id: SCN-0060
+participations:
+- id: PART-0301
+  reported_component: PYPOWER feeder
+  role: calculate grid power flows
+  evidence_ids:
+  - EVD-0163
+- id: PART-0302
+  reported_component: Household CSV profiles
+  role: provide demand
+  evidence_ids:
+  - EVD-0163
+- id: PART-0303
+  reported_component: GridSurfer EV simulator
+  role: represent electric vehicle demand
+  evidence_ids:
+  - EVD-0163
+- id: PART-0304
+  reported_component: Historical PV profiles
+  role: supply prescribed output in the reference setup
+  evidence_ids:
+  - EVD-0163
+- id: PART-0305
+  reported_component: OpenModelica PV FMUs
+  role: supply modelled output in the FMI configuration
+  evidence_ids:
+  - EVD-0163

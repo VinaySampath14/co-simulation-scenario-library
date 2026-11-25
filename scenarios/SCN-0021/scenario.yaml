@@ -1,0 +1,22 @@
+id: SCN-0021
+title: Electricity and heat coupling in a low-temperature anergy network
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- district heating
+- district cooling
+source_ids:
+- SRC-0043
+- SRC-0044
+scientific_publication_id: PUB-0020
+research_objective: Demonstrates how a low-temperature thermal network and an electricity
+  grid can be co-simulated in mosaik using an illustrative district with buildings
+  and a data center.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0116
+code_url: https://github.com/DominikVereno/anergy-network-co-simulation

@@ -1,0 +1,14 @@
+id: SCN-0014
+title: Carbon-emissions effects of solar PV in a wind-enabled benchmark grid
+collection_level: 1
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain: [electricity, renewable generation, carbon emissions]
+source_ids: [SRC-0033, SRC-0034]
+scientific_publication_id: PUB-0013
+research_objective: The showcase uses mosaik to compare estimated daily carbon emissions with and without solar PV in a benchmark electricity network that includes wind generation.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://gitlab.com/mosaik/components/energy/mosaikemissions
+evidence_ids: [EVD-0100, EVD-0101]

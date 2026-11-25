@@ -5,3 +5,9 @@ A local energy community couples a low-voltage electricity network and a distric
 The authors use the benchmark to demonstrate their design-of-experiments toolbox. In the reported Sobol analysis, scaling PV generation had the largest first-order effect on electrical self-consumption, and scaling the heat demand profile had the largest first-order effect on minimum heat supply temperature. The heat pump power parameter ranked second for both outputs. These are results from the reported experiment. [Paper, Section III-A and Figures 4–5](https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf)
 
 The source links distinguish the benchmark implementation from the toolbox that prepares experimental inputs and analyzes outputs. The exact repository revisions used for the published analysis remain unverified at Level 1. Section III-B describes a separate hybrid storage study. Its use of mosaik was not established. [Benchmark implementation](https://github.com/ERIGrid2/benchmark-model-multi-energy-networks) · [Experiment toolbox and example](https://github.com/ERIGrid2/toolbox_doe_sa)
+
+A separate study uses the same benchmark to investigate how coupled electricity and heating simulators reach consistent initial conditions. It compares two configurations of mosaik’s same-time loops. [Initialization study, Section III and Figures 2–3](https://doi.org/10.1109/MSCPES55116.2022.9770106)
+
+A scaling study uses the same benchmark to examine interactions between electricity and heat and the effects of thermal storage sizing. [Scaling study, Sections II?IV](https://arxiv.org/html/2410.17603v1)
+
+The authors compare pandapipes and the District Heating Library as thermal implementations of the same energy benchmark. [PDF pp. 3–5, Sections III–V and Table III](https://doi.org/10.1109/OSMSES54027.2022.9769129)

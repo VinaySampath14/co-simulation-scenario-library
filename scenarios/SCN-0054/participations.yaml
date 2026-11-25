@@ -1,0 +1,22 @@
+scenario_id: SCN-0054
+participations:
+- id: PART-0271
+  reported_component: Generator models
+  role: represent virtual power plant generating units
+  evidence_ids:
+  - EVD-0156
+- id: PART-0272
+  reported_component: Storage models
+  role: represent flexible resources
+  evidence_ids:
+  - EVD-0156
+- id: PART-0273
+  reported_component: JADE multi-agent system
+  role: evaluate coalition reliability
+  evidence_ids:
+  - EVD-0156
+- id: PART-0274
+  reported_component: OPC UA interface
+  role: exchange information between agents and mosaik
+  evidence_ids:
+  - EVD-0156

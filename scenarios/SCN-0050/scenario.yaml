@@ -1,0 +1,19 @@
+id: SCN-0050
+title: Power restoration with communications backup in a distribution grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication networks
+- resilience
+source_ids:
+- SRC-0078
+scientific_publication_id: PUB-0047
+research_objective: Studies how communication coverage and backup power affect the
+  amount of electrical load restored after an outage.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0151

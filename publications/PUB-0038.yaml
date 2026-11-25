@@ -1,0 +1,16 @@
+id: PUB-0038
+title: Design and Evaluation of Vertical Scalability Strategies for Deploying Large-scale
+  Co-simulations
+authors:
+- Carlos Gerardo Valeriano
+- Abouzar Estebsari
+- Lorenzo Bottaccioli
+- Edoardo Patti
+- Daniele Salvatore Schiera
+- Luca Barbierato
+year: 2025
+type: conference_paper
+doi: 10.1109/COMPSAC65507.2025.00286
+source_id: SRC-0065
+evidence_ids:
+- EVD-0138

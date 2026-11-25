@@ -1,0 +1,32 @@
+scenario_id: SCN-0048
+participations:
+- id: PART-0243
+  reported_component: Building demand profiles
+  role: represent electricity and heat consumption
+  evidence_ids:
+  - EVD-0149
+- id: PART-0244
+  reported_component: PV model
+  role: calculate on-site generation
+  evidence_ids:
+  - EVD-0149
+- id: PART-0245
+  reported_component: Stationary battery
+  role: store electricity
+  evidence_ids:
+  - EVD-0149
+- id: PART-0246
+  reported_component: Electric vehicle and charger
+  role: represent mobility demand and charging
+  evidence_ids:
+  - EVD-0149
+- id: PART-0247
+  reported_component: Heat pump
+  role: supply heat
+  evidence_ids:
+  - EVD-0149
+- id: PART-0248
+  reported_component: Home energy management system
+  role: schedule flexible devices using forecasts
+  evidence_ids:
+  - EVD-0149

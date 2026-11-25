@@ -1,0 +1,17 @@
+scenario_id: SCN-0047
+participations:
+- id: PART-0240
+  reported_component: Energy Hub Gas system
+  role: represent energy conversion and exchange across carriers
+  evidence_ids:
+  - EVD-0148
+- id: PART-0241
+  reported_component: Electrolyser model
+  role: convert electrical input into hydrogen output
+  evidence_ids:
+  - EVD-0148
+- id: PART-0242
+  reported_component: IT controller
+  role: supply operating setpoints
+  evidence_ids:
+  - EVD-0148

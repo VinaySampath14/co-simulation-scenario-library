@@ -1,0 +1,34 @@
+scenario_id: SCN-0015
+participations:
+  - id: PART-0083
+    reported_component: Residential loads
+    role: represent household electricity demand
+    evidence_ids: [EVD-0102]
+  - id: PART-0084
+    reported_component: Community PV system
+    role: provide shared solar generation
+    evidence_ids: [EVD-0102]
+  - id: PART-0085
+    reported_component: Two private PV systems
+    role: provide generation at participating households
+    evidence_ids: [EVD-0102]
+  - id: PART-0086
+    reported_component: Community battery energy storage system
+    role: store and discharge electricity to support local self-consumption
+    evidence_ids: [EVD-0102]
+  - id: PART-0087
+    reported_component: Distribution system operator
+    role: make participant smart-meter data available for settlement
+    evidence_ids: [EVD-0102]
+  - id: PART-0088
+    reported_component: Renewable energy community operator
+    role: use the available data for community operation
+    evidence_ids: [EVD-0102]
+  - id: PART-0089
+    reported_component: LSTM residual-load forecaster
+    role: predict residual demand for battery scheduling
+    evidence_ids: [EVD-0102]
+  - id: PART-0090
+    reported_component: Model predictive battery controller
+    role: schedule battery charging and discharging in closed loop
+    evidence_ids: [EVD-0102]

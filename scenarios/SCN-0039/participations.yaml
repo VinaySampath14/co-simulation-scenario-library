@@ -1,0 +1,27 @@
+scenario_id: SCN-0039
+participations:
+- id: PART-0204
+  reported_component: pandapower distribution grid
+  role: calculate grid voltages and power flows
+  evidence_ids:
+  - EVD-0137
+- id: PART-0205
+  reported_component: Distributed generators
+  role: supply generation and controllable reactive power
+  evidence_ids:
+  - EVD-0137
+- id: PART-0206
+  reported_component: On-load tap-changing transformer
+  role: regulate voltage through tap changes
+  evidence_ids:
+  - EVD-0137
+- id: PART-0207
+  reported_component: aiomas voltage-control agents
+  role: implement and compare DAC, HRCO and the recombined controller
+  evidence_ids:
+  - EVD-0137
+- id: PART-0208
+  reported_component: Electrical loads
+  role: represent demand and changes in operating conditions
+  evidence_ids:
+  - EVD-0137

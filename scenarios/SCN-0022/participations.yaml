@@ -1,0 +1,42 @@
+scenario_id: SCN-0022
+participations:
+- id: PART-0128
+  reported_component: Greenhouse energy system
+  role: represent the industrial site's energy demand and supply
+  evidence_ids:
+  - EVD-0117
+- id: PART-0129
+  reported_component: Dispatch controller
+  role: compute setpoints from the latest system state
+  evidence_ids:
+  - EVD-0117
+- id: PART-0130
+  reported_component: Gas boiler
+  role: supply heat
+  evidence_ids:
+  - EVD-0117
+- id: PART-0131
+  reported_component: Heat pump
+  role: convert electricity to useful heat
+  evidence_ids:
+  - EVD-0117
+- id: PART-0132
+  reported_component: District heating
+  role: supply heat from the external network
+  evidence_ids:
+  - EVD-0117
+- id: PART-0133
+  reported_component: Combined heat and power plant
+  role: represent coupled heat and electricity production
+  evidence_ids:
+  - EVD-0117
+- id: PART-0134
+  reported_component: Thermal storage
+  role: buffer heat across operating periods
+  evidence_ids:
+  - EVD-0117
+- id: PART-0135
+  reported_component: Distribution grid
+  role: supply imported electricity
+  evidence_ids:
+  - EVD-0117

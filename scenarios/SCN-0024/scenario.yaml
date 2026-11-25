@@ -1,0 +1,21 @@
+id: SCN-0024
+title: Large electrolyser connection in an urban medium-voltage grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- hydrogen
+source_ids:
+- SRC-0046
+- SRC-0047
+scientific_publication_id: PUB-0022
+research_objective: Evaluates connecting a large electrolyser to an urban SimBench
+  medium-voltage grid. The mosaik showcase investigates bus voltage limits and includes
+  an analysis of electrolyser degradation.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0119
+code_url: https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios

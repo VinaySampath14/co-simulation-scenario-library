@@ -1,0 +1,32 @@
+scenario_id: SCN-0026
+participations:
+- id: PART-0146
+  reported_component: OpenDSS grid simulator
+  role: calculate distribution-grid power flows
+  evidence_ids:
+  - EVD-0121
+- id: PART-0147
+  reported_component: PV panel
+  role: represent photovoltaic generation
+  evidence_ids:
+  - EVD-0121
+- id: PART-0148
+  reported_component: PV inverter
+  role: convert and exchange PV power with the network
+  evidence_ids:
+  - EVD-0121
+- id: PART-0149
+  reported_component: Energy storage system
+  role: represent electrical storage
+  evidence_ids:
+  - EVD-0121
+- id: PART-0150
+  reported_component: Storage controller
+  role: control storage operation
+  evidence_ids:
+  - EVD-0121
+- id: PART-0151
+  reported_component: RegControl
+  role: provide regulator tap commands
+  evidence_ids:
+  - EVD-0121

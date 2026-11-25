@@ -1,0 +1,22 @@
+scenario_id: SCN-0041
+participations:
+- id: PART-0216
+  reported_component: Two simulated server nodes
+  role: provide data center electrical demand
+  evidence_ids:
+  - EVD-0139
+- id: PART-0217
+  reported_component: Solar panel model
+  role: estimate generation from irradiance
+  evidence_ids:
+  - EVD-0139
+- id: PART-0218
+  reported_component: Battery model variants
+  role: represent storage behaviour at different levels of detail
+  evidence_ids:
+  - EVD-0139
+- id: PART-0219
+  reported_component: Vessim storage controller
+  role: decide when to charge and discharge the battery
+  evidence_ids:
+  - EVD-0139

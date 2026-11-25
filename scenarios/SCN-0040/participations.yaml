@@ -1,0 +1,37 @@
+scenario_id: SCN-0040
+participations:
+- id: PART-0209
+  reported_component: Building simulator
+  role: represent building energy dynamics
+  evidence_ids:
+  - EVD-0138
+- id: PART-0210
+  reported_component: Heat pump FMU
+  role: convert electricity into heat
+  evidence_ids:
+  - EVD-0138
+- id: PART-0211
+  reported_component: PV simulator
+  role: calculate solar production
+  evidence_ids:
+  - EVD-0138
+- id: PART-0212
+  reported_component: Battery FMU
+  role: represent charging and discharging
+  evidence_ids:
+  - EVD-0138
+- id: PART-0213
+  reported_component: Household behaviour simulator
+  role: supply demand patterns
+  evidence_ids:
+  - EVD-0138
+- id: PART-0214
+  reported_component: Weather simulator
+  role: supply environmental inputs
+  evidence_ids:
+  - EVD-0138
+- id: PART-0215
+  reported_component: Smart meter
+  role: collect energy data
+  evidence_ids:
+  - EVD-0138

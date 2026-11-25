@@ -1,0 +1,20 @@
+id: SCN-0036
+title: Air photovoltaic-thermal collectors coupled to a building heat pump
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- building energy
+- heat
+- electricity
+source_ids:
+- SRC-0060
+scientific_publication_id: PUB-0034
+research_objective: Uses mosaik to compare a photovoltaic-thermal collector coupled
+  to an air-source heat pump with a PV-only baseline for building heating and domestic
+  hot water.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0132

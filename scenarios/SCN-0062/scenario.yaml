@@ -1,0 +1,19 @@
+id: SCN-0062
+title: ISAAC scheduling of smart buildings with household adaptation costs
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- building energy
+- multi-agent scheduling
+source_ids:
+- SRC-0092
+scientific_publication_id: PUB-0059
+research_objective: Uses mosaik to couple smart building models with ISAAC and compare
+  power schedules while accounting for household adaptation costs.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0165

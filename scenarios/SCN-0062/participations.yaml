@@ -1,0 +1,27 @@
+scenario_id: SCN-0062
+participations:
+- id: PART-0312
+  reported_component: Smart building model
+  role: aggregate device operation and prepare schedules
+  evidence_ids:
+  - EVD-0165
+- id: PART-0313
+  reported_component: PV systems
+  role: represent on-site generation
+  evidence_ids:
+  - EVD-0165
+- id: PART-0314
+  reported_component: Battery storage
+  role: represent electrical flexibility
+  evidence_ids:
+  - EVD-0165
+- id: PART-0315
+  reported_component: EV charging stations
+  role: represent vehicle charging demand
+  evidence_ids:
+  - EVD-0165
+- id: PART-0316
+  reported_component: ISAAC agents
+  role: coordinate the schedule selection
+  evidence_ids:
+  - EVD-0165

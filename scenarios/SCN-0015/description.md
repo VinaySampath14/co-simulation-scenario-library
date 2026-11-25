@@ -1,0 +1,7 @@
+# Closed-loop community battery control for an Austrian renewable energy community
+
+The authors simulate an Austrian renewable energy community with residential loads, one shared solar PV system, two privately owned PV systems, and a shared battery. The mosaik setup represents the exchange of smart-meter data between the distribution system operator and the community operator. A closed-loop model predictive controller uses forecasts of residual demand to schedule the battery and increase the share of solar generation consumed within the community. [Conference paper](https://opus.fhv.at/frontdoor/deliver/index/docId/5442/file/Seiler_Assessing_MPC_for_EC_Flex.pdf)
+
+The forecasts use an LSTM model pretrained on synthetic load profiles. In the reported use case, simplified forecasting combined with modelling uncertainty reduced self-consumption by up to 14.5 percentage points. The study also reports a 3.9 percentage-point reduction when the battery capacity represented in the controller differed by 20% from that in the simulated battery. The comparisons are recorded as variants of the same community setup. [Conference paper](https://opus.fhv.at/frontdoor/deliver/index/docId/5442/file/Seiler_Assessing_MPC_for_EC_Flex.pdf)
+
+The institutional record lists CC BY 4.0 for the publication and links the proceedings DOI (10.57739/978-3-903207-89-9). A scenario code repository and code reuse terms remain unverified. [Publication record](https://opus.fhv.at/frontdoor/index/index/docId/5442)

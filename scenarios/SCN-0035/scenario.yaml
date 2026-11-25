@@ -1,0 +1,19 @@
+id: SCN-0035
+title: Communication effects on distributed CHP scheduling with cosima-mango
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication networks
+- multi-agent systems
+source_ids:
+- SRC-0059
+scientific_publication_id: PUB-0033
+research_objective: Compares ideal communication with simulated network delivery in
+  a distributed CHP scheduling experiment built on mosaik.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0131

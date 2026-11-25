@@ -1,0 +1,14 @@
+id: PUB-0066
+title: MOSAIK and FMI-based co-simulation applied to transient stability analysis
+  of grid-forming converter modulated wind power plants
+authors:
+- Nakisa Farrokhseresht
+- Arjen A. van der Meer
+- José Rueda Torres
+- Mart A.M.M. van der Meijden
+year: 2021
+type: journal_article
+doi: 10.3390/app11052410
+source_id: SRC-0099
+evidence_ids:
+- EVD-0172

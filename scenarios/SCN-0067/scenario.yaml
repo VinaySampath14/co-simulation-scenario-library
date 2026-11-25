@@ -1,0 +1,19 @@
+id: SCN-0067
+title: Teaching distributed scheduling with controllable energy units
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- energy education
+- multi-agent scheduling
+source_ids:
+- SRC-0097
+scientific_publication_id: PUB-0064
+research_objective: Describes a mosaik teaching exercise in which students build controllable
+  energy models and compare centralized and distributed planning.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0170

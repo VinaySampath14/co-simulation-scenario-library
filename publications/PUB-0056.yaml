@@ -1,0 +1,15 @@
+id: PUB-0056
+title: Evaluation of smart grid control strategies in co-simulation - integration
+  of IPSYS and mosaik
+authors:
+- Anna Magdalena Kosek
+- Ontje Lünsdorf
+- Stefan Scherfke
+- Oliver Gehrke
+- Sebastian Rohjans
+year: 2014
+type: conference_paper
+doi: 10.1109/PSCC.2014.7038479
+source_id: SRC-0089
+evidence_ids:
+- EVD-0162

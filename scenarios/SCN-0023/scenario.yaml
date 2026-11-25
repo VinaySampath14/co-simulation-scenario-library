@@ -1,0 +1,21 @@
+id: SCN-0023
+title: Electrolyser deployment and congestion in the German extra-high-voltage grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- hydrogen
+source_ids:
+- SRC-0046
+- SRC-0047
+scientific_publication_id: PUB-0022
+research_objective: Studies how the siting and operation of large-scale electrolysers
+  affect load congestion in a German extra-high-voltage grid. The mosaik showcase
+  compares operating strategies across two future grid cases.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0118
+code_url: https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios

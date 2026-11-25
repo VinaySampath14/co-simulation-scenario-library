@@ -1,0 +1,37 @@
+scenario_id: SCN-0033
+participations:
+- id: PART-0177
+  reported_component: OPAL-RT grid and load models
+  role: represent the real-time electrical network
+  evidence_ids:
+  - EVD-0129
+- id: PART-0178
+  reported_component: PV and battery models
+  role: provide local generation and storage
+  evidence_ids:
+  - EVD-0129
+- id: PART-0179
+  reported_component: Building energy management system
+  role: manage building power
+  evidence_ids:
+  - EVD-0129
+- id: PART-0180
+  reported_component: EnergyPlus building envelope
+  role: represent building thermal behaviour
+  evidence_ids:
+  - EVD-0129
+- id: PART-0181
+  reported_component: OpenModelica heat pump and controller
+  role: represent heat supply and control
+  evidence_ids:
+  - EVD-0129
+- id: PART-0182
+  reported_component: Simulink voltage controller
+  role: request flexibility in response to voltage
+  evidence_ids:
+  - EVD-0129
+- id: PART-0183
+  reported_component: Household and weather models
+  role: supply demand and environmental inputs
+  evidence_ids:
+  - EVD-0129

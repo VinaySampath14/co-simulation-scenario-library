@@ -1,0 +1,20 @@
+id: SCN-0065
+title: Illuminator community energy balance with battery and hydrogen storage
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- hydrogen
+- energy education
+source_ids:
+- SRC-0095
+scientific_publication_id: PUB-0062
+research_objective: Demonstrates the Illuminator mosaik-based kit by simulating whether
+  a community can balance its electricity demand with local renewables and short-
+  and long-term storage.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0168

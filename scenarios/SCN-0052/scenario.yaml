@@ -1,0 +1,19 @@
+id: SCN-0052
+title: Distribution-grid tap control and state estimation with simulated communications
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication networks
+- grid control
+source_ids:
+- SRC-0081
+scientific_publication_id: PUB-0049
+research_objective: Evaluates mosaik co-simulation scheduling for two smart-grid applications,
+  transformer tap control and distributed state estimation.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0154

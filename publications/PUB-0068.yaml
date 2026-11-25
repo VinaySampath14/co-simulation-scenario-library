@@ -1,0 +1,15 @@
+id: PUB-0068
+title: A co-simulation environment to evaluate cyber resilience in active distribution
+  grids utilising behind-the-meter assets
+authors:
+- Immanuel Hacker
+- Johannes Lenzen
+- Florian Schmidtke
+- Dennis van der Velde
+- Andreas Ulbig
+year: 2024
+type: journal_article
+doi: 10.1016/j.epsr.2024.110254
+source_id: SRC-0101
+evidence_ids:
+- EVD-0174

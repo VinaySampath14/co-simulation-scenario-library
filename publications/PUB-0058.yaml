@@ -1,0 +1,15 @@
+id: PUB-0058
+title: Enabling architecture based Co-Simulation of complex Smart Grid applications
+authors:
+- Christoph Binder
+- Michael Fischinger
+- Lukas Altenhuber
+- Dieter Draxler
+- Goran Lastro
+- Christian Neureiter
+year: 2019
+type: journal_article
+doi: 10.1186/s42162-019-0084-0
+source_id: SRC-0091
+evidence_ids:
+- EVD-0164

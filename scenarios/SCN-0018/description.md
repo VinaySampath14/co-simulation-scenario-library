@@ -1,0 +1,5 @@
+# Tesserae GUI demonstration for a low-voltage electricity grid
+
+The paper demonstrates the mosaik GUI with a low-voltage electricity-grid example. Figure 3 shows five connected groups of simulation entities, called tesserae. They represent low-voltage buses, wind plants, a coal plant, PV systems, and PV control. The screenshot lists pandapower and shows that the wind plants use constant-output entities, so the example does not establish a physical wind turbine model. [Paper, Figure 3, PDF page 4](https://doi.org/10.1109/OSMSES69376.2026.11457214)
+
+Figure 2 zooms in on the connections among the PV systems, the PV controller, and the low-voltage buses. The authors use the case to show how the GUI groups entities and defines their connections. The paper shows the scenario being edited and provides no simulation performance results for this example. The GUI repository is linked in the paper. The exact revision and availability of the demo configuration remain unverified. [Paper, Section III and Figures 2–3](https://doi.org/10.1109/OSMSES69376.2026.11457214) · [GUI repository](https://gitlab.com/mosaik/mosaik-gui)

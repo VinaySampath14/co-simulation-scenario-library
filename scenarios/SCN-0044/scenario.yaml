@@ -1,0 +1,19 @@
+id: SCN-0044
+title: Event-based communication benchmark with photovoltaic agents
+collection_level: 1
+record_type: research_benchmark
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication networks
+- co-simulation performance
+source_ids:
+- SRC-0071
+scientific_publication_id: PUB-0042
+research_objective: Uses mosaik and OMNeT++ to compare time-based and event-based
+  scheduling for communicating agents paired with photovoltaic systems.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0143

@@ -1,0 +1,18 @@
+id: SCN-0068
+title: Office energy demand with stochastic occupancy and controls
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- building energy
+- occupant behaviour
+source_ids:
+- SRC-0098
+scientific_publication_id: PUB-0065
+research_objective: Demonstrates a modified mosaik and FMI framework by coupling an
+  office energy model with a stochastic occupant model.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0171

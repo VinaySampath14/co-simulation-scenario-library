@@ -1,0 +1,22 @@
+scenario_id: SCN-0036
+participations:
+- id: PART-0192
+  reported_component: Air photovoltaic-thermal collector
+  role: provide warmed air and solar electricity
+  evidence_ids:
+  - EVD-0132
+- id: PART-0193
+  reported_component: Air-source heat pump
+  role: supply space heating and domestic hot water
+  evidence_ids:
+  - EVD-0132
+- id: PART-0194
+  reported_component: Building thermal demand models
+  role: represent space heating and hot water needs
+  evidence_ids:
+  - EVD-0132
+- id: PART-0195
+  reported_component: PV baseline
+  role: provide a comparison without thermal preheating
+  evidence_ids:
+  - EVD-0132
