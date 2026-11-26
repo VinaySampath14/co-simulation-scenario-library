@@ -70,3 +70,16 @@ SCN-0068,Office energy demand with stochastic occupancy and controls,research_sc
 SCN-0069,Transient stability of a grid-forming wind power plant,research_scenario,mosaik,catalogued,https://doi.org/10.3390/app11052410
 SCN-0070,Smart-grid test bench data for load scheduling and forecasting,research_scenario,mosaik,catalogued,https://doi.org/10.3390/en15072702
 SCN-0071,Fallback voltage control for residential PV in an active distribution grid,research_scenario,mosaik,catalogued,https://doi.org/10.1016/j.epsr.2024.110254
+SCN-0072,Synthetic data exchange through a simulated ICT network,research_scenario,mosaik,catalogued,https://doi.org/10.34190/iccws.17.1.44
+SCN-0073,Edge data center flexibility across single and federated sites,research_scenario,mosaik,catalogued,https://doi.org/10.1109/ACCESS.2026.3728082
+SCN-0074,NeMoLand commercial EV fleets and local photovoltaic generation,research_scenario,mosaik,catalogued,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0075,Smart Nord EV charging control for local PV surplus,research_scenario,mosaik,catalogued,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0076,Moving cloud and photovoltaic output in a low-voltage grid,research_scenario,mosaik,catalogued,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0077,Voltage-responsive storage and PV in a low-voltage grid,research_scenario,mosaik,catalogued,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0078,Hierarchical grid composition and scaling benchmark,research_scenario,mosaik,catalogued,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0079,Quantum and classical power flow in a five-bus grid,research_scenario,mosaik,catalogued,https://github.com/DominikVereno/quantum-classical-co-simulation-proof-of-concept
+SCN-0080,Same-time feedback between a master controller and local agents,software_demo,mosaik,catalogued,https://mosaik.readthedocs.io/en/3.3.2/tutorials/sametimeloops.html
+SCN-0081,Blockchain-based local electricity market on a distribution feeder,research_scenario,mosaik,catalogued,https://doi.org/10.1109/PESGM.2018.8586124
+SCN-0082,Modular vehicle production with RAMI 4.0 and mosaik,research_scenario,mosaik,catalogued,https://dsse.at/rami/downloads/mosaik-car-sim.zip
+SCN-0083,Small GridEVA–cosima power and communications coupling test,software_demo,mosaik,catalogued,https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+SCN-0084,GridEVA residential district with simulated communication delays and failures,software_demo,mosaik,catalogued,https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima

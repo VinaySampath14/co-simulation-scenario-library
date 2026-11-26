@@ -1,0 +1,13 @@
+id: PUB-0074
+title: Co-simulation Framework for Blockchain Based Market Designs and Grid Simulations
+authors:
+- Jonathan Coignard
+- Eric Munsing
+- Jason MacDonald
+- Jonathan Mather
+year: 2018
+type: conference_paper
+doi: 10.1109/PESGM.2018.8586124
+source_id: SRC-0109
+evidence_ids:
+- EVD-0184

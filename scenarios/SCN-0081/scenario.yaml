@@ -1,0 +1,18 @@
+id: SCN-0081
+title: Blockchain-based local electricity market on a distribution feeder
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- local energy markets
+source_ids:
+- SRC-0109
+scientific_publication_id: PUB-0074
+research_objective: Evaluates a local electricity market that rewards local generation
+  and coordinates transactions on a simulated distribution feeder.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0184

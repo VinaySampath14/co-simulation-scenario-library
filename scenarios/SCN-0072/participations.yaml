@@ -1,0 +1,17 @@
+scenario_id: SCN-0072
+participations:
+- id: PART-0358
+  reported_component: Synthetic sender simulator
+  role: generate sample values
+  evidence_ids:
+  - EVD-0175
+- id: PART-0359
+  reported_component: rettij
+  role: simulate communication between the endpoints
+  evidence_ids:
+  - EVD-0175
+- id: PART-0360
+  reported_component: Receiver simulator
+  role: collect values delivered through the simulated network
+  evidence_ids:
+  - EVD-0175

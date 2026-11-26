@@ -1,0 +1,18 @@
+id: SCN-0075
+title: Smart Nord EV charging control for local PV surplus
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- mobility
+- electricity
+source_ids:
+- SRC-0104
+scientific_publication_id: PUB-0071
+research_objective: Demonstrates a synchronized mosaik controller that starts or stops
+  EV charging in response to electricity export from a Smart Nord feeder.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0178

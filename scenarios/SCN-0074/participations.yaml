@@ -1,0 +1,22 @@
+scenario_id: SCN-0074
+participations:
+- id: PART-0366
+  reported_component: Commercial EV fleet model
+  role: represent fleet charging demand
+  evidence_ids:
+  - EVD-0177
+- id: PART-0367
+  reported_component: Low-voltage grid model
+  role: calculate local power balance at the substation
+  evidence_ids:
+  - EVD-0177
+- id: PART-0368
+  reported_component: Demand, PV and micro-CHP profiles
+  role: supply local consumption and generation
+  evidence_ids:
+  - EVD-0177
+- id: PART-0369
+  reported_component: Fleet charge controller
+  role: limit charging when substation limits are reached
+  evidence_ids:
+  - EVD-0177

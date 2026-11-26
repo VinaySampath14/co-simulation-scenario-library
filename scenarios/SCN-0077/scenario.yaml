@@ -1,0 +1,18 @@
+id: SCN-0077
+title: Voltage-responsive storage and PV in a low-voltage grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- co-simulation composition
+source_ids:
+- SRC-0104
+scientific_publication_id: PUB-0071
+research_objective: Demonstrates cyclic data exchange between a power-flow model and
+  storage whose charging responds to local voltage.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0180

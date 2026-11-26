@@ -1,0 +1,22 @@
+scenario_id: SCN-0081
+participations:
+- id: PART-0392
+  reported_component: mosaik-householdsim
+  role: supply household demand
+  evidence_ids:
+  - EVD-0184
+- id: PART-0393
+  reported_component: mosaik-csv
+  role: replay PV generation
+  evidence_ids:
+  - EVD-0184
+- id: PART-0394
+  reported_component: mosaik-pypower
+  role: calculate distribution grid power flow
+  evidence_ids:
+  - EVD-0184
+- id: PART-0395
+  reported_component: Ethereum market adapter and smart contract
+  role: exchange energy balances and clear the market
+  evidence_ids:
+  - EVD-0184

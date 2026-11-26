@@ -1,0 +1,22 @@
+scenario_id: SCN-0075
+participations:
+- id: PART-0370
+  reported_component: Smart Nord low-voltage grid
+  role: calculate power flow and detect export
+  evidence_ids:
+  - EVD-0178
+- id: PART-0371
+  reported_component: PV and residential demand
+  role: represent local generation and consumption
+  evidence_ids:
+  - EVD-0178
+- id: PART-0372
+  reported_component: Electric vehicle fleets
+  role: respond to charging commands
+  evidence_ids:
+  - EVD-0178
+- id: PART-0373
+  reported_component: ControlAPI charging controller
+  role: switch fleet charging in response to feeder power flow
+  evidence_ids:
+  - EVD-0178

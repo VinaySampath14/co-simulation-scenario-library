@@ -1,0 +1,13 @@
+id: PUB-0069
+title: Modern ICT Network Simulator for Co-Simulations in Smart Grid Applications
+authors:
+- Fabian Niehaus
+- Bastian Fraune
+- Giacomo Gritzan
+- Richard Sethmann
+year: 2022
+type: conference_paper
+doi: 10.34190/iccws.17.1.44
+source_id: SRC-0102
+evidence_ids:
+- EVD-0175

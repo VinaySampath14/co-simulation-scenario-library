@@ -610,6 +610,57 @@ sources:
     version_or_commit: null
     note: Institutional PDF reviewed after text extraction from the Zotero attachment
       failed.
+  - id: SRC-0102
+    type: conference_publication
+    url: https://doi.org/10.34190/iccws.17.1.44
+    title: Modern ICT Network Simulator for Co-Simulations in Smart Grid Applications
+    version_or_commit: null
+  - id: SRC-0103
+    type: journal_publication
+    url: https://doi.org/10.1109/ACCESS.2026.3728082
+    title: 'Edge Data Centers as Grid-Serving Infrastructure: A Simulation-Based Assessment
+      of Flexibility Dimensions'
+    version_or_commit: null
+  - id: SRC-0104
+    type: official_website
+    url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    title: Simulation Model Composition for the Large-Scale Analysis of Smart Grid Control
+      Mechanisms
+    version_or_commit: null
+  - id: SRC-0105
+    type: journal_publication
+    url: https://doi.org/10.1186/s42162-023-00292-1
+    title: 'Quantum–classical co-simulation for smart grids: a proof-of-concept study
+      on feasibility and obstacles'
+  - id: SRC-0106
+    type: source_repository
+    url: https://github.com/DominikVereno/quantum-classical-co-simulation-proof-of-concept
+    title: Published scenario implementation or tutorial
+  - id: SRC-0107
+    type: conference_publication
+    url: https://doi.org/10.1109/OSMSES54027.2022.9769116
+    title: 'MOSAIK 3.0: Combining Time-Stepped and Discrete Event Simulation'
+  - id: SRC-0108
+    type: official_documentation
+    url: https://mosaik.readthedocs.io/en/3.3.2/tutorials/sametimeloops.html
+    title: Published scenario implementation or tutorial
+  - id: SRC-0109
+    type: conference_publication
+    url: https://doi.org/10.1109/PESGM.2018.8586124
+    title: Co-simulation Framework for Blockchain Based Market Designs and Grid Simulations
+  - id: SRC-0110
+    type: conference_publication
+    url: https://doi.org/10.1109/ISSE51541.2021.9582531
+    title: Applying model-based Co-Simulation on modular Production Units in Complex
+      Automation Systems
+  - id: SRC-0111
+    type: official_documentation
+    url: https://dsse.at/rami/example/co-simulation/
+    title: RAMI Toolbox modular vehicle production demonstration
+  - id: SRC-0112
+    type: source_repository
+    url: https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+    title: ZDIN-ZLE Delays and Failures in ICT cosima scenarios
 assertions:
   - id: EVD-0001
     scenario_id: SCN-0001
@@ -2057,3 +2108,141 @@ assertions:
       flow, smart homes and a distribution system operator model. The comparison evaluates
       a fallback mechanism for maintaining grid operation. The paper states that its
       data cannot be shared.
+  - id: EVD-0175
+    scenario_id: SCN-0072
+    source_id: SRC-0102
+    subject: reported_setup_and_participants
+    locator: Section 5 and Figures 4–5, PDF pp. 7–8
+    locator_url: https://papers.academic-conferences.org/index.php/iccws/article/download/44/30/68#page=7
+    evidence_status: explicitly_reported
+    note: The publication reports a mosaik and rettij communication test using a synthetic sender and a receiver. The reported comparison uses values observed at those endpoints.
+  - id: EVD-0176
+    scenario_id: SCN-0073
+    source_id: SRC-0103
+    subject: reported_setup_and_participants
+    locator: Section V and Table 4
+    locator_url: https://doi.org/10.1109/ACCESS.2026.3728082
+    evidence_status: explicitly_reported
+    note: The study compares staged configurations ranging from workload shifting at
+      one Oldenburg site to coordinated operation across three sites in Oldenburg and
+      Munich. The authors evaluate operating cost, peak load, renewable self-consumption
+      and waste heat utilization across the configurations.
+  - id: EVD-0177
+    scenario_id: SCN-0074
+    source_id: SRC-0104
+    subject: reported_setup_and_participants
+    locator: Sections 12.1.1 and 12.4.6.1, and Appendix J.4
+    locator_url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    evidence_status: explicitly_reported
+    note: The NeMoLand project used mosaik at OFFIS to compose variants of four representative
+      low-voltage grids. The thesis describes a fleet charge controller that can limit
+      charging when the local substation reaches its operating limits and prints the
+      MoSL scenario specification in Appendix J.4.
+  - id: EVD-0178
+    scenario_id: SCN-0075
+    source_id: SRC-0104
+    subject: reported_setup_and_participants
+    locator: Section 12.5.1, printed pp. 273–274
+    locator_url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    evidence_status: explicitly_reported
+    note: Schütte simulated one Smart Nord low-voltage grid and used a controller to
+      switch EV charging based on power flow at the feeder’s slack node. The experiment
+      evaluates synchronization and data access through the mosaik ControlAPI. It shares
+      the Smart Nord project with SCN-0060, whose experiment compares measured PV profiles
+      with FMI models.
+  - id: EVD-0179
+    scenario_id: SCN-0076
+    source_id: SRC-0104
+    subject: reported_setup_and_participants
+    locator: Section 12.4.2 and Appendix J.2
+    locator_url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    evidence_status: explicitly_reported
+    note: The thesis connects six PV systems to a mock low-voltage grid. Grid node positions
+      determine which irradiance cells supply each PV model. Figure 12.15 shows the
+      resulting feed-in changes.
+  - id: EVD-0180
+    scenario_id: SCN-0077
+    source_id: SRC-0104
+    subject: reported_setup_and_participants
+    locator: Section 12.4.3 and Appendix J.3
+    locator_url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    evidence_status: explicitly_reported
+    note: The CERBERUS power-flow simulator receives PV and storage power. The storage
+      model uses the grid voltage to decide whether to charge or discharge. The thesis
+      uses this feedback to demonstrate mosaik's cyclic data-flow support.
+  - id: EVD-0181
+    scenario_id: SCN-0078
+    source_id: SRC-0104
+    subject: reported_setup_and_participants
+    locator: Sections 12.4.1 and 12.4.5 and Appendix J.1
+    locator_url: https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+    evidence_status: explicitly_reported
+    note: The example connects household profiles, PV models and EV models to a nested grid. The
+      thesis reuses this setup for the benchmark, varying the number of low-voltage
+      grids and nodes per grid.
+  - id: EVD-0182
+    scenario_id: SCN-0079
+    source_id: SRC-0105
+    subject: reported_setup_and_participants
+    locator: Case-study scenario, Figure 5, Simulation results, and Availability of
+      data and materials
+    locator_url: https://link.springer.com/article/10.1186/s42162-023-00292-1
+    evidence_status: explicitly_reported
+    note: The authors couple power flow with a solar generation profile, aggregate loads,
+      a balancing generator and a line monitor on a simplified five-bus system. They
+      compare curtailment behavior across the three solver configurations. The paper
+      links the repository containing scenario.py, simulation.py, data and analysis
+      files.
+  - id: EVD-0183
+    scenario_id: SCN-0080
+    source_id: SRC-0108
+    subject: reported_setup_and_participants
+    locator: Tutorial demo 3, scenario definition and collected data
+    locator_url: https://mosaik.readthedocs.io/en/3.3.2/tutorials/sametimeloops.html
+    evidence_status: explicitly_reported
+    note: The conference paper introduces same-time feedback and links the tutorial.
+      The versioned tutorial implements the demonstration with synthetic state models,
+      local controllers and a master controller. It includes scenario code and collector
+      output.
+  - id: EVD-0184
+    scenario_id: SCN-0081
+    source_id: SRC-0109
+    subject: reported_setup_and_participants
+    locator: Sections II–III, Figures 1 and 5–6, and footnote 11
+    locator_url: https://escholarship.org/content/qt9hf8d9hn/qt9hf8d9hn.pdf
+    evidence_status: explicitly_reported
+    note: Mosaik couples a household demand simulator, PV profiles, a distribution power-flow
+      simulator and an Ethereum market adapter. The paper reports feeder demand, PV
+      generation and market prices for the demonstration. Section III-C reports a public
+      demo, but the historical repository could not be verified.
+  - id: EVD-0185
+    scenario_id: SCN-0082
+    source_id: SRC-0110
+    subject: reported_setup_and_participants
+    locator: Sections IV–V, Figures 3–4 and Table I
+    locator_url: https://www.en-trust.at/papers/Binder21d.pdf
+    evidence_status: explicitly_reported
+    note: The study models car bodies moving among production islands. It reports station
+      occupancy and processing durations across ten runs. The RAMI project page offers
+      a Python project archive whose contents could not be checked.
+  - id: EVD-0186
+    scenario_id: SCN-0083
+    source_id: SRC-0112
+    subject: reported_setup_and_participants
+    locator: README, Methodology and Scenarios, small category
+    locator_url: https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+    evidence_status: explicitly_reported
+    note: The ZDIN-ZLE project supplies a small proof of concept that couples GridEVA
+      power components with cosima and OMNeT++ using mosaik. The project documents separate
+      communication and grid checks.
+  - id: EVD-0187
+    scenario_id: SCN-0084
+    source_id: SRC-0112
+    subject: reported_setup_and_participants
+    locator: README, Methodology and Scenarios, district category
+    locator_url: https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+    evidence_status: explicitly_reported
+    note: The district configuration extends the GridEVA power components with cosima
+      communication and reports network monitoring and grid snapshots. It shares the
+      GridEVA lineage with SCN-0020, whose focus is EV hosting capacity. The repository
+      credits OFFIS developers.

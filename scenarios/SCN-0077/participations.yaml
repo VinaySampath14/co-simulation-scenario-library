@@ -1,0 +1,17 @@
+scenario_id: SCN-0077
+participations:
+- id: PART-0377
+  reported_component: CERBERUS
+  role: calculate nodal voltages
+  evidence_ids:
+  - EVD-0180
+- id: PART-0378
+  reported_component: Storage model
+  role: charge or discharge based on voltage
+  evidence_ids:
+  - EVD-0180
+- id: PART-0379
+  reported_component: PV model
+  role: supply local generation
+  evidence_ids:
+  - EVD-0180

@@ -1,0 +1,17 @@
+scenario_id: SCN-0083
+participations:
+- id: PART-0398
+  reported_component: GridEVA power system components
+  role: represent grid and electrical devices
+  evidence_ids:
+  - EVD-0186
+- id: PART-0399
+  reported_component: cosima with OMNeT++
+  role: simulate communication
+  evidence_ids:
+  - EVD-0186
+- id: PART-0400
+  reported_component: Communication agents
+  role: relay power and control information
+  evidence_ids:
+  - EVD-0186

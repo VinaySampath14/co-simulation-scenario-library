@@ -1,0 +1,21 @@
+id: SCN-0079
+title: Quantum and classical power flow in a five-bus grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- quantum computing
+source_ids:
+- SRC-0105
+- SRC-0106
+scientific_publication_id: PUB-0072
+research_objective: Compares classical power flow, simulated quantum computation,
+  and real quantum hardware in a mosaik grid experiment that curtails photovoltaic
+  output when a line overloads.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://github.com/DominikVereno/quantum-classical-co-simulation-proof-of-concept
+evidence_ids:
+- EVD-0182

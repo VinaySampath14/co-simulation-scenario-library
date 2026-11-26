@@ -1,0 +1,12 @@
+scenario_id: SCN-0082
+participations:
+- id: PART-0396
+  reported_component: Vehicle simulator
+  role: represent vehicle state and select required production steps
+  evidence_ids:
+  - EVD-0185
+- id: PART-0397
+  reported_component: Production island simulator
+  role: represent manufacturing operations and station occupancy
+  evidence_ids:
+  - EVD-0185

@@ -1,0 +1,27 @@
+scenario_id: SCN-0079
+participations:
+- id: PART-0383
+  reported_component: Grid power-flow simulator
+  role: solve power flow using classical or quantum computation
+  evidence_ids:
+  - EVD-0182
+- id: PART-0384
+  reported_component: Solar farm and aggregate loads
+  role: supply generation and demand profiles
+  evidence_ids:
+  - EVD-0182
+- id: PART-0385
+  reported_component: Slack generator and controller
+  role: balance generation and load
+  evidence_ids:
+  - EVD-0182
+- id: PART-0386
+  reported_component: Line monitor
+  role: detect overload and request curtailment
+  evidence_ids:
+  - EVD-0182
+- id: PART-0387
+  reported_component: Collector
+  role: record simulation results
+  evidence_ids:
+  - EVD-0182

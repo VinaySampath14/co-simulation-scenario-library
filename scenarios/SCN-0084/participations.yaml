@@ -1,0 +1,17 @@
+scenario_id: SCN-0084
+participations:
+- id: PART-0401
+  reported_component: GridEVA district grid and devices
+  role: represent the residential grid, EVs, generation and storage
+  evidence_ids:
+  - EVD-0187
+- id: PART-0402
+  reported_component: cosima with OMNeT++
+  role: simulate communication delays and failures
+  evidence_ids:
+  - EVD-0187
+- id: PART-0403
+  reported_component: Communication agents
+  role: relay power and control information
+  evidence_ids:
+  - EVD-0187

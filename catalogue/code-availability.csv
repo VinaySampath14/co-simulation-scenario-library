@@ -1,0 +1,85 @@
+scenario_id,public_code_status,public_code_url,code_evidence_note,paper_affiliation,affiliation_source
+SCN-0001,Scenario code,https://gitlab.com/mosaik/examples/mosaik-demo/-/tree/74e2e1b8e53a3bfa1cdbba8897c7e8cd5d23b1e8,Pinned demo entry point and inputs.,No primary paper,
+SCN-0002,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1186/s42162-022-00231-6
+SCN-0003,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1049/icp.2021.1777
+SCN-0004,Related public code,https://github.com/jjchromik/mosaik-cosim,Public predecessor testbed. The exact two-subgrid thesis implementation is unverified.,Neither listed,https://www.uni-muenster.de/imperia/md/content/informatik/agremke/masterthesis_menzel_16032021.pdf
+SCN-0005,Local archive only,,The reviewed archive does not establish public availability.,No primary paper,
+SCN-0006,Related public code,https://github.com/epfl-herus/demod,The chapter names demod and SIMONA as components. Both are public. The executable coupling and study configuration remain unverified.,University of Oldenburg,https://doi.org/10.1007/978-3-031-34920-1_38
+SCN-0007,Not located,,The chapter describes this case. No executable implementation of this case was identified in the checked sources.,University of Oldenburg,https://doi.org/10.1007/978-3-031-34920-1_38
+SCN-0008,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/TSUSC.2024.3449977
+SCN-0009,Scenario code,https://doi.org/10.5281/zenodo.15719352,Public application artifact and matching AMiRo grid model. Exact run inputs remain unverified.,Neither listed,https://doi.org/10.1109/SmartGridComm65349.2025.11204608
+SCN-0010,Related public code,https://github.com/dos-group/vessim,Vessim software is public. Exact historical prototype and traces are unverified.,Neither listed,https://arxiv.org/abs/2306.09774v2
+SCN-0011,Scenario code,https://github.com/ERIGrid2/benchmark-model-multi-energy-networks,Public reference implementation of the named benchmark. The experiment uses an additional toolbox.,OFFIS e.V.,https://orbit.dtu.dk/files/375179047/A_Toolbox_for_Design_of_Experiments_for_Energy_Systems_in_Co-Simulation_and_Hardware_Tests.pdf
+SCN-0012,Paper listings only,,Thesis Appendix A lists selected Python components.,Neither listed,https://resolver.tudelft.nl/uuid:67428726-21d0-4ef7-83bf-fc26bde07ff7
+SCN-0013,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/CSR61664.2024.10679448
+SCN-0014,Related public code,https://gitlab.com/mosaik/components/energy/mosaik-emissions,The paper points to executable examples in the simulator repository. The specific CIGRE grid and PV comparison configurations remain unverified.,OFFIS e.V.,https://doi.org/10.5281/zenodo.13984401
+SCN-0015,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://opus.fhv.at/frontdoor/deliver/index/docId/5442/file/Seiler_Assessing_MPC_for_EC_Flex.pdf
+SCN-0016,Paper listings only,,The paper prints an EV model excerpt.,Neither listed,https://doi.org/10.5220/0012739800003714
+SCN-0017,Related public code,https://github.com/uesl-empa/nestli,Repository cites the paper. Complete historical mosaik integration remains unverified.,Neither listed,https://doi.org/10.46855/energy-proceedings-10382
+SCN-0018,Related public code,https://gitlab.com/mosaik/mosaik-gui,GUI code is public. The Figure 3 configuration has not been identified.,OFFIS e.V.,https://doi.org/10.1109/OSMSES69376.2026.11457214
+SCN-0019,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/sest53650.2022.9898417
+SCN-0020,Scenario code,https://gitlab.com/zdin-zle/scenarios/grid-capacity-for-electric-mobility,GridEVA README cites the paper and provides the named district case and run instructions.,OFFIS e.V.,https://doi.org/10.1049/icp.2022.2713
+SCN-0021,Scenario code,https://github.com/DominikVereno/anergy-network-co-simulation,Paper links the public anergy co-simulation demonstration.,Neither listed,https://doi.org/10.1109/GreenTech62170.2025.10977582
+SCN-0022,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1007/978-3-031-74738-0_12
+SCN-0023,Scenario code,https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios,Paper identifies this public repository for the showcases. Exact revision is unverified.,OFFIS e.V.,https://www.offis.de/uploads/tx_offisdata/1730119122-Manuscript_SIM_LEARN_AG_01.pdf
+SCN-0024,Scenario code,https://gitlab.com/mosaik/examples/electrolysers-grid-scenarios,Paper identifies this public repository for the showcases. Exact revision is unverified.,OFFIS e.V.,https://www.offis.de/uploads/tx_offisdata/1730119122-Manuscript_SIM_LEARN_AG_01.pdf
+SCN-0025,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1109/MSCPES.2015.7115410
+SCN-0026,Related public code,https://github.com/grei-ufc/tsre-der-opentes,The repository documents a 123-bus example. The IEEE 34-bus configuration used in the paper remains unverified.,Neither listed,https://ojs.sba.org.br/index.php/cba/article/view/6555
+SCN-0027,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/EEEIC/ICPSEurope49358.2020.9160641
+SCN-0028,Related public code,https://github.com/mtroeschel/isaac,Public ISAAC component linked in the paper. Full congestion experiment unverified.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.3390/app9050923
+SCN-0029,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1007/s00450-017-0379-y
+SCN-0030,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://uol.de/f/2/dept/informatik/ag/ui/publications/Schuette_Scherfke_Sonnenschein_2012_mosaik_-_Smart_Grid_Simulation_API.pdf
+SCN-0031,Scenario code,https://github.com/ERIGrid2/JRA2.1.1-PoC,Public ERIGrid AC–ICT proof-of-concept setup linked by the chapter.,OFFIS e.V.,https://doi.org/10.1007/978-3-031-99451-7_4
+SCN-0032,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://opus.hs-offenburg.de/frontdoor/deliver/index/docId/12432/file/Thesis_Thennadan.pdf
+SCN-0033,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/ACCESS.2024.3435336
+SCN-0034,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.2139/ssrn.4415340
+SCN-0035,Scenario code,https://github.com/OFFIS-DAI/cosima/blob/master/cosima_core/scenarios/mango/mango_cohda_scenario.py,Paper points to this COHDA example. Historical revision is unverified.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.1016/j.softx.2024.101667
+SCN-0036,Related public code,https://gitlab.com/mosaik/components/energy/mosaik-heatpump,Heat pump component is public. The complete PV-T experiment is unverified.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.18086/eurosun.2024.02.09
+SCN-0037,Scenario code,https://github.com/jjchromik/mosaik-cosim,Paper links this local-monitoring scenario repository.,Neither listed,https://doi.org/10.1186/s42162-018-0058-7
+SCN-0038,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1186/s42162-018-0042-2
+SCN-0039,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1186/s42162-019-0079-x
+SCN-0040,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1109/COMPSAC65507.2025.00286
+SCN-0041,Related public code,https://github.com/dos-group/vessim,Framework is public. Exact two-day experiment and full set of model implementations were not verified.,Neither listed,https://arxiv.org/abs/2506.17739
+SCN-0042,Scenario code,https://gitlab.com/hybit1/massca,Paper links repository for the evaluated cell-grid scenario. Exact experiment revision is unverified.,OFFIS e.V.,https://www.offis.de/en/offis/publication/massca-scalable-multi-agent-system-framework-for-smart-power-cell-co-simulation.html
+SCN-0043,Related public code,https://gitlab.com/midas-mosaik/midas,MIDAS is public. The exact surrogate training and evaluation workflow is unverified.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.1007/978-3-031-43824-0_10
+SCN-0044,Related public code,https://github.com/OFFIS-DAI/cosima,Public communication examples. Exact performance-study configuration is unverified.,OFFIS e.V.,https://doi.org/10.48550/arXiv.2209.12550
+SCN-0045,Related public code,https://github.com/grei-ufc/mosaik-demo-wesaac-2019,Paper links this implementation. Repository describes a 2019 demonstration. Exact journal-study configuration is unverified.,Neither listed,https://doi.org/10.22456/2175-2745.95095
+SCN-0046,Paper listings only,,Thesis appendix includes scenario and processing excerpts.,University of Oldenburg,http://mosaik.offis.de/downloads/AdaptiveStateEstimationInOdysseus.pdf
+SCN-0047,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1145/3470481.3472712
+SCN-0048,Scenario code,https://gitlab.com/elenia1/elenia-energy-library/-/blob/main/examples/test_scenario_building.py,Public building example in the publication's eELib project.,Neither listed,https://doi.org/10.1109/OSMSES62085.2024.10668964
+SCN-0049,Related public code,https://gitlab.com/elenia1/elenia-energy-library,The eELib 1.1.0 manual documents a grid example in the repository. Its match to the paper's Table II configuration remains unverified.,Neither listed,https://doi.org/10.1109/OSMSES62085.2024.10668964
+SCN-0050,Not located,,No scenario implementation identified in the checked sources.,University of Oldenburg,https://doi.org/10.1145/3447555.3465415
+SCN-0051,Related public code,https://github.com/epfl-herus/mosaik-demod,Public mosaik–demod adapter. Exact household and heat pump experiment unverified.,University of Oldenburg,https://doi.org/10.1186/s42162-021-00180-6
+SCN-0052,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://era.library.ualberta.ca/items/ad67ffb4-e563-4236-88cd-2a729f6fc820
+SCN-0053,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1109/ISIE.2015.7281633
+SCN-0054,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.1109/IECON.2013.6700395
+SCN-0055,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1109/MSCPES.2016.7480222
+SCN-0056,Related public code,https://pypi.org/project/MoReSQUE/,Author identifies supplementary source and example studies. Exact 37-node configuration unverified.,University of Oldenburg,https://www.zotero.org/groups/5844550/items/SVHJWS6T
+SCN-0057,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1007/978-3-319-31559-1_16
+SCN-0058,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1109/SmartGridComm.2014.7007645
+SCN-0059,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1109/PSCC.2014.7038479
+SCN-0060,Not located,,No scenario implementation identified in the checked sources.,OFFIS e.V.,https://doi.org/10.1515/auto-2014-1087
+SCN-0061,Paper listings only,,"Paper includes generated charging logic, and the complete case was not located.",Neither listed,https://doi.org/10.1186/s42162-019-0084-0
+SCN-0062,Related public code,https://github.com/mtroeschel/isaac,Public ISAAC software. The exact adaptation-cost experiment is unverified.,OFFIS e.V.,https://doi.org/10.1186/s42162-019-0080-4
+SCN-0063,Related public code,https://gitlab.com/mosaik/examples/mosaik-demo,Base demo is public. Report-specific EV and PV variants are unverified.,Neither listed,https://www.zotero.org/groups/5844550/items/3VYZZZFT
+SCN-0064,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1007/978-3-031-26236-4_21
+SCN-0065,Related public code,https://github.com/Illuminator-team/Illuminator,Public project and examples. The exact 2023 Raspberry Pi configuration is unverified.,Neither listed,https://doi.org/10.1109/PowerTech55446.2023.10202816
+SCN-0066,Related public code,https://github.com/OFFIS-DAI/cosima,Public negotiation and network examples. Exact 50-agent paper configuration unverified.,OFFIS e.V.,https://doi.org/10.1145/3607120.3607123
+SCN-0067,Not located,,No scenario implementation identified in the checked sources.,University of Oldenburg,https://doi.org/10.1007/978-3-658-20380-1_14
+SCN-0068,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1016/j.proeng.2017.07.092
+SCN-0069,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.3390/app11052410
+SCN-0070,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.3390/en15072702
+SCN-0071,Not located,,No scenario implementation identified in the checked sources.,Neither listed,https://doi.org/10.1016/j.epsr.2024.110254
+SCN-0072,Not located,,The paper confirms the implemented communication test. Public source for the specific test was not verified.,Neither listed,https://doi.org/10.34190/iccws.17.1.44
+SCN-0073,Related public code,https://pypi.org/project/mosaik-pv/,The paper cites a public PV simulator and workload traces. The integrated study source was not located.,OFFIS e.V. and University of Oldenburg,https://doi.org/10.1109/ACCESS.2026.3728082
+SCN-0074,Paper listings only,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf,Appendix J.4 prints the MoSL scenario specification. A public executable package with models and inputs was not located.,University of Oldenburg,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0075,Not located,,A downloadable implementation of the single-feeder controller run was not located.,University of Oldenburg,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0076,Paper listings only,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf,The thesis prints the MoSL scenario definition. A public executable package was not located.,University of Oldenburg,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0077,Paper listings only,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf,The thesis prints the MoSL scenario definition. A public executable package was not located.,University of Oldenburg,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0078,Paper listings only,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf,The thesis prints the MoSL scenario definition. A public executable package was not located.,University of Oldenburg,https://oops.uni-oldenburg.de/1768/1/schsim13.pdf
+SCN-0079,Scenario code,https://github.com/DominikVereno/quantum-classical-co-simulation-proof-of-concept,Public implementation directly linked by the paper. Execution was not tested.,OFFIS e.V.,https://link.springer.com/article/10.1186/s42162-023-00292-1
+SCN-0080,Scenario code,https://mosaik.readthedocs.io/en/3.3.2/tutorials/sametimeloops.html,Public implementation directly linked by the paper. Execution was not tested.,OFFIS e.V.,https://arxiv.org/html/2410.16937v1
+SCN-0081,Not located,,The paper reports a historical public demo in footnote 11. The repository and complete scenario files could not be verified.,Neither listed,https://escholarship.org/content/qt9hf8d9hn/qt9hf8d9hn.pdf
+SCN-0082,"Archive linked, unverified",https://dsse.at/rami/downloads/mosaik-car-sim.zip,The research group links a Python project ZIP. Its contents could not be fetched for verification.,Neither listed,https://www.en-trust.at/papers/Binder21d.pdf
+SCN-0083,Scenario code,https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima,The public repository documents the small scenario and provides the scenario files and entry point.,No primary paper,
+SCN-0084,Scenario code,https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima,The public repository includes the district configuration and scenario entry point.,No primary paper,

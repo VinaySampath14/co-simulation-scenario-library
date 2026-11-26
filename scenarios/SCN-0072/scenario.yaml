@@ -1,0 +1,17 @@
+id: SCN-0072
+title: Synthetic data exchange through a simulated ICT network
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- communication
+- co-simulation interoperability
+source_ids:
+- SRC-0102
+scientific_publication_id: PUB-0069
+research_objective: Demonstrates that mosaik can coordinate data exchange between a synthetic sender, the rettij network simulator, and a receiver.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0175

@@ -1,0 +1,22 @@
+scenario_id: SCN-0080
+participations:
+- id: PART-0388
+  reported_component: Synthetic state models
+  role: supply values to local controllers
+  evidence_ids:
+  - EVD-0183
+- id: PART-0389
+  reported_component: Local controllers
+  role: propose changes to model states
+  evidence_ids:
+  - EVD-0183
+- id: PART-0390
+  reported_component: Master controller
+  role: coordinate and limit aggregate changes
+  evidence_ids:
+  - EVD-0183
+- id: PART-0391
+  reported_component: Collector
+  role: record model and controller output
+  evidence_ids:
+  - EVD-0183

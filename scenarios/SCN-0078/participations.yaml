@@ -1,0 +1,22 @@
+scenario_id: SCN-0078
+participations:
+- id: PART-0380
+  reported_component: Mock grid simulator
+  role: instantiate medium- and low-voltage grid entities
+  evidence_ids:
+  - EVD-0181
+- id: PART-0381
+  reported_component: Household demand profiles
+  role: supply load
+  evidence_ids:
+  - EVD-0181
+- id: PART-0382
+  reported_component: PV simulator
+  role: supply generation
+  evidence_ids:
+  - EVD-0181
+- id: PART-0404
+  reported_component: EVSim
+  role: represent electric vehicle entities connected according to feeder composition rules
+  evidence_ids:
+  - EVD-0181

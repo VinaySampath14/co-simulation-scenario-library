@@ -1,0 +1,19 @@
+id: SCN-0080
+title: Same-time feedback between a master controller and local agents
+collection_level: 1
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- co-simulation scheduling
+source_ids:
+- SRC-0107
+- SRC-0108
+scientific_publication_id: PUB-0073
+research_objective: Demonstrates how a master controller and local controllers exchange
+  feedback within the same mosaik simulation time before model states advance.
+collection_status: catalogued
+verification_status: publication_review
+code_url: https://mosaik.readthedocs.io/en/3.3.2/tutorials/sametimeloops.html
+evidence_ids:
+- EVD-0183

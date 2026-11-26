@@ -1,0 +1,17 @@
+id: PUB-0073
+title: 'MOSAIK 3.0: Combining Time-Stepped and Discrete Event Simulation'
+authors:
+- Annika Ofenloch
+- Jan Sören Schwarz
+- Deborah Tolk
+- Tobias Brandt
+- Reef Eilers
+- Rebeca Ramirez
+- Thomas Raub
+- Sebastian Lehnhoff
+year: 2022
+type: conference_paper
+doi: 10.1109/OSMSES54027.2022.9769116
+source_id: SRC-0107
+evidence_ids:
+- EVD-0183

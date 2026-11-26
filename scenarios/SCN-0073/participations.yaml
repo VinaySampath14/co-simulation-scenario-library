@@ -1,0 +1,27 @@
+scenario_id: SCN-0073
+participations:
+- id: PART-0361
+  reported_component: Controller
+  role: schedule workloads and energy resources
+  evidence_ids:
+  - EVD-0176
+- id: PART-0362
+  reported_component: Job queue and computing hardware
+  role: represent incoming jobs and computing demand
+  evidence_ids:
+  - EVD-0176
+- id: PART-0363
+  reported_component: Battery storage and energy supply
+  role: represent storage and electricity supply
+  evidence_ids:
+  - EVD-0176
+- id: PART-0364
+  reported_component: Heating and cooling systems and building
+  role: model thermal demand and waste heat recovery
+  evidence_ids:
+  - EVD-0176
+- id: PART-0365
+  reported_component: Wind and PV generators and weather
+  role: supply weather-driven renewable generation
+  evidence_ids:
+  - EVD-0176

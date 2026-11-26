@@ -1,0 +1,20 @@
+id: SCN-0082
+title: Modular vehicle production with RAMI 4.0 and mosaik
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- manufacturing
+- industrial automation
+source_ids:
+- SRC-0110
+- SRC-0111
+research_objective: Demonstrates the use of mosaik to evaluate how modular automotive
+  production units interact and how their workloads change during a production run.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0185
+code_url: https://dsse.at/rami/downloads/mosaik-car-sim.zip
+scientific_publication_id: PUB-0075

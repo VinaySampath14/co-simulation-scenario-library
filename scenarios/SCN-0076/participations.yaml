@@ -1,0 +1,17 @@
+scenario_id: SCN-0076
+participations:
+- id: PART-0374
+  reported_component: GridMockSim
+  role: represent grid nodes and their positions
+  evidence_ids:
+  - EVD-0179
+- id: PART-0375
+  reported_component: PV simulator
+  role: calculate output from irradiance
+  evidence_ids:
+  - EVD-0179
+- id: PART-0376
+  reported_component: Cloud transient model
+  role: supply spatially varying irradiance
+  evidence_ids:
+  - EVD-0179

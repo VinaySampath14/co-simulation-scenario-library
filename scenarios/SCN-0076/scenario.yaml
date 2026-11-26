@@ -1,0 +1,18 @@
+id: SCN-0076
+title: Moving cloud and photovoltaic output in a low-voltage grid
+collection_level: 1
+record_type: research_scenario
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- co-simulation composition
+source_ids:
+- SRC-0104
+scientific_publication_id: PUB-0071
+research_objective: Demonstrates spatial matching of PV panels to simulated irradiance
+  cells and shows how a moving cloud changes PV output.
+collection_status: catalogued
+verification_status: publication_review
+evidence_ids:
+- EVD-0179

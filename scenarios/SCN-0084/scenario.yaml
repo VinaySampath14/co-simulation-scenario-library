@@ -1,0 +1,20 @@
+id: SCN-0084
+title: GridEVA residential district with simulated communication delays and failures
+collection_level: 1
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication
+- mobility
+source_ids:
+- SRC-0112
+research_objective: Examines how communication delays and failures affect a residential
+  power system with high electric vehicle and renewable generation penetration.
+collection_status: catalogued
+verification_status: static_source_review
+evidence_ids:
+- EVD-0187
+code_url: https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+scientific_publication_id: null

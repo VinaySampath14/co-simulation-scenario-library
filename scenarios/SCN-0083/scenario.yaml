@@ -1,0 +1,19 @@
+id: SCN-0083
+title: Small GridEVA–cosima power and communications coupling test
+collection_level: 1
+record_type: software_demo
+framework: mosaik
+framework_software_id: SW-0006
+domain:
+- electricity
+- communication
+source_ids:
+- SRC-0112
+research_objective: Demonstrates technical coupling between a small power system and
+  a simulated communications network before applying the setup to a residential district.
+collection_status: catalogued
+verification_status: static_source_review
+evidence_ids:
+- EVD-0186
+code_url: https://gitlab.com/zdin-zle/scenarios/ikt-storungen-cosima
+scientific_publication_id: null
